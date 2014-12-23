@@ -2,11 +2,13 @@
 *.o
 *.ko
 *.obj
-*.elf
+#*.elf
+
+*.d
 
 # Libraries
-*.lib
-*.a
+#*.lib
+#*.a
 
 # Shared objects (inc. Windows DLLs)
 *.dll
@@ -20,7 +22,7 @@
 *.app
 *.i*86
 *.x86_64
-*.hex
+#*.hex
 
 # =========================
 # Operating System Files
@@ -34,8 +36,7 @@
 .LSOverride
 
 # Icon must ends with two \r.
-Icon
-
+Icon
 # Thumbnails
 ._*
 
