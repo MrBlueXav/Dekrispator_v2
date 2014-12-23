@@ -11,7 +11,7 @@
 
 /*--------------------------------------------------------------------------------------*/
 
-#define SAMPLERATE              48000
+#define SAMPLERATE              44100
 //#define Fs             			(float)SAMPLERATE	/* samplerate */
 #define Ts						(1.f/SAMPLERATE)  // sample period
 #define _2PI                    6.283185307f

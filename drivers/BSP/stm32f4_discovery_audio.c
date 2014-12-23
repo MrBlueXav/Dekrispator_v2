@@ -217,27 +217,35 @@ uint8_t BSP_AUDIO_OUT_Init(uint16_t OutputDevice, uint8_t Volume, uint32_t Audio
 
   /* Enable PLLI2S clock */
   HAL_RCCEx_GetPeriphCLKConfig(&rccclkinit);
-  /* PLLI2S_VCO Input = HSE_VALUE/PLL_M = 1 Mhz */
-  if ((AudioFreq & 0x7) == 0)
-  {
-    /* Audio frequency multiple of 8 (8/16/32/48/96/192)*/
-    /* PLLI2S_VCO Output = PLLI2S_VCO Input * PLLI2SN = 192 Mhz */
-    /* I2SCLK = PLLI2S_VCO Output/PLLI2SR = 192/6 = 32 Mhz */
-    rccclkinit.PeriphClockSelection = RCC_PERIPHCLK_I2S;
-    rccclkinit.PLLI2S.PLLI2SN = 192;
-    rccclkinit.PLLI2S.PLLI2SR = 6;
-    HAL_RCCEx_PeriphCLKConfig(&rccclkinit);
-  }
-  else
-  {
-    /* Other Frequency (11.025/22.500/44.100) */
-    /* PLLI2S_VCO Output = PLLI2S_VCO Input * PLLI2SN = 290 Mhz */
-    /* I2SCLK = PLLI2S_VCO Output/PLLI2SR = 290/2 = 145 Mhz */
-    rccclkinit.PeriphClockSelection = RCC_PERIPHCLK_I2S;
-    rccclkinit.PLLI2S.PLLI2SN = 290;
-    rccclkinit.PLLI2S.PLLI2SR = 2;
-    HAL_RCCEx_PeriphCLKConfig(&rccclkinit);
-  }
+
+  //////////////////////////////////////////  MODIFIED  /////////////////////////////////////////////////
+        rccclkinit.PeriphClockSelection = RCC_PERIPHCLK_I2S;
+        rccclkinit.PLLI2S.PLLI2SN = 290;
+        rccclkinit.PLLI2S.PLLI2SR = 2;
+        HAL_RCCEx_PeriphCLKConfig(&rccclkinit);
+
+//  /* PLLI2S_VCO Input = HSE_VALUE/PLL_M = 1 Mhz */
+//  if ((AudioFreq & 0x7) == 0)
+//  {
+//    /* Audio frequency multiple of 8 (8/16/32/48/96/192)*/
+//    /* PLLI2S_VCO Output = PLLI2S_VCO Input * PLLI2SN = 192 Mhz */
+//    /* I2SCLK = PLLI2S_VCO Output/PLLI2SR = 192/6 = 32 Mhz */
+//    rccclkinit.PeriphClockSelection = RCC_PERIPHCLK_I2S;
+//    rccclkinit.PLLI2S.PLLI2SN = 192;
+//    rccclkinit.PLLI2S.PLLI2SR = 6;
+//    HAL_RCCEx_PeriphCLKConfig(&rccclkinit);
+//  }
+//  else
+//  {
+//    /* Other Frequency (11.025/22.500/44.100) */
+//    /* PLLI2S_VCO Output = PLLI2S_VCO Input * PLLI2SN = 290 Mhz */
+//    /* I2SCLK = PLLI2S_VCO Output/PLLI2SR = 290/2 = 145 Mhz */
+//    rccclkinit.PeriphClockSelection = RCC_PERIPHCLK_I2S;
+//    rccclkinit.PLLI2S.PLLI2SN = 290;
+//    rccclkinit.PLLI2S.PLLI2SR = 2;
+//    HAL_RCCEx_PeriphCLKConfig(&rccclkinit);
+//  }
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
 
   deviceid = cs43l22_drv.ReadID(AUDIO_I2C_ADDRESS);
 
@@ -455,28 +463,38 @@ void BSP_AUDIO_OUT_SetFrequency(uint32_t AudioFreq)
   
   /* Enable PLLI2S clock */
   HAL_RCCEx_GetPeriphCLKConfig(&rccclkinit);
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+      rccclkinit.PeriphClockSelection = RCC_PERIPHCLK_I2S;
+      rccclkinit.PLLI2S.PLLI2SN = 258;
+      rccclkinit.PLLI2S.PLLI2SR = 3;
+      HAL_RCCEx_PeriphCLKConfig(&rccclkinit);
+
   /* PLLI2S_VCO Input = HSE_VALUE/PLL_M = 1 Mhz */
-  if ((AudioFreq & 0x7) == 0)
-  {
-    /* Audio frequency multiple of 8 (8/16/32/48/96/192) */
-    /* PLLI2S_VCO Output = PLLI2S_VCO Input * PLLI2SN = 192 Mhz */
-    /* I2SCLK = PLLI2S_VCO Output/PLLI2SR = 192/6 = 32 Mhz */
-    rccclkinit.PeriphClockSelection = RCC_PERIPHCLK_I2S;
-    rccclkinit.PLLI2S.PLLI2SN = 192;
-    rccclkinit.PLLI2S.PLLI2SR = 6;
-    HAL_RCCEx_PeriphCLKConfig(&rccclkinit);
-  }
-  else
-  {
-    /* Other Frequency (11.025/22.500/44.100) */
-    /* PLLI2S_VCO Output = PLLI2S_VCO Input * PLLI2SN = 290 Mhz */
-    /* I2SCLK = PLLI2S_VCO Output/PLLI2SR = 290/2 = 145 Mhz */
-    rccclkinit.PeriphClockSelection = RCC_PERIPHCLK_I2S;
-    rccclkinit.PLLI2S.PLLI2SN = 290;
-    rccclkinit.PLLI2S.PLLI2SR = 2;
-    HAL_RCCEx_PeriphCLKConfig(&rccclkinit);
-  }
-  
+//  if ((AudioFreq & 0x7) == 0)
+//  {
+//    /* Audio frequency multiple of 8 (8/16/32/48/96/192) */
+//    /* PLLI2S_VCO Output = PLLI2S_VCO Input * PLLI2SN = 192 Mhz */
+//    /* I2SCLK = PLLI2S_VCO Output/PLLI2SR = 192/6 = 32 Mhz */
+//    rccclkinit.PeriphClockSelection = RCC_PERIPHCLK_I2S;
+//    rccclkinit.PLLI2S.PLLI2SN = 192;
+//    rccclkinit.PLLI2S.PLLI2SR = 6;
+//    HAL_RCCEx_PeriphCLKConfig(&rccclkinit);
+//  }
+//  else
+//  {
+//    /* Other Frequency (11.025/22.500/44.100) */
+//    /* PLLI2S_VCO Output = PLLI2S_VCO Input * PLLI2SN = 290 Mhz */
+//    /* I2SCLK = PLLI2S_VCO Output/PLLI2SR = 290/2 = 145 Mhz */
+//    rccclkinit.PeriphClockSelection = RCC_PERIPHCLK_I2S;
+//    rccclkinit.PLLI2S.PLLI2SN = 290;
+//    rccclkinit.PLLI2S.PLLI2SR = 2;
+//    HAL_RCCEx_PeriphCLKConfig(&rccclkinit);
+//  }
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+
   /* Update the I2S audio frequency configuration */
   I2S3_Init(AudioFreq);
 }
