@@ -96,6 +96,7 @@ int main(void)
 	if(BSP_PB_GetState(BUTTON_KEY)) // press or not user button before and during startup to choose user or demo mode
 	{	// normal user mode, with USB (button pressed)
 		demoMode = false;
+		freeze = false;
 
 		/*##-2- Init Host Library ################################################*/
 		USBH_Init(&hUSBHost, USBH_UserProcess_callback, 0);
@@ -120,6 +121,7 @@ int main(void)
 	else
 	{	// demo mode, no USB, no interaction, automatic working
 		demoMode = true;
+		freeze = false;
 		while (1);
 	}
 }

@@ -173,7 +173,7 @@ void ProcessReceivedMidiDatas(void)
 				case 4  : 	seq_freqMax_set(val);		break;	// max frequency
 
 				case 67 :	DemoMode_toggle(val);		break;
-				//case 76 :	DemoMode_freeze(val);		break;
+				case 68 :	Synth_reset(val);			break;
 
 				case 39 :	MagicPatch(val);			break;	// random settings except effects
 				case 38 :	MagicFX(val);				break;	// random settings for effects

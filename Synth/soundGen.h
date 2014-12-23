@@ -47,6 +47,7 @@ void RandSound1(uint8_t val);
 void RandSound2(uint8_t val);
 
 void DemoMode_toggle(uint8_t val);
+void Synth_reset(uint8_t val);
 //void DemoMode_freeze(uint8_t val); // is it useful ?
 /*-------------------------------------------------------*/
 void FM_OP1_freq_set(uint8_t val);
