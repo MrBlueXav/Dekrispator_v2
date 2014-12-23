@@ -56,7 +56,8 @@ Synth/soundGen.o: ../Synth/soundGen.c ../Synth/soundGen.h \
  ../Synth/MIDI_application.h \
  C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\USBH_midi_class\Inc/usbh_midi.h \
  ../Synth/drifter.h ../Synth/sinetable.h ../Synth/notesTables.h \
- ../Synth/audio_conf.h ../Synth/timers.h ../Synth/audio_conf.h \
+ ../Synth/audio_conf.h ../Synth/timers.h \
+ C:\xav_dev\eclipse_luna\Dekrispator_v2\Synth/audio_conf.h \
  ../Synth/delay.h ../Synth/chorusFD.h ../Synth/resonantFilter.h \
  ../Synth/adsr.h ../Synth/sequencer.h ../Synth/oscillators.h \
  ../Synth/blepvco.h ../Synth/minblep_tables.h ../Synth/phaser.h
@@ -189,7 +190,7 @@ C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\USBH_midi_class\Inc/usbh_midi.h:
 
 ../Synth/timers.h:
 
-../Synth/audio_conf.h:
+C:\xav_dev\eclipse_luna\Dekrispator_v2\Synth/audio_conf.h:
 
 ../Synth/delay.h:
 

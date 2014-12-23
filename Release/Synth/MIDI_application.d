@@ -54,12 +54,29 @@ Synth/MIDI_application.o: ../Synth/MIDI_application.c \
  C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\BSP/stm32f4xx_it.h \
  C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\BSP/lis302dl.h \
  C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\USBH_midi_class\Inc/usbh_MIDI.h \
- ../Synth/timers.h ../Synth/audio_conf.h ../Synth/soundGen.h \
- ../Synth/math_tools.h ../Synth/sequencer.h ../Synth/notesTables.h \
- ../Synth/oscillators.h ../Synth/drifter.h ../Synth/sinetable.h \
- ../Synth/blepvco.h ../Synth/minblep_tables.h ../Synth/delay.h \
- ../Synth/chorusFD.h ../Synth/phaser.h ../Synth/resonantFilter.h \
- ../Synth/adsr.h ../Synth/audio_conf.h
+ ../Synth/timers.h \
+ C:\xav_dev\eclipse_luna\Dekrispator_v2\Synth/audio_conf.h \
+ C:\xav_dev\eclipse_luna\Dekrispator_v2\Synth/CONSTANTS.h \
+ C:\xav_dev\eclipse_luna\Dekrispator_v2\Synth/soundGen.h \
+ C:\xav_dev\eclipse_luna\Dekrispator_v2\Synth/math_tools.h \
+ C:\xav_dev\eclipse_luna\Dekrispator_v2\Synth/random.h \
+ C:\xav_dev\eclipse_luna\Dekrispator_v2\Synth/sequencer.h \
+ C:\xav_dev\eclipse_luna\Dekrispator_v2\Synth/notesTables.h \
+ C:\xav_dev\eclipse_luna\Dekrispator_v2\Synth/oscillators.h \
+ C:\xav_dev\eclipse_luna\Dekrispator_v2\Synth/drifter.h \
+ C:\xav_dev\eclipse_luna\Dekrispator_v2\Synth/sinetable.h \
+ C:\xav_dev\eclipse_luna\Dekrispator_v2\Synth/blepvco.h \
+ C:\xav_dev\eclipse_luna\Dekrispator_v2\Synth/minblep_tables.h \
+ C:\xav_dev\eclipse_luna\Dekrispator_v2\Synth/delay.h \
+ C:\xav_dev\eclipse_luna\Dekrispator_v2\Synth/chorusFD.h \
+ C:\xav_dev\eclipse_luna\Dekrispator_v2\Synth/phaser.h \
+ C:\xav_dev\eclipse_luna\Dekrispator_v2\Synth/timers.h \
+ C:\xav_dev\eclipse_luna\Dekrispator_v2\Synth/resonantFilter.h \
+ C:\xav_dev\eclipse_luna\Dekrispator_v2\Synth/adsr.h \
+ C:\xav_dev\eclipse_luna\Dekrispator_v2\Synth/main.h ../Synth/soundGen.h \
+ ../Synth/audio_conf.h ../Synth/delay.h ../Synth/chorusFD.h \
+ ../Synth/drifter.h ../Synth/resonantFilter.h ../Synth/adsr.h \
+ ../Synth/sequencer.h ../Synth/sinetable.h ../Synth/notesTables.h
 
 ../Synth/MIDI_application.h:
 
@@ -177,34 +194,60 @@ C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\USBH_midi_class\Inc/usbh_MIDI.h:
 
 ../Synth/timers.h:
 
-../Synth/audio_conf.h:
+C:\xav_dev\eclipse_luna\Dekrispator_v2\Synth/audio_conf.h:
+
+C:\xav_dev\eclipse_luna\Dekrispator_v2\Synth/CONSTANTS.h:
+
+C:\xav_dev\eclipse_luna\Dekrispator_v2\Synth/soundGen.h:
+
+C:\xav_dev\eclipse_luna\Dekrispator_v2\Synth/math_tools.h:
+
+C:\xav_dev\eclipse_luna\Dekrispator_v2\Synth/random.h:
+
+C:\xav_dev\eclipse_luna\Dekrispator_v2\Synth/sequencer.h:
+
+C:\xav_dev\eclipse_luna\Dekrispator_v2\Synth/notesTables.h:
+
+C:\xav_dev\eclipse_luna\Dekrispator_v2\Synth/oscillators.h:
+
+C:\xav_dev\eclipse_luna\Dekrispator_v2\Synth/drifter.h:
+
+C:\xav_dev\eclipse_luna\Dekrispator_v2\Synth/sinetable.h:
+
+C:\xav_dev\eclipse_luna\Dekrispator_v2\Synth/blepvco.h:
+
+C:\xav_dev\eclipse_luna\Dekrispator_v2\Synth/minblep_tables.h:
+
+C:\xav_dev\eclipse_luna\Dekrispator_v2\Synth/delay.h:
+
+C:\xav_dev\eclipse_luna\Dekrispator_v2\Synth/chorusFD.h:
+
+C:\xav_dev\eclipse_luna\Dekrispator_v2\Synth/phaser.h:
+
+C:\xav_dev\eclipse_luna\Dekrispator_v2\Synth/timers.h:
+
+C:\xav_dev\eclipse_luna\Dekrispator_v2\Synth/resonantFilter.h:
+
+C:\xav_dev\eclipse_luna\Dekrispator_v2\Synth/adsr.h:
+
+C:\xav_dev\eclipse_luna\Dekrispator_v2\Synth/main.h:
 
 ../Synth/soundGen.h:
 
-../Synth/math_tools.h:
-
-../Synth/sequencer.h:
-
-../Synth/notesTables.h:
-
-../Synth/oscillators.h:
-
-../Synth/drifter.h:
-
-../Synth/sinetable.h:
-
-../Synth/blepvco.h:
-
-../Synth/minblep_tables.h:
+../Synth/audio_conf.h:
 
 ../Synth/delay.h:
 
 ../Synth/chorusFD.h:
 
-../Synth/phaser.h:
+../Synth/drifter.h:
 
 ../Synth/resonantFilter.h:
 
 ../Synth/adsr.h:
 
-../Synth/audio_conf.h:
+../Synth/sequencer.h:
+
+../Synth/sinetable.h:
+
+../Synth/notesTables.h:

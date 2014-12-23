@@ -89,10 +89,7 @@
 							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker.756015242" name="Cross ARM C Linker" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker">
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.gcsections.425520470" name="Remove unused sections (-Xlinker --gc-sections)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.gcsections" value="true" valueType="boolean"/>
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.other.697545535" name="Other linker flags" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.other" value=" --specs=nosys.specs" valueType="string"/>
-								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.libs.1785626285" name="Libraries (-l)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.libs" valueType="libs">
-									<listOptionValue builtIn="false" value="c"/>
-									<listOptionValue builtIn="false" value="m"/>
-								</option>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.libs.1785626285" name="Libraries (-l)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.libs" valueType="libs"/>
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.nostart.650243259" name="Do not use standard start files (-nostartfiles)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.nostart" value="false" valueType="boolean"/>
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.scriptfile.1971350469" name="Script files (-T)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.scriptfile" valueType="stringList">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/STM32F407VG_FLASH.ld}&quot;"/>
@@ -203,17 +200,7 @@
 							<tool command="${cross_prefix}${cross_c}${cross_suffix}" commandLinePattern="${COMMAND} ${cross_toolchain_flags} ${FLAGS} -c ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} ${INPUTS}" errorParsers="org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GLDErrorParser" id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.1350762193" name="Cross ARM C Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler">
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.std.307055829" name="Language standard" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.std" useByScannerDiscovery="true" value="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.std.gnu99" valueType="enumerated"/>
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.include.paths.1622130568" name="Include paths (-I)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.include.paths" useByScannerDiscovery="false" valueType="includePath">
-									<listOptionValue builtIn="false" value="../Synth"/>
-									<listOptionValue builtIn="false" value="../USB"/>
-									<listOptionValue builtIn="false" value="../USB/MIDIstream_class"/>
-									<listOptionValue builtIn="false" value="../Lib/STM32F4xx_StdPeriph_Driver/inc"/>
-									<listOptionValue builtIn="false" value="../Lib/STM32_USB_OTG_Driver/inc"/>
-									<listOptionValue builtIn="false" value="../Lib/STM32_USB_HOST_Library/Core/inc"/>
-									<listOptionValue builtIn="false" value="../System"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Dekrispator_v2/drivers/include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Dekrispator_v2/drivers/include/cmsis}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Dekrispator_v2/drivers/STM32_USB_Host_Library/Core/Inc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Dekrispator_v2/USBH_midi_class/Inc}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Dekrispator_v2/drivers/BSP}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Dekrispator_v2/drivers/cmsis}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Dekrispator_v2/drivers/STM32F4xx_HAL_Driver/Inc}&quot;"/>
@@ -221,13 +208,9 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Dekrispator_v2/Synth}&quot;"/>
 								</option>
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.defs.1256354901" name="Defined symbols (-D)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.defs" useByScannerDiscovery="false" valueType="definedSymbols">
-									<listOptionValue builtIn="false" value="STM32F40_41xxx"/>
 									<listOptionValue builtIn="false" value="__FPU_USED=1"/>
-									<listOptionValue builtIn="false" value="USE_STDPERIPH_DRIVER"/>
 									<listOptionValue builtIn="false" value="HSE_VALUE=8000000"/>
-									<listOptionValue builtIn="false" value="STM32F407VG"/>
 									<listOptionValue builtIn="false" value="USE_HAL_DRIVER"/>
-									<listOptionValue builtIn="false" value="STM32F407XX"/>
 									<listOptionValue builtIn="false" value="USE_STM32F4_DISCO"/>
 									<listOptionValue builtIn="false" value="STM32F407xx"/>
 								</option>
@@ -237,9 +220,7 @@
 							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.1743079258" name="Cross ARM C++ Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler"/>
 							<tool command="${cross_prefix}${cross_c}${cross_suffix}" commandLinePattern="${COMMAND} ${cross_toolchain_flags} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} ${INPUTS}" errorParsers="" id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker.1904878605" name="Cross ARM C Linker" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker">
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.gcsections.96158650" name="Remove unused sections (-Xlinker --gc-sections)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.gcsections" value="true" valueType="boolean"/>
-								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.libs.971496903" name="Libraries (-l)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.libs" valueType="libs">
-									<listOptionValue builtIn="false" value="m"/>
-								</option>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.libs.971496903" name="Libraries (-l)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.libs" valueType="libs"/>
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.nostart.1289637112" name="Do not use standard start files (-nostartfiles)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.nostart" value="false" valueType="boolean"/>
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.scriptfile.49592157" name="Script files (-T)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.scriptfile" valueType="stringList">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/STM32F407VG_FLASH.ld}&quot;"/>
@@ -274,8 +255,8 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_msp_template.c|Synth|System|USB|Lib" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name=""/>
 						<entry excluding="midi_interface.c|startup_stm32f4xx.c|waveplayer.c|minBLEP_osc.c|blepvco_if.cc|mbVCO.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Synth"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="drivers"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>

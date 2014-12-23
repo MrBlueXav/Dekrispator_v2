@@ -33,6 +33,7 @@ C_SRCS += \
 ../drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.c \
 ../drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c \
 ../drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c \
+../drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_msp_template.c \
 ../drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c \
 ../drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c \
 ../drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c \
@@ -91,6 +92,7 @@ OBJS += \
 ./drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.o \
 ./drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.o \
 ./drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.o \
+./drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_msp_template.o \
 ./drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.o \
 ./drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.o \
 ./drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.o \
@@ -149,6 +151,7 @@ C_DEPS += \
 ./drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.d \
 ./drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.d \
 ./drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.d \
+./drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_msp_template.d \
 ./drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.d \
 ./drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.d \
 ./drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.d \
@@ -182,7 +185,7 @@ C_DEPS += \
 drivers/STM32F4xx_HAL_Driver/Src/%.o: ../drivers/STM32F4xx_HAL_Driver/Src/%.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: Cross ARM C Compiler'
-	arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O3 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fsingle-precision-constant -Wall -DSTM32F40_41xxx -D__FPU_USED=1 -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DSTM32F407VG -DUSE_HAL_DRIVER -DSTM32F407XX -DUSE_STM32F4_DISCO -DSTM32F407xx -I../Synth -I../USB -I../USB/MIDIstream_class -I../Lib/STM32F4xx_StdPeriph_Driver/inc -I../Lib/STM32_USB_OTG_Driver/inc -I../Lib/STM32_USB_HOST_Library/Core/inc -I../System -I"C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\STM32_USB_Host_Library\Core\Inc" -I"C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\BSP" -I"C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\cmsis" -I"C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\STM32F4xx_HAL_Driver\Inc" -I"C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\USBH_midi_class\Inc" -I"C:\xav_dev\eclipse_luna\Dekrispator_v2\Synth" -std=gnu99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
+	arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O3 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fsingle-precision-constant -Wall -DSTM32F40_41xxx -D__FPU_USED=1 -DHSE_VALUE=8000000 -DSTM32F407VG -DUSE_HAL_DRIVER -DUSE_STM32F4_DISCO -DSTM32F407xx -I"C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\STM32_USB_Host_Library\Core\Inc" -I"C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\BSP" -I"C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\cmsis" -I"C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\STM32F4xx_HAL_Driver\Inc" -I"C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\USBH_midi_class\Inc" -I"C:\xav_dev\eclipse_luna\Dekrispator_v2\Synth" -std=gnu99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 
