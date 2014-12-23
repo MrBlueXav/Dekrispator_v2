@@ -15,7 +15,7 @@ A video is here : http://youtu.be/fcLrcDCaI7w
 
 **Usage**
 
-Flash your board with "dekrispator.hex" (in Release folder) and enjoy hours and hours of sweet music coming of it ! Sounds can be loud so beware !
+Flash your board with "Dekrispator_v2.hex" (in Release folder) and enjoy hours and hours of sweet music coming of it ! Sounds can be loud so beware !
 
 When powering up the board, the synth starts in "demo mode" unless you press and maintain a little the user button before power. In that case the synth enters "user mode".
 
