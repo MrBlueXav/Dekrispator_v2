@@ -54,7 +54,7 @@ void Delay_clean(void)
 /*-------------------------------------------------------------------------------------------*/
 void 	Delay_time_inc(uint8_t val)
 {
-	if (val == MIDI_MAX) {
+	if (val == MIDI_MAXi) {
 
 		float 	*pos;
 		if(shift < (DELAYLINE_LEN - DELTA_DELAY))
@@ -69,7 +69,7 @@ void 	Delay_time_inc(uint8_t val)
 /*-------------------------------------------------------------------------------------------*/
 void	Delay_time_dec(uint8_t val)
 {
-	if (val == MIDI_MAX) {
+	if (val == MIDI_MAXi) {
 
 		float 	*pos;
 		if(shift > (MIN_DELAY + DELTA_DELAY))  shift -= DELTA_DELAY;  //

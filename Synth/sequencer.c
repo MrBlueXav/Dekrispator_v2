@@ -46,7 +46,7 @@ void seq_transpUp(void) // one tone up
 /*-------------------------------------------------------*/
 void seq_transp(int8_t semitone, uint8_t val)
 {
-	if (val == MIDI_MAX)
+	if (val == MIDI_MAXi)
 	{
 		noteG.transpose = semitone;
 	}
@@ -61,7 +61,7 @@ void seq_transpDown(void) // one tone down
 }
 
 /*-------------------------------------------------------*/
-void seq_chooseScale(uint8_t idx)
+void seq_chooseScale(int16_t idx)
 {
 	uint8_t		*currentScale ;
 
@@ -255,7 +255,7 @@ void sequencer_init(void)
 	seq.steptime = lrintf(SAMPLERATE * 60 / seq.tempo);
 	seq.smp_count = 0;
 	seq.step_idx = 0;
-	seq.gateTime = 0.5f * seq.steptime ;
+	seq.gateTime = seq.steptime / 2 ;
 
 	noteG.transpose = 0;
 	noteG.automaticON = false;

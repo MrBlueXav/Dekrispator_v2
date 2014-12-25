@@ -54,7 +54,7 @@ void MIDI_Application(void)
 /*-----------------------------------------------------------------------------*/
 void MagicFX(uint8_t val) /* random effects parameters */
 {
-	if (val == MIDI_MAX)
+	if (val == MIDI_MAXi)
 	{
 		Delay_switch(MIDI_MAXi);
 		Delay_time_set(MIDIrandVal());
@@ -79,7 +79,7 @@ void MagicFX(uint8_t val) /* random effects parameters */
 /*-----------------------------------------------------------------------------*/
 void MagicPatch(uint8_t val) /* random sound parameters */
 {
-	if (val == MIDI_MAX)
+	if (val == MIDI_MAXi)
 	{
 		seq_tempo_set(MIDIrandVal());
 		seq_freqMax_set(MIDIrandVal());

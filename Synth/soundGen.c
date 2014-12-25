@@ -84,7 +84,7 @@ void autoSound_set(int8_t val)
 /*---------------------------------------------------------*/
 void RandSound1(uint8_t val) /* random series of tones */
 {
-	if (val == MIDI_MAX)
+	if (val == MIDI_MAXi)
 	{
 		if (autoSound == 0)
 			autoSound = 1;
@@ -95,7 +95,7 @@ void RandSound1(uint8_t val) /* random series of tones */
 /*---------------------------------------------------------*/
 void RandSound2(uint8_t val) /* random series of tones */
 {
-	if (val == MIDI_MAX)
+	if (val == MIDI_MAXi)
 	{
 		if (autoSound == 0)
 			autoSound = 2;
@@ -116,7 +116,7 @@ void Parameter_fine_tune(uint8_t val)
 /*---------------------------------------------------------*/
 void DemoMode_toggle(uint8_t val)
 {
-	if (val == MIDI_MAX)
+	if (val == MIDI_MAXi)
 	{
 		demoMode = !demoMode;
 	}
@@ -124,7 +124,7 @@ void DemoMode_toggle(uint8_t val)
 /*---------------------------------------------------------*/
 void Synth_reset(uint8_t val)
 {
-	if (val == MIDI_MAX)
+	if (val == MIDI_MAXi)
 	{
 		demoMode = false;
 		freeze = false;
@@ -356,7 +356,7 @@ void FM_OP2_freq_set(uint8_t val)
 /*-------------------------------------------------------*/
 void FM_OP2_freqMul_inc(uint8_t val)
 {
-	if (val == MIDI_MAX)
+	if (val == MIDI_MAXi)
 	{
 		op2.mul *= 1.01f;
 	}
@@ -364,7 +364,7 @@ void FM_OP2_freqMul_inc(uint8_t val)
 /*-------------------------------------------------------*/
 void FM_OP2_freqMul_dec(uint8_t val)
 {
-	if (val == MIDI_MAX)
+	if (val == MIDI_MAXi)
 	{
 		op2.mul *= 0.99f;
 	}
@@ -389,7 +389,7 @@ void FM_OP3_modInd_set(uint8_t val)
 /*-------------------------------------------------------*/
 void FM_OP3_freqMul_inc(uint8_t val)
 {
-	if (val == MIDI_MAX)
+	if (val == MIDI_MAXi)
 	{
 		op3.mul *= 1.01f;
 	}
@@ -397,7 +397,7 @@ void FM_OP3_freqMul_inc(uint8_t val)
 /*-------------------------------------------------------*/
 void FM_OP3_freqMul_dec(uint8_t val)
 {
-	if (val == MIDI_MAX)
+	if (val == MIDI_MAXi)
 	{
 		op3.mul *= 0.99f;
 	}
@@ -417,7 +417,7 @@ void FM_OP4_modInd_set(uint8_t val)
 /*-------------------------------------------------------*/
 void FM_OP4_freqMul_inc(uint8_t val)
 {
-	if (val == MIDI_MAX)
+	if (val == MIDI_MAXi)
 	{
 		op4.mul *= 1.01f;
 	}
@@ -425,7 +425,7 @@ void FM_OP4_freqMul_inc(uint8_t val)
 /*-------------------------------------------------------*/
 void FM_OP4_freqMul_dec(uint8_t val)
 {
-	if (val == MIDI_MAX)
+	if (val == MIDI_MAXi)
 	{
 		op4.mul *= 0.99f;
 	}

@@ -28,8 +28,8 @@
 /*------------------------------------------------------------------------------*/
 typedef struct
 {
-	uint8_t		note[NUMBER_STEPS]; //
-	uint8_t		veloc[NUMBER_STEPS]; //
+	int16_t		note[NUMBER_STEPS]; //
+	int16_t		veloc[NUMBER_STEPS]; //
 
 } Track_t;
 /*------------------------------------------------------------------------------*/
@@ -39,18 +39,18 @@ typedef struct
 	float_t 	tempo; 		// unit : bpm
 	int32_t 	steptime; 	// unit : # of samples
 	int32_t 	smp_count;	// sample counter
-	uint8_t		step_idx;	// current step index
-	uint32_t 	gateTime; 	// desired gate on time (in samples)
+	int16_t		step_idx;	// current step index
+	int32_t 	gateTime; 	// desired gate on time (in samples)
 
 } Sequencer_t;
 /*------------------------------------------------------------------------------*/
 typedef struct
 {
-	uint8_t 	scaleIndex ;
+	int16_t 	scaleIndex ;
 	uint8_t		*currentScale ;
-	uint8_t		octaveSpread;
-	uint8_t		rootNote;
-	int8_t 		transpose;
+	int16_t		octaveSpread;
+	int16_t		rootNote;
+	int16_t 		transpose;
 	bool 		automaticON;	// random notes ?
 	bool		glideON;		// glissando between notes ?
 	bool		chRequested;
@@ -69,7 +69,7 @@ void seq_transpUp(void); // one tone up
 void seq_transpDown(void); // one tone down
 void seq_transp(int8_t s, uint8_t val);
 void seq_gateTime_set(uint8_t val);
-void seq_chooseScale(uint8_t idx);
+void seq_chooseScale(int16_t idx);
 void seq_scale_set(uint8_t val);
 void seq_switchMovingSeq(uint8_t val);
 void seq_switchMute(uint8_t val);
