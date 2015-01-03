@@ -26,17 +26,18 @@
 
 #include "oscillators.h"
 
-/*-------------------------------------------------------*/
-extern Drifter_t 	d1 _CCM_, d2 _CCM_, d3 _CCM_;
+/*------------------------------------------------------------------------*/
+extern Drifter_t 	d1 , d2 , d3 ;
+extern VCO_blepsaw_t		mbSawOsc;
+extern VCO_bleprect_t		mbRectOsc;
+extern VCO_bleptri_t		mbTriOsc;
 
+/*------------------------------------------------------------------------*/
 Oscillator_t 		op1 _CCM_;
 Oscillator_t 		op2 _CCM_;
 Oscillator_t 		op3 _CCM_;
 Oscillator_t 		op4 _CCM_;
 
-extern VCO_blepsaw_t		mbSawOsc;
-extern VCO_bleprect_t		mbRectOsc;
-extern VCO_bleptri_t		mbTriOsc;
 
 Oscillator_t 		vibr_lfo _CCM_;
 
@@ -135,9 +136,8 @@ float_t OpSampleCompute0(Oscillator_t * op) // accurate sine
 {
 	float_t z;
 
-	//while (op->phase < 0) // keep phase in [0, 2pi]
-	//	op->phase += _2PI;
-	while (op->phase >= _2PI)
+
+	while (op->phase >= _2PI) // keep phase in [0, 2pi]
 		op->phase -= _2PI;
 
 	z = sinf(op->phase);
@@ -339,11 +339,6 @@ float_t AdditiveGen_SampleCompute(Oscillator_t * op) // additive sine generator
 	return op->out;
 }
 
-//float randsound(void)
-//{
-//
-//}
-
 /*-------------------------------------------------------------------------------------------------------------------*/
 
 float waveCompute(uint8_t sound, float frq)
@@ -371,11 +366,8 @@ float waveCompute(uint8_t sound, float frq)
 	case BLEPTRIANGLE :	 	mbTriOsc.freq = frq;
 	y = VCO_bleptri_SampleCompute(&mbTriOsc); break;
 
-	//y = OpSampleCompute5(&op1);				break;
-
 	case BLEPSQUARE : 		mbRectOsc.freq = frq;
 	y = VCO_bleprect_SampleCompute(&mbRectOsc);		break;
-	//y = 0.6f * OpSampleCompute8(&op1);		break;
 
 	case WT_SINE : 			y = 0.8f * Osc_WT_SINE_SampleCompute(&op1);		break;
 
@@ -416,9 +408,7 @@ float waveCompute(uint8_t sound, float frq)
 		y = VCO_blepsaw_SampleCompute(&mbSawOsc);
 	}	break;
 
-	//case RANDSOUND :	y = randsound(); break;
-
-	default :			//y = 0.8f * Osc_WT_SINE_SampleCompute(&op1);		break;
+	default :
 		y = 0;	break ;
 
 	}

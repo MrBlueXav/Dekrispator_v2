@@ -52,12 +52,11 @@ Synth/random.o: ../Synth/random.c ../Synth/random.h \
  C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\STM32_USB_Host_Library\Core\Inc/usbh_core.h \
  C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\STM32_USB_Host_Library\Core\Inc/usbh_pipes.h \
  C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\STM32_USB_Host_Library\Core\Inc/usbh_ctlreq.h \
- ../Synth/MIDI_application.h \
- C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\USBH_midi_class\Inc/usbh_midi.h \
- ../Synth/drifter.h ../Synth/sinetable.h ../Synth/notesTables.h \
- ../Synth/soundGen.h ../Synth/math_tools.h ../Synth/sequencer.h \
- ../Synth/oscillators.h ../Synth/blepvco.h ../Synth/minblep_tables.h \
- ../Synth/delay.h ../Synth/chorusFD.h ../Synth/phaser.h ../Synth/timers.h \
+ ../Synth/MIDI_application.h ../Synth/drifter.h ../Synth/sinetable.h \
+ ../Synth/notesTables.h ../Synth/soundGen.h ../Synth/math_tools.h \
+ ../Synth/sequencer.h ../Synth/oscillators.h ../Synth/blepvco.h \
+ ../Synth/minblep_tables.h ../Synth/delay.h ../Synth/chorusFD.h \
+ ../Synth/phaser.h ../Synth/timers.h \
  C:\xav_dev\eclipse_luna\Dekrispator_v2\Synth/audio_conf.h \
  C:\xav_dev\eclipse_luna\Dekrispator_v2\Synth/CONSTANTS.h \
  C:\xav_dev\eclipse_luna\Dekrispator_v2\Synth/soundGen.h \
@@ -175,8 +174,6 @@ C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\STM32_USB_Host_Library\Core\Inc/u
 C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\STM32_USB_Host_Library\Core\Inc/usbh_ctlreq.h:
 
 ../Synth/MIDI_application.h:
-
-C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\USBH_midi_class\Inc/usbh_midi.h:
 
 ../Synth/drifter.h:
 

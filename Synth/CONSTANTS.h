@@ -19,7 +19,7 @@
 
 #define BUFF_LEN_DIV4           500 // number of samples in the audiobuffer for each channel <==> XX ms latency at 48kHz
 #define BUFF_LEN_DIV2           (2*BUFF_LEN_DIV4)
-#define BUFF_LEN                (4*BUFF_LEN_DIV4)  // Audio buffer length : count in 16bits half-words
+#define BUFF_LEN                (4*BUFF_LEN_DIV4)  // Audio buffer length : count in 16bits half-words, must be a multiple of 4.
 #define VOL                     70 // initial output DAC volume
 #define MAXVOL                  100 // maximal output DAC volume
 

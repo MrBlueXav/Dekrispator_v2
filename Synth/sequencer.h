@@ -50,7 +50,7 @@ typedef struct
 	uint8_t		*currentScale ;
 	int16_t		octaveSpread;
 	int16_t		rootNote;
-	int16_t 		transpose;
+	int16_t		transpose;
 	bool 		automaticON;	// random notes ?
 	bool		glideON;		// glissando between notes ?
 	bool		chRequested;

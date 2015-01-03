@@ -58,7 +58,6 @@ Synth/audio_conf.o: ../Synth/audio_conf.c \
  C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\STM32_USB_Host_Library\Core\Inc/usbh_pipes.h \
  C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\STM32_USB_Host_Library\Core\Inc/usbh_ctlreq.h \
  C:\xav_dev\eclipse_luna\Dekrispator_v2\Synth/MIDI_application.h \
- C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\USBH_midi_class\Inc/usbh_midi.h \
  C:\xav_dev\eclipse_luna\Dekrispator_v2\Synth/drifter.h \
  C:\xav_dev\eclipse_luna\Dekrispator_v2\Synth/sinetable.h \
  C:\xav_dev\eclipse_luna\Dekrispator_v2\Synth/notesTables.h \
@@ -191,8 +190,6 @@ C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\STM32_USB_Host_Library\Core\Inc/u
 C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\STM32_USB_Host_Library\Core\Inc/usbh_ctlreq.h:
 
 C:\xav_dev\eclipse_luna\Dekrispator_v2\Synth/MIDI_application.h:
-
-C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\USBH_midi_class\Inc/usbh_midi.h:
 
 C:\xav_dev\eclipse_luna\Dekrispator_v2\Synth/drifter.h:
 

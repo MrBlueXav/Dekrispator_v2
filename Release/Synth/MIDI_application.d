@@ -40,7 +40,7 @@ Synth/MIDI_application.o: ../Synth/MIDI_application.c \
  C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\STM32_USB_Host_Library\Core\Inc/usbh_pipes.h \
  C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\STM32_USB_Host_Library\Core\Inc/usbh_ctlreq.h \
  C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\BSP/stm32f4_discovery.h \
- C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\USBH_midi_class\Inc/usbh_midi.h \
+ C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\USBH_midi_class\Inc/usbh_MIDI.h \
  ../Synth/CONSTANTS.h ../Synth/random.h ../Synth/main.h \
  C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\BSP/stm32f4_discovery_audio.h \
  C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\BSP/cs43l22.h \
@@ -53,7 +53,6 @@ Synth/MIDI_application.o: ../Synth/MIDI_application.c \
  C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\BSP/lis3dsh.h \
  C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\BSP/stm32f4xx_it.h \
  C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\BSP/lis302dl.h \
- C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\USBH_midi_class\Inc/usbh_MIDI.h \
  ../Synth/timers.h \
  C:\xav_dev\eclipse_luna\Dekrispator_v2\Synth/audio_conf.h \
  C:\xav_dev\eclipse_luna\Dekrispator_v2\Synth/CONSTANTS.h \
@@ -160,7 +159,7 @@ C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\STM32_USB_Host_Library\Core\Inc/u
 
 C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\BSP/stm32f4_discovery.h:
 
-C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\USBH_midi_class\Inc/usbh_midi.h:
+C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\USBH_midi_class\Inc/usbh_MIDI.h:
 
 ../Synth/CONSTANTS.h:
 
@@ -189,8 +188,6 @@ C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\BSP/lis3dsh.h:
 C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\BSP/stm32f4xx_it.h:
 
 C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\BSP/lis302dl.h:
-
-C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\USBH_midi_class\Inc/usbh_MIDI.h:
 
 ../Synth/timers.h:
 

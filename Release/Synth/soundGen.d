@@ -53,10 +53,8 @@ Synth/soundGen.o: ../Synth/soundGen.c ../Synth/soundGen.h \
  C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\STM32_USB_Host_Library\Core\Inc/usbh_core.h \
  C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\STM32_USB_Host_Library\Core\Inc/usbh_pipes.h \
  C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\STM32_USB_Host_Library\Core\Inc/usbh_ctlreq.h \
- ../Synth/MIDI_application.h \
- C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\USBH_midi_class\Inc/usbh_midi.h \
- ../Synth/drifter.h ../Synth/sinetable.h ../Synth/notesTables.h \
- ../Synth/audio_conf.h ../Synth/timers.h \
+ ../Synth/MIDI_application.h ../Synth/drifter.h ../Synth/sinetable.h \
+ ../Synth/notesTables.h ../Synth/audio_conf.h ../Synth/timers.h \
  C:\xav_dev\eclipse_luna\Dekrispator_v2\Synth/audio_conf.h \
  ../Synth/delay.h ../Synth/chorusFD.h ../Synth/resonantFilter.h \
  ../Synth/adsr.h ../Synth/sequencer.h ../Synth/oscillators.h \
@@ -177,8 +175,6 @@ C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\STM32_USB_Host_Library\Core\Inc/u
 C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\STM32_USB_Host_Library\Core\Inc/usbh_ctlreq.h:
 
 ../Synth/MIDI_application.h:
-
-C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\USBH_midi_class\Inc/usbh_midi.h:
 
 ../Synth/drifter.h:
 

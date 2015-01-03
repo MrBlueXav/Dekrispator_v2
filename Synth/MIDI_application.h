@@ -12,7 +12,7 @@
 
 #include "stdio.h"
 #include "usbh_core.h"
-#include "usbh_midi.h"
+#include "usbh_MIDI.h"
 
 #include <math.h>
 #include <stdint.h>

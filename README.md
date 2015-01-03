@@ -65,7 +65,7 @@ I've used (Windows Vista):
 * GNU Tools for ARM Embedded Processors (gcc 4.9 2014 q4) 
 * STM32 ST-LINK Utility for flashing the microcontroller
 
-Compiles also on Linux (Debian 7.7) !
+Compiles also on Linux (Debian 7.7) with Eclipse Luna !
 
 - - - 
 
@@ -76,13 +76,15 @@ Compiles also on Linux (Debian 7.7) !
 * Link Time Optimization ( -flto ) 
 * audio DMA and USB interrupts priorities are set equal to 6
 * Flash size is about 128000 bytes (-O3)
-* Size of the audio buffer (affects latency) can be tweaked in CONSTANTS.h file (BUFF_LEN must be a multiple of 4)
+* Size of the audio buffer (affects latency) can be tweaked in CONSTANTS.h file (BUFF_LEN must be a multiple of 4).
+It is set at 4000 bytes long (BUFF_LEN = 2000) but it can be reduced.
 
 * Cross ARM C Compiler options :
 
 arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O3 -ffunction-sections -fdata-sections  -fsingle-precision-constant -flto -Wall -D__FPU_USED=1 -DHSE_VALUE=8000000 -DUSE_HAL_DRIVER -DUSE_STM32F4_DISCO -DSTM32F407xx -I"........................................."
 
-* Linker opt :
+* Linker options :
 
 arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O3 -ffunction-sections -fdata-sections  -fsingle-precision-constant -flto -Wall -T ".............\STM32F407VG_FLASH.ld" -Xlinker --gc-sections -Wl,-Map,"Dekrispator_v2.map" --specs=nosys.specs -flto -o "Dekrispator_v2.elf"  ..............  -lm
   
+- - - 
