@@ -22,6 +22,7 @@
 * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
 *
 */
+
 #include "drifter.h"
 
 /*-------------------------------------------------------------------------------------------*/
@@ -36,11 +37,13 @@ void	Drifter_amp_set(uint8_t val)
 	d1.gain = d2.gain = d3.gain = (val / MIDI_MAX)*(val / MIDI_MAX);
 
 }
+/*-------------------------------------------------------------------------------------------*/
 void	Drifter_minFreq_set(uint8_t val)
 {
 	d1.fmin = d2.fmin = d3.fmin = .1f + 50 * val / MIDI_MAX;
 
 }
+/*-------------------------------------------------------------------------------------------*/
 void	Drifter_maxFreq_set(uint8_t val)
 {
 	float x;

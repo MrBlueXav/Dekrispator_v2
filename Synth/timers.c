@@ -31,19 +31,8 @@ extern void ButtonPressed_action(void);
 extern void ButtonReleased_action(void);
 
 //---------------------------------------------------------------------------
-/**
- * @brief  Inserts a delay time.
- * @param  nTime: specifies the delay time length, in milliseconds.
- * @retval None
- */
-//void wait(uint32_t nTime)
-//{
-//	TimingDelay = nTime;
-//
-//	while (TimingDelay != 0)
-//		;
-//}
-//---------------------------------------------------------------------------
+
+
 /**
  * @brief  Decrements the TimingDelays variables.
  * 			Called by SysTick_Handler() in stm32f4xx_it.c
