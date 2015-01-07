@@ -62,13 +62,28 @@ void setTime(uint32_t val)
 {
 	TimingDelay1 = val;
 }
-
+/***********************************************************************************/
+/**
+ * @brief  Turns selected LED On for  a given duration.
+ * @param  Led: Specifies the Led to be set on.
+ *   This parameter can be one of following parameters:
+ *     @arg LED4
+ *     @arg LED3
+ *     @arg LED5
+ *     @arg LED6
+ * @retval None
+ */
+void start_LED_On(Led_TypeDef Led, uint32_t duration)
+{
+	BSP_LED_On(Led);
+	BlueLED_counter = duration;
+}
 /*------------------------------------------------------------------------------------*/
 /* Function called by SysTick_Handler()  */
 void update_temporized_LED(Led_TypeDef Led)
 {
 	BlueLED_counter--;
-	if (BlueLED_counter == 0) BSP_LED_Off(LED_Blue);
+	if (BlueLED_counter == 0) BSP_LED_Off(Led);
 }
 
 /***************************************************************************************************************************/
@@ -77,33 +92,33 @@ void update_temporized_LED(Led_TypeDef Led)
 
 void DebounceUserButton(void) // Called by SysTick_Handler() in file stm32f4xx_it.c
 {
-        bool RawState;
+	bool RawState;
 
-        RawState = (bool)BSP_PB_GetState(BUTTON_KEY);
+	RawState = (bool)BSP_PB_GetState(BUTTON_KEY);
 
-        if (RawState == DebouncedKeyPress) {
-                // Set the timer which allows a change from current state.
-                if (DebouncedKeyPress) Count = RELEASE_MSEC / CHECK_MSEC;
-                else Count = PRESS_MSEC / CHECK_MSEC;
+	if (RawState == DebouncedKeyPress) {
+		// Set the timer which allows a change from current state.
+		if (DebouncedKeyPress) Count = RELEASE_MSEC / CHECK_MSEC;
+		else Count = PRESS_MSEC / CHECK_MSEC;
 
-        } else {
-                // Key has changed - wait for new state to become stable.
-                if (--Count == 0) {
-                        // Timer expired - accept the change.
-                        DebouncedKeyPress = RawState;
-                        Key_changed = true;
-                        Key_pressed = DebouncedKeyPress;
-                        // And reset the timer.
-                        if (DebouncedKeyPress) // rising edge
-                        {
-                                Count = RELEASE_MSEC / CHECK_MSEC;
-                                ButtonPressed_action();
-                        }
-                        else // falling edge
-                        {
-                                Count = PRESS_MSEC / CHECK_MSEC;
-                                ButtonReleased_action();
-                        }
-                }
-        }
+	} else {
+		// Key has changed - wait for new state to become stable.
+		if (--Count == 0) {
+			// Timer expired - accept the change.
+			DebouncedKeyPress = RawState;
+			Key_changed = true;
+			Key_pressed = DebouncedKeyPress;
+			// And reset the timer.
+			if (DebouncedKeyPress) // rising edge
+			{
+				Count = RELEASE_MSEC / CHECK_MSEC;
+				ButtonPressed_action();
+			}
+			else // falling edge
+			{
+				Count = PRESS_MSEC / CHECK_MSEC;
+				ButtonReleased_action();
+			}
+		}
+	}
 }
