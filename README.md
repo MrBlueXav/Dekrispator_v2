@@ -41,16 +41,16 @@ Ready-to-use files are in Ressources folder.
   * multisaw (several saws with individual "drifters")
   * 10 sine additive generator
   * noise
- * vibrato
- * tremolo
- * drive/distortion
  * 16 step random sequencer
  * several scales to choose from
  * 2 parallel filters LP/BP/HP with LFOs
  * Effects :
-  * Echo
-  * Chorus/Flanger
-  * Phaser
+  * vibrato
+  * tremolo
+  * drive/distortion
+  * echo
+  * chorus/flanger
+  * phaser
  * random sound/FX patch generator
 
 - - - -
