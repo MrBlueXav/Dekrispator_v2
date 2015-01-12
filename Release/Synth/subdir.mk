@@ -22,7 +22,13 @@ C_SRCS += \
 ../Synth/sequencer.c \
 ../Synth/sinetable.c \
 ../Synth/soundGen.c \
-../Synth/timers.c 
+../Synth/stm32f4xx_it.c \
+../Synth/system_stm32f4xx.c \
+../Synth/timers.c \
+../Synth/usbh_conf.c 
+
+S_UPPER_SRCS += \
+../Synth/startup_stm32f407xx.S 
 
 OBJS += \
 ./Synth/MIDI_application.o \
@@ -43,7 +49,11 @@ OBJS += \
 ./Synth/sequencer.o \
 ./Synth/sinetable.o \
 ./Synth/soundGen.o \
-./Synth/timers.o 
+./Synth/startup_stm32f407xx.o \
+./Synth/stm32f4xx_it.o \
+./Synth/system_stm32f4xx.o \
+./Synth/timers.o \
+./Synth/usbh_conf.o 
 
 C_DEPS += \
 ./Synth/MIDI_application.d \
@@ -64,7 +74,13 @@ C_DEPS += \
 ./Synth/sequencer.d \
 ./Synth/sinetable.d \
 ./Synth/soundGen.d \
-./Synth/timers.d 
+./Synth/stm32f4xx_it.d \
+./Synth/system_stm32f4xx.d \
+./Synth/timers.d \
+./Synth/usbh_conf.d 
+
+S_UPPER_DEPS += \
+./Synth/startup_stm32f407xx.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
@@ -72,6 +88,13 @@ Synth/%.o: ../Synth/%.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: Cross ARM C Compiler'
 	arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O3 -ffunction-sections -fdata-sections -fsingle-precision-constant -flto -Wunused -Wuninitialized -Wall -Wconversion -Wshadow -Wfloat-equal -D__FPU_USED=1 -DHSE_VALUE=8000000 -DUSE_HAL_DRIVER -DUSE_STM32F4_DISCO -DSTM32F407xx -I"C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\STM32_USB_Host_Library\Core\Inc" -I"C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\BSP" -I"C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\cmsis" -I"C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\STM32F4xx_HAL_Driver\Inc" -I"C:\xav_dev\eclipse_luna\Dekrispator_v2\drivers\USBH_midi_class\Inc" -I"C:\xav_dev\eclipse_luna\Dekrispator_v2\Synth" -std=c11 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Synth/%.o: ../Synth/%.S
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross ARM GNU Assembler'
+	arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O3 -ffunction-sections -fdata-sections -fsingle-precision-constant -flto -Wunused -Wuninitialized -Wall -Wconversion -Wshadow -Wfloat-equal -x assembler-with-cpp -DSTM32F40_41xxx -D__FPU_USED=1 -DHSE_VALUE=8000000 -DSTM32F407VG -DUSE_HAL_DRIVER -DUSE_STM32F4_DISCO -DSTM32F407xx -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 

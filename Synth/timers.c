@@ -18,7 +18,7 @@
 
 static uint32_t TimingDelay = 0;
 static uint32_t TimingDelay1 = 0;
-uint32_t 		BlueLED_counter; // time counter for blue LED
+uint32_t 		LED_counter[4]; // time counter for blue LED
 
 static uint8_t	Count = RELEASE_MSEC / CHECK_MSEC;
 static bool 	DebouncedKeyPress = false; // This holds the debounced state of the key.
@@ -76,14 +76,14 @@ void setTime(uint32_t val)
 void start_LED_On(Led_TypeDef Led, uint32_t duration)
 {
 	BSP_LED_On(Led);
-	BlueLED_counter = duration;
+	LED_counter[Led] = duration;
 }
 /*------------------------------------------------------------------------------------*/
 /* Function called by SysTick_Handler()  */
 void update_temporized_LED(Led_TypeDef Led)
 {
-	BlueLED_counter--;
-	if (BlueLED_counter == 0) BSP_LED_Off(Led);
+	LED_counter[Led]--;
+	if (LED_counter[Led] == 0) BSP_LED_Off(Led);
 }
 
 /***************************************************************************************************************************/

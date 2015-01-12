@@ -11,7 +11,6 @@
 #ifndef __TIMERS_H
 #define __TIMERS_H
 
-
 /* Includes ------------------------------------------------------------------*/
 #include <audio_conf.h>
 #include <stdint.h>
@@ -21,7 +20,6 @@
 #include "stm32f4_discovery.h"
 #include "soundGen.h"
 
-
 /* Exported functions ------------------------------------------------------- */
 void 		TimingDelay_Decrement(void);
 void 		setSysTick(void);
@@ -30,7 +28,6 @@ void 		setTime(uint32_t val);
 void 		start_LED_On(Led_TypeDef Led, uint32_t duration);
 void 		update_temporized_LED(Led_TypeDef Led);
 void 		DebounceUserButton(void);
-
 
 /*************************************************************************************/
 #endif /* __TIMERS_H */
