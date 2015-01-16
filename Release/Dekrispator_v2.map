@@ -21,11 +21,11 @@ Archive member included because of file (symbol)
 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libnosys.a(_exit.o)
                               /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc.a(lib_a-exit.o) (_exit)
 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc.a(lib_a-malloc.o)
-                              /tmp/ccwUqK19.ltrans15.ltrans.o (malloc)
+                              /tmp/ccOjJZxi.ltrans15.ltrans.o (malloc)
 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc.a(lib_a-mallocr.o)
                               /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc.a(lib_a-malloc.o) (_malloc_r)
 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc.a(lib_a-memcpy.o)
-                              /tmp/ccwUqK19.ltrans1.ltrans.o (memcpy)
+                              /tmp/ccOjJZxi.ltrans1.ltrans.o (memcpy)
 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc.a(lib_a-mlock.o)
                               /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc.a(lib_a-mallocr.o) (__malloc_lock)
 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc.a(lib_a-sbrkr.o)
@@ -37,15 +37,15 @@ Archive member included because of file (symbol)
 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libnosys.a(sbrk.o)
                               /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc.a(lib_a-sbrkr.o) (_sbrk)
 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_floor.o)
-                              /tmp/ccwUqK19.ltrans20.ltrans.o (floorf)
+                              /tmp/ccOjJZxi.ltrans20.ltrans.o (floorf)
 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_lrint.o)
-                              /tmp/ccwUqK19.ltrans1.ltrans.o (lrintf)
+                              /tmp/ccOjJZxi.ltrans1.ltrans.o (lrintf)
 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_rint.o)
-                              /tmp/ccwUqK19.ltrans1.ltrans.o (rintf)
+                              /tmp/ccOjJZxi.ltrans1.ltrans.o (rintf)
 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_sin.o)
-                              /tmp/ccwUqK19.ltrans1.ltrans.o (sinf)
+                              /tmp/ccOjJZxi.ltrans1.ltrans.o (sinf)
 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-wf_pow.o)
-                              /tmp/ccwUqK19.ltrans1.ltrans.o (powf)
+                              /tmp/ccOjJZxi.ltrans1.ltrans.o (powf)
 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-ef_pow.o)
                               /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-wf_pow.o) (__ieee754_powf)
 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-ef_rem_pio2.o)
@@ -111,81 +111,81 @@ Discarded input sections
  .ARM.attributes
                 0x0000000000000000       0x20 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o
  .text          0x0000000000000000        0x0 ./drivers/USBH_midi_class/Src/usbh_MIDI.o (symbol from plugin)
- .text          0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans0.ltrans.o
- .data          0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans0.ltrans.o
- .bss           0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans0.ltrans.o
  .rodata.BUTTON_PORT
-                0x0000000000000000        0x4 /tmp/ccwUqK19.ltrans0.ltrans.o
- .text          0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans1.ltrans.o
- .data          0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans1.ltrans.o
- .bss           0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans1.ltrans.o
- .text          0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans2.ltrans.o
- .data          0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans2.ltrans.o
- .bss           0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans2.ltrans.o
- .text          0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans3.ltrans.o
- .data          0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans3.ltrans.o
- .bss           0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans3.ltrans.o
- .text          0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans4.ltrans.o
- .data          0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans4.ltrans.o
- .bss           0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans4.ltrans.o
- .text          0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans5.ltrans.o
- .data          0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans5.ltrans.o
- .bss           0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans5.ltrans.o
- .text          0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans6.ltrans.o
- .data          0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans6.ltrans.o
- .bss           0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans6.ltrans.o
+                0x0000000000000000        0x4 /tmp/ccOjJZxi.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans1.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans1.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans1.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans2.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans2.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans2.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans3.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans3.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans3.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans4.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans4.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans4.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans5.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans5.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans5.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans6.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans6.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans6.ltrans.o
  .rodata.I2cxTimeout
-                0x0000000000000000        0x4 /tmp/ccwUqK19.ltrans6.ltrans.o
- .text          0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans7.ltrans.o
- .data          0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans7.ltrans.o
- .bss           0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans7.ltrans.o
- .text          0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans8.ltrans.o
- .data          0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans8.ltrans.o
- .bss           0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans8.ltrans.o
- .text          0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans9.ltrans.o
- .data          0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans9.ltrans.o
- .bss           0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans9.ltrans.o
- .text          0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans10.ltrans.o
- .data          0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans10.ltrans.o
- .bss           0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans10.ltrans.o
- .text          0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans11.ltrans.o
- .data          0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans11.ltrans.o
- .bss           0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans11.ltrans.o
- .text          0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans12.ltrans.o
- .data          0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans12.ltrans.o
- .bss           0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans12.ltrans.o
- .text          0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans13.ltrans.o
- .data          0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans13.ltrans.o
- .bss           0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans13.ltrans.o
- .text          0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans14.ltrans.o
- .data          0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans14.ltrans.o
- .bss           0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans14.ltrans.o
- .text          0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans15.ltrans.o
- .data          0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans15.ltrans.o
- .bss           0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans15.ltrans.o
+                0x0000000000000000        0x4 /tmp/ccOjJZxi.ltrans6.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans7.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans7.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans7.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans8.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans8.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans8.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans9.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans9.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans9.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans10.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans10.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans10.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans11.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans11.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans11.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans12.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans12.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans12.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans13.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans13.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans13.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans14.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans14.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans14.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans15.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans15.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans15.ltrans.o
  .data.AudioInVolume
-                0x0000000000000000        0x2 /tmp/ccwUqK19.ltrans15.ltrans.o
+                0x0000000000000000        0x2 /tmp/ccOjJZxi.ltrans15.ltrans.o
  .bss.debug.7018
-                0x0000000000000000        0x4 /tmp/ccwUqK19.ltrans15.ltrans.o
+                0x0000000000000000        0x4 /tmp/ccOjJZxi.ltrans15.ltrans.o
  .bss.TimeRecBase
-                0x0000000000000000        0x4 /tmp/ccwUqK19.ltrans15.ltrans.o
+                0x0000000000000000        0x4 /tmp/ccOjJZxi.ltrans15.ltrans.o
  .data.AHBPrescTable
-                0x0000000000000000       0x10 /tmp/ccwUqK19.ltrans15.ltrans.o
- .text          0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans16.ltrans.o
- .data          0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans16.ltrans.o
- .bss           0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans16.ltrans.o
- .text          0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans17.ltrans.o
- .data          0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans17.ltrans.o
- .bss           0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans17.ltrans.o
- .text          0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans18.ltrans.o
- .data          0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans18.ltrans.o
- .bss           0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans18.ltrans.o
- .text          0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans19.ltrans.o
- .data          0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans19.ltrans.o
- .bss           0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans19.ltrans.o
- .text          0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans20.ltrans.o
- .data          0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans20.ltrans.o
- .bss           0x0000000000000000        0x0 /tmp/ccwUqK19.ltrans20.ltrans.o
+                0x0000000000000000       0x10 /tmp/ccOjJZxi.ltrans15.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans16.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans16.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans16.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans17.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans17.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans17.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans18.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans18.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans18.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans19.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans19.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans19.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans20.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans20.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccOjJZxi.ltrans20.ltrans.o
  .text          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc.a(lib_a-malloc.o)
  .data          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc.a(lib_a-malloc.o)
  .bss           0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc.a(lib_a-malloc.o)
@@ -441,27 +441,27 @@ LOAD /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crti.o
 LOAD /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtbegin.o
 LOAD /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o
 LOAD ./drivers/USBH_midi_class/Src/usbh_MIDI.o
-LOAD /tmp/ccwUqK19.ltrans0.ltrans.o
-LOAD /tmp/ccwUqK19.ltrans1.ltrans.o
-LOAD /tmp/ccwUqK19.ltrans2.ltrans.o
-LOAD /tmp/ccwUqK19.ltrans3.ltrans.o
-LOAD /tmp/ccwUqK19.ltrans4.ltrans.o
-LOAD /tmp/ccwUqK19.ltrans5.ltrans.o
-LOAD /tmp/ccwUqK19.ltrans6.ltrans.o
-LOAD /tmp/ccwUqK19.ltrans7.ltrans.o
-LOAD /tmp/ccwUqK19.ltrans8.ltrans.o
-LOAD /tmp/ccwUqK19.ltrans9.ltrans.o
-LOAD /tmp/ccwUqK19.ltrans10.ltrans.o
-LOAD /tmp/ccwUqK19.ltrans11.ltrans.o
-LOAD /tmp/ccwUqK19.ltrans12.ltrans.o
-LOAD /tmp/ccwUqK19.ltrans13.ltrans.o
-LOAD /tmp/ccwUqK19.ltrans14.ltrans.o
-LOAD /tmp/ccwUqK19.ltrans15.ltrans.o
-LOAD /tmp/ccwUqK19.ltrans16.ltrans.o
-LOAD /tmp/ccwUqK19.ltrans17.ltrans.o
-LOAD /tmp/ccwUqK19.ltrans18.ltrans.o
-LOAD /tmp/ccwUqK19.ltrans19.ltrans.o
-LOAD /tmp/ccwUqK19.ltrans20.ltrans.o
+LOAD /tmp/ccOjJZxi.ltrans0.ltrans.o
+LOAD /tmp/ccOjJZxi.ltrans1.ltrans.o
+LOAD /tmp/ccOjJZxi.ltrans2.ltrans.o
+LOAD /tmp/ccOjJZxi.ltrans3.ltrans.o
+LOAD /tmp/ccOjJZxi.ltrans4.ltrans.o
+LOAD /tmp/ccOjJZxi.ltrans5.ltrans.o
+LOAD /tmp/ccOjJZxi.ltrans6.ltrans.o
+LOAD /tmp/ccOjJZxi.ltrans7.ltrans.o
+LOAD /tmp/ccOjJZxi.ltrans8.ltrans.o
+LOAD /tmp/ccOjJZxi.ltrans9.ltrans.o
+LOAD /tmp/ccOjJZxi.ltrans10.ltrans.o
+LOAD /tmp/ccOjJZxi.ltrans11.ltrans.o
+LOAD /tmp/ccOjJZxi.ltrans12.ltrans.o
+LOAD /tmp/ccOjJZxi.ltrans13.ltrans.o
+LOAD /tmp/ccOjJZxi.ltrans14.ltrans.o
+LOAD /tmp/ccOjJZxi.ltrans15.ltrans.o
+LOAD /tmp/ccOjJZxi.ltrans16.ltrans.o
+LOAD /tmp/ccOjJZxi.ltrans17.ltrans.o
+LOAD /tmp/ccOjJZxi.ltrans18.ltrans.o
+LOAD /tmp/ccOjJZxi.ltrans19.ltrans.o
+LOAD /tmp/ccOjJZxi.ltrans20.ltrans.o
 LOAD /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/libgcc.a
 LOAD /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc.a
 LOAD /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/libgcc.a
@@ -630,209 +630,209 @@ LOAD /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtn.o
                 0x0000000008000bbc                __truncdfsf2
  *(.text*)
  .text.startup.main
-                0x0000000008000c5c     0x1ae8 /tmp/ccwUqK19.ltrans0.ltrans.o
+                0x0000000008000c5c     0x1ae8 /tmp/ccOjJZxi.ltrans0.ltrans.o
                 0x0000000008000c5c                main
  .text.make_sound.constprop.28
-                0x0000000008002744     0x39c0 /tmp/ccwUqK19.ltrans1.ltrans.o
+                0x0000000008002744     0x39c0 /tmp/ccOjJZxi.ltrans1.ltrans.o
                 0x0000000008002744                make_sound.constprop.28
  .text.USBH_MIDI_Process.lto_priv.169
-                0x0000000008006104     0x17b0 /tmp/ccwUqK19.ltrans2.ltrans.o
+                0x0000000008006104     0x17b0 /tmp/ccOjJZxi.ltrans2.ltrans.o
                 0x0000000008006104                USBH_MIDI_Process.lto_priv.169
  .text.HAL_DMA_IRQHandler
-                0x00000000080078b4      0xc88 /tmp/ccwUqK19.ltrans3.ltrans.o
+                0x00000000080078b4      0xc88 /tmp/ccOjJZxi.ltrans3.ltrans.o
                 0x00000000080078b4                HAL_DMA_IRQHandler
  .text.cs43l22_Init
-                0x000000000800853c      0x820 /tmp/ccwUqK19.ltrans4.ltrans.o
+                0x000000000800853c      0x820 /tmp/ccOjJZxi.ltrans4.ltrans.o
                 0x000000000800853c                cs43l22_Init
  .text.cs43l22_ReadID
-                0x0000000008008d5c      0x248 /tmp/ccwUqK19.ltrans5.ltrans.o
+                0x0000000008008d5c      0x248 /tmp/ccOjJZxi.ltrans5.ltrans.o
                 0x0000000008008d5c                cs43l22_ReadID
  .text.cs43l22_SetFrequency
-                0x0000000008008fa4        0x4 /tmp/ccwUqK19.ltrans6.ltrans.o
+                0x0000000008008fa4        0x4 /tmp/ccOjJZxi.ltrans6.ltrans.o
                 0x0000000008008fa4                cs43l22_SetFrequency
  .text.cs43l22_SetOutputMode
-                0x0000000008008fa8      0x2b4 /tmp/ccwUqK19.ltrans6.ltrans.o
+                0x0000000008008fa8      0x2b4 /tmp/ccOjJZxi.ltrans6.ltrans.o
                 0x0000000008008fa8                cs43l22_SetOutputMode
  .text.cs43l22_SetMute
-                0x000000000800925c       0xe8 /tmp/ccwUqK19.ltrans6.ltrans.o
+                0x000000000800925c       0xe8 /tmp/ccOjJZxi.ltrans6.ltrans.o
                 0x000000000800925c                cs43l22_SetMute
  .text.cs43l22_SetVolume
-                0x0000000008009344      0x20c /tmp/ccwUqK19.ltrans6.ltrans.o
+                0x0000000008009344      0x20c /tmp/ccOjJZxi.ltrans6.ltrans.o
                 0x0000000008009344                cs43l22_SetVolume
  .text.cs43l22_Stop
-                0x0000000008009550      0x114 /tmp/ccwUqK19.ltrans6.ltrans.o
+                0x0000000008009550      0x114 /tmp/ccOjJZxi.ltrans6.ltrans.o
                 0x0000000008009550                cs43l22_Stop
  .text.MagicPatch.part.2.lto_priv.143
-                0x0000000008009664      0xc60 /tmp/ccwUqK19.ltrans7.ltrans.o
+                0x0000000008009664      0xc60 /tmp/ccOjJZxi.ltrans7.ltrans.o
                 0x0000000008009664                MagicPatch.part.2.lto_priv.143
  .text.TIM4_IRQHandler
-                0x000000000800a2c4        0x4 /tmp/ccwUqK19.ltrans8.ltrans.o
+                0x000000000800a2c4        0x4 /tmp/ccOjJZxi.ltrans8.ltrans.o
                 0x000000000800a2c4                TIM4_IRQHandler
  .text.DMA1_Stream3_IRQHandler
-                0x000000000800a2c8        0x8 /tmp/ccwUqK19.ltrans8.ltrans.o
+                0x000000000800a2c8        0x8 /tmp/ccOjJZxi.ltrans8.ltrans.o
                 0x000000000800a2c8                DMA1_Stream3_IRQHandler
  .text.DMA1_Stream7_IRQHandler
-                0x000000000800a2d0        0xc /tmp/ccwUqK19.ltrans8.ltrans.o
+                0x000000000800a2d0        0xc /tmp/ccOjJZxi.ltrans8.ltrans.o
                 0x000000000800a2d0                DMA1_Stream7_IRQHandler
  .text.EXTI1_IRQHandler
-                0x000000000800a2dc       0x14 /tmp/ccwUqK19.ltrans8.ltrans.o
+                0x000000000800a2dc       0x14 /tmp/ccOjJZxi.ltrans8.ltrans.o
                 0x000000000800a2dc                EXTI1_IRQHandler
  .text.EXTI0_IRQHandler
-                0x000000000800a2f0       0x14 /tmp/ccwUqK19.ltrans8.ltrans.o
+                0x000000000800a2f0       0x14 /tmp/ccOjJZxi.ltrans8.ltrans.o
                 0x000000000800a2f0                EXTI0_IRQHandler
  .text.SysTick_Handler
-                0x000000000800a304       0xcc /tmp/ccwUqK19.ltrans8.ltrans.o
+                0x000000000800a304       0xcc /tmp/ccOjJZxi.ltrans8.ltrans.o
                 0x000000000800a304                SysTick_Handler
  .text.OTG_FS_IRQHandler
-                0x000000000800a3d0      0x978 /tmp/ccwUqK19.ltrans8.ltrans.o
+                0x000000000800a3d0      0x978 /tmp/ccOjJZxi.ltrans8.ltrans.o
                 0x000000000800a3d0                OTG_FS_IRQHandler
  .text.HAL_GPIO_Init.constprop.104
-                0x000000000800ad48       0x78 /tmp/ccwUqK19.ltrans9.ltrans.o
+                0x000000000800ad48       0x78 /tmp/ccOjJZxi.ltrans9.ltrans.o
                 0x000000000800ad48                HAL_GPIO_Init.constprop.104
  .text.HAL_NVIC_SetPriority.constprop.102
-                0x000000000800adc0       0x64 /tmp/ccwUqK19.ltrans9.ltrans.o
+                0x000000000800adc0       0x64 /tmp/ccOjJZxi.ltrans9.ltrans.o
                 0x000000000800adc0                HAL_NVIC_SetPriority.constprop.102
  .text.USBH_Get_DevDesc.constprop.110
-                0x000000000800ae24      0x48c /tmp/ccwUqK19.ltrans9.ltrans.o
+                0x000000000800ae24      0x48c /tmp/ccOjJZxi.ltrans9.ltrans.o
                 0x000000000800ae24                USBH_Get_DevDesc.constprop.110
  .text.USBH_Get_StringDesc.constprop.116
-                0x000000000800b2b0      0x418 /tmp/ccwUqK19.ltrans10.ltrans.o
+                0x000000000800b2b0      0x418 /tmp/ccOjJZxi.ltrans10.ltrans.o
                 0x000000000800b2b0                USBH_Get_StringDesc.constprop.116
  .text.USBH_MIDI_SOFProcess.lto_priv.170
-                0x000000000800b6c8        0x4 /tmp/ccwUqK19.ltrans11.ltrans.o
+                0x000000000800b6c8        0x4 /tmp/ccOjJZxi.ltrans11.ltrans.o
                 0x000000000800b6c8                USBH_MIDI_SOFProcess.lto_priv.170
  .text.HAL_Delay
-                0x000000000800b6cc       0x1c /tmp/ccwUqK19.ltrans11.ltrans.o
+                0x000000000800b6cc       0x1c /tmp/ccOjJZxi.ltrans11.ltrans.o
                 0x000000000800b6cc                HAL_Delay
  .text.USBH_CtlReq
-                0x000000000800b6e8      0x3b4 /tmp/ccwUqK19.ltrans11.ltrans.o
+                0x000000000800b6e8      0x3b4 /tmp/ccOjJZxi.ltrans11.ltrans.o
                 0x000000000800b6e8                USBH_CtlReq
  .text.USB_WritePacket
-                0x000000000800ba9c       0x28 /tmp/ccwUqK19.ltrans12.ltrans.o
+                0x000000000800ba9c       0x28 /tmp/ccOjJZxi.ltrans12.ltrans.o
  .text.USB_FlushRxFifo
-                0x000000000800bac4       0x20 /tmp/ccwUqK19.ltrans12.ltrans.o
+                0x000000000800bac4       0x20 /tmp/ccOjJZxi.ltrans12.ltrans.o
  .text.USB_FlushTxFifo
-                0x000000000800bae4       0x24 /tmp/ccwUqK19.ltrans12.ltrans.o
+                0x000000000800bae4       0x24 /tmp/ccOjJZxi.ltrans12.ltrans.o
  .text.USB_DisableGlobalInt
-                0x000000000800bb08       0x10 /tmp/ccwUqK19.ltrans12.ltrans.o
+                0x000000000800bb08       0x10 /tmp/ccOjJZxi.ltrans12.ltrans.o
                 0x000000000800bb08                USB_DisableGlobalInt
  .text.USB_EnableGlobalInt
-                0x000000000800bb18       0x10 /tmp/ccwUqK19.ltrans12.ltrans.o
+                0x000000000800bb18       0x10 /tmp/ccOjJZxi.ltrans12.ltrans.o
                 0x000000000800bb18                USB_EnableGlobalInt
  .text.I2S_DMAError
-                0x000000000800bb28       0x30 /tmp/ccwUqK19.ltrans12.ltrans.o
+                0x000000000800bb28       0x30 /tmp/ccOjJZxi.ltrans12.ltrans.o
                 0x000000000800bb28                I2S_DMAError
  .text.I2S_DMATxHalfCplt
-                0x000000000800bb58       0x3c /tmp/ccwUqK19.ltrans12.ltrans.o
+                0x000000000800bb58       0x3c /tmp/ccOjJZxi.ltrans12.ltrans.o
                 0x000000000800bb58                I2S_DMATxHalfCplt
  .text.I2S_DMATxCplt
-                0x000000000800bb94       0x94 /tmp/ccwUqK19.ltrans12.ltrans.o
+                0x000000000800bb94       0x94 /tmp/ccOjJZxi.ltrans12.ltrans.o
                 0x000000000800bb94                I2S_DMATxCplt
  .text.USB_StopHost
-                0x000000000800bc28      0x100 /tmp/ccwUqK19.ltrans12.ltrans.o
+                0x000000000800bc28      0x100 /tmp/ccOjJZxi.ltrans12.ltrans.o
                 0x000000000800bc28                USB_StopHost
  .text.USB_DoPing
-                0x000000000800bd28       0x84 /tmp/ccwUqK19.ltrans12.ltrans.o
+                0x000000000800bd28       0x84 /tmp/ccOjJZxi.ltrans12.ltrans.o
  .text.USB_HC_Halt
-                0x000000000800bdac      0x1f8 /tmp/ccwUqK19.ltrans12.ltrans.o
+                0x000000000800bdac      0x1f8 /tmp/ccOjJZxi.ltrans12.ltrans.o
                 0x000000000800bdac                USB_HC_Halt
  .text.USB_HC_ReadInterrupt
-                0x000000000800bfa4       0x20 /tmp/ccwUqK19.ltrans12.ltrans.o
+                0x000000000800bfa4       0x20 /tmp/ccOjJZxi.ltrans12.ltrans.o
                 0x000000000800bfa4                USB_HC_ReadInterrupt
  .text.USB_HC_StartXfer
-                0x000000000800bfc4      0x284 /tmp/ccwUqK19.ltrans12.ltrans.o
+                0x000000000800bfc4      0x284 /tmp/ccOjJZxi.ltrans12.ltrans.o
                 0x000000000800bfc4                USB_HC_StartXfer
  .text.unlikely.USB_CoreReset.lto_priv.171
-                0x000000000800c248       0x30 /tmp/ccwUqK19.ltrans12.ltrans.o
+                0x000000000800c248       0x30 /tmp/ccOjJZxi.ltrans12.ltrans.o
                 0x000000000800c248                USB_CoreReset.lto_priv.171
  .text.HAL_RCC_GetHCLKFreq
-                0x000000000800c278       0xc4 /tmp/ccwUqK19.ltrans12.ltrans.o
+                0x000000000800c278       0xc4 /tmp/ccOjJZxi.ltrans12.ltrans.o
                 0x000000000800c278                HAL_RCC_GetHCLKFreq
  .text.HAL_GPIO_Init
-                0x000000000800c33c      0x22c /tmp/ccwUqK19.ltrans12.ltrans.o
+                0x000000000800c33c      0x22c /tmp/ccOjJZxi.ltrans12.ltrans.o
                 0x000000000800c33c                HAL_GPIO_Init
  .text.seq_sequence_new
-                0x000000000800c568       0xc4 /tmp/ccwUqK19.ltrans13.ltrans.o
+                0x000000000800c568       0xc4 /tmp/ccOjJZxi.ltrans13.ltrans.o
                 0x000000000800c568                seq_sequence_new
  .text.Synth_Init
-                0x000000000800c62c      0x690 /tmp/ccwUqK19.ltrans13.ltrans.o
+                0x000000000800c62c      0x690 /tmp/ccOjJZxi.ltrans13.ltrans.o
                 0x000000000800c62c                Synth_Init
  .text.SVF_calcSample
-                0x000000000800ccbc      0x270 /tmp/ccwUqK19.ltrans13.ltrans.o
+                0x000000000800ccbc      0x270 /tmp/ccOjJZxi.ltrans13.ltrans.o
                 0x000000000800ccbc                SVF_calcSample
  .text.Error_Handler
-                0x000000000800cf2c       0x10 /tmp/ccwUqK19.ltrans13.ltrans.o
+                0x000000000800cf2c       0x10 /tmp/ccOjJZxi.ltrans13.ltrans.o
                 0x000000000800cf2c                Error_Handler
  .text.cs43l22_Resume
-                0x000000000800cf3c      0x1ac /tmp/ccwUqK19.ltrans14.ltrans.o
+                0x000000000800cf3c      0x1ac /tmp/ccOjJZxi.ltrans14.ltrans.o
                 0x000000000800cf3c                cs43l22_Resume
  .text.cs43l22_Pause
-                0x000000000800d0e8      0x108 /tmp/ccwUqK19.ltrans14.ltrans.o
+                0x000000000800d0e8      0x108 /tmp/ccOjJZxi.ltrans14.ltrans.o
                 0x000000000800d0e8                cs43l22_Pause
  .text.cs43l22_Play
-                0x000000000800d1f0      0x128 /tmp/ccwUqK19.ltrans14.ltrans.o
+                0x000000000800d1f0      0x128 /tmp/ccOjJZxi.ltrans14.ltrans.o
                 0x000000000800d1f0                cs43l22_Play
  .text.USBH_MIDI_ClassRequest.lto_priv.168
-                0x000000000800d318       0x10 /tmp/ccwUqK19.ltrans15.ltrans.o
+                0x000000000800d318       0x10 /tmp/ccOjJZxi.ltrans15.ltrans.o
                 0x000000000800d318                USBH_MIDI_ClassRequest.lto_priv.168
  .text.USBH_MIDI_InterfaceInit.lto_priv.166
-                0x000000000800d328      0x520 /tmp/ccwUqK19.ltrans15.ltrans.o
+                0x000000000800d328      0x520 /tmp/ccOjJZxi.ltrans15.ltrans.o
                 0x000000000800d328                USBH_MIDI_InterfaceInit.lto_priv.166
  .text.USBH_MIDI_InterfaceDeInit.lto_priv.167
-                0x000000000800d848       0xa8 /tmp/ccwUqK19.ltrans15.ltrans.o
+                0x000000000800d848       0xa8 /tmp/ccOjJZxi.ltrans15.ltrans.o
                 0x000000000800d848                USBH_MIDI_InterfaceDeInit.lto_priv.167
  .text.HAL_InitTick.constprop.83
-                0x000000000800d8f0       0x44 /tmp/ccwUqK19.ltrans16.ltrans.o
+                0x000000000800d8f0       0x44 /tmp/ccOjJZxi.ltrans16.ltrans.o
                 0x000000000800d8f0                HAL_InitTick.constprop.83
  .text.I2C_RequestMemoryWrite.constprop.59
-                0x000000000800d934       0xdc /tmp/ccwUqK19.ltrans16.ltrans.o
+                0x000000000800d934       0xdc /tmp/ccOjJZxi.ltrans16.ltrans.o
                 0x000000000800d934                I2C_RequestMemoryWrite.constprop.59
  .text.HAL_I2C_Mem_Write.part.16.constprop.56
-                0x000000000800da10       0x9c /tmp/ccwUqK19.ltrans16.ltrans.o
+                0x000000000800da10       0x9c /tmp/ccOjJZxi.ltrans16.ltrans.o
                 0x000000000800da10                HAL_I2C_Mem_Write.part.16.constprop.56
  .text.PendSV_Handler
-                0x000000000800daac        0x4 /tmp/ccwUqK19.ltrans17.ltrans.o
+                0x000000000800daac        0x4 /tmp/ccOjJZxi.ltrans17.ltrans.o
                 0x000000000800daac                PendSV_Handler
  .text.DebugMon_Handler
-                0x000000000800dab0        0x4 /tmp/ccwUqK19.ltrans17.ltrans.o
+                0x000000000800dab0        0x4 /tmp/ccOjJZxi.ltrans17.ltrans.o
                 0x000000000800dab0                DebugMon_Handler
  .text.SVC_Handler
-                0x000000000800dab4        0x4 /tmp/ccwUqK19.ltrans17.ltrans.o
+                0x000000000800dab4        0x4 /tmp/ccOjJZxi.ltrans17.ltrans.o
                 0x000000000800dab4                SVC_Handler
  .text.UsageFault_Handler
-                0x000000000800dab8        0x4 /tmp/ccwUqK19.ltrans17.ltrans.o
+                0x000000000800dab8        0x4 /tmp/ccOjJZxi.ltrans17.ltrans.o
                 0x000000000800dab8                UsageFault_Handler
  .text.BusFault_Handler
-                0x000000000800dabc        0x4 /tmp/ccwUqK19.ltrans17.ltrans.o
+                0x000000000800dabc        0x4 /tmp/ccOjJZxi.ltrans17.ltrans.o
                 0x000000000800dabc                BusFault_Handler
  .text.MemManage_Handler
-                0x000000000800dac0        0x4 /tmp/ccwUqK19.ltrans17.ltrans.o
+                0x000000000800dac0        0x4 /tmp/ccOjJZxi.ltrans17.ltrans.o
                 0x000000000800dac0                MemManage_Handler
  .text.HardFault_Handler
-                0x000000000800dac4        0x4 /tmp/ccwUqK19.ltrans17.ltrans.o
+                0x000000000800dac4        0x4 /tmp/ccOjJZxi.ltrans17.ltrans.o
                 0x000000000800dac4                HardFault_Handler
  .text.NMI_Handler
-                0x000000000800dac8        0x4 /tmp/ccwUqK19.ltrans17.ltrans.o
+                0x000000000800dac8        0x4 /tmp/ccOjJZxi.ltrans17.ltrans.o
                 0x000000000800dac8                NMI_Handler
  .text.I2Cx_Init.lto_priv.176
-                0x000000000800dacc      0x204 /tmp/ccwUqK19.ltrans17.ltrans.o
+                0x000000000800dacc      0x204 /tmp/ccOjJZxi.ltrans17.ltrans.o
                 0x000000000800dacc                I2Cx_Init.lto_priv.176
  .text.BSP_LED_Init
-                0x000000000800dcd0       0x58 /tmp/ccwUqK19.ltrans17.ltrans.o
+                0x000000000800dcd0       0x58 /tmp/ccOjJZxi.ltrans17.ltrans.o
                 0x000000000800dcd0                BSP_LED_Init
  .text.MagicFX.part.1.lto_priv.144
-                0x000000000800dd28      0x42c /tmp/ccwUqK19.ltrans18.ltrans.o
+                0x000000000800dd28      0x42c /tmp/ccOjJZxi.ltrans18.ltrans.o
                 0x000000000800dd28                MagicFX.part.1.lto_priv.144
  .text.SystemInit
-                0x000000000800e154       0x50 /tmp/ccwUqK19.ltrans18.ltrans.o
+                0x000000000800e154       0x50 /tmp/ccOjJZxi.ltrans18.ltrans.o
                 0x000000000800e154                SystemInit
  .text.USBH_UserProcess_callback.lto_priv.164
-                0x000000000800e1a4       0x6c /tmp/ccwUqK19.ltrans19.ltrans.o
+                0x000000000800e1a4       0x6c /tmp/ccOjJZxi.ltrans19.ltrans.o
                 0x000000000800e1a4                USBH_UserProcess_callback.lto_priv.164
  .text.delay_read
-                0x000000000800e210      0x144 /tmp/ccwUqK19.ltrans20.ltrans.o
+                0x000000000800e210      0x144 /tmp/ccOjJZxi.ltrans20.ltrans.o
  .text.mono_chorus_compute
-                0x000000000800e354      0x148 /tmp/ccwUqK19.ltrans20.ltrans.o
+                0x000000000800e354      0x148 /tmp/ccOjJZxi.ltrans20.ltrans.o
                 0x000000000800e354                mono_chorus_compute
  .text.malloc   0x000000000800e49c       0x10 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc.a(lib_a-malloc.o)
                 0x000000000800e49c                malloc
@@ -1036,70 +1036,70 @@ LOAD /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtn.o
  *(.rodata)
  *(.rodata*)
  .rodata.str1.4
-                0x00000000080107d8        0x5 /tmp/ccwUqK19.ltrans0.ltrans.o
+                0x00000000080107d8        0x5 /tmp/ccOjJZxi.ltrans0.ltrans.o
                                           0x8 (size before relaxing)
  *fill*         0x00000000080107dd        0x3 
  .rodata.CSWTCH.11
-                0x00000000080107e0        0x4 /tmp/ccwUqK19.ltrans0.ltrans.o
+                0x00000000080107e0        0x4 /tmp/ccOjJZxi.ltrans0.ltrans.o
  .rodata.step_dd_table
-                0x00000000080107e4     0x9008 /tmp/ccwUqK19.ltrans1.ltrans.o
+                0x00000000080107e4     0x9008 /tmp/ccOjJZxi.ltrans1.ltrans.o
  .rodata.slope_dd_table
-                0x00000000080197ec     0x4704 /tmp/ccwUqK19.ltrans1.ltrans.o
+                0x00000000080197ec     0x4704 /tmp/ccOjJZxi.ltrans1.ltrans.o
  .rodata.notesFreq
-                0x000000000801def0      0x1ac /tmp/ccwUqK19.ltrans1.ltrans.o
+                0x000000000801def0      0x1ac /tmp/ccOjJZxi.ltrans1.ltrans.o
  .rodata.sinetable
-                0x000000000801e09c     0x1004 /tmp/ccwUqK19.ltrans1.ltrans.o
+                0x000000000801e09c     0x1004 /tmp/ccOjJZxi.ltrans1.ltrans.o
                 0x000000000801e09c                sinetable
  .rodata.MIDIscale04
-                0x000000000801f0a0        0x8 /tmp/ccwUqK19.ltrans7.ltrans.o
+                0x000000000801f0a0        0x8 /tmp/ccOjJZxi.ltrans7.ltrans.o
                 0x000000000801f0a0                MIDIscale04
  .rodata.MIDIscale05
-                0x000000000801f0a8        0x8 /tmp/ccwUqK19.ltrans7.ltrans.o
+                0x000000000801f0a8        0x8 /tmp/ccOjJZxi.ltrans7.ltrans.o
                 0x000000000801f0a8                MIDIscale05
  .rodata.MIDIscale11
-                0x000000000801f0b0        0x8 /tmp/ccwUqK19.ltrans7.ltrans.o
+                0x000000000801f0b0        0x8 /tmp/ccOjJZxi.ltrans7.ltrans.o
                 0x000000000801f0b0                MIDIscale11
  .rodata.MIDIscale12
-                0x000000000801f0b8       0x10 /tmp/ccwUqK19.ltrans7.ltrans.o
+                0x000000000801f0b8       0x10 /tmp/ccOjJZxi.ltrans7.ltrans.o
                 0x000000000801f0b8                MIDIscale12
  .rodata.MIDIscale08
-                0x000000000801f0c8        0x4 /tmp/ccwUqK19.ltrans7.ltrans.o
+                0x000000000801f0c8        0x4 /tmp/ccOjJZxi.ltrans7.ltrans.o
                 0x000000000801f0c8                MIDIscale08
  .rodata.MIDIscale09
-                0x000000000801f0cc        0x4 /tmp/ccwUqK19.ltrans7.ltrans.o
+                0x000000000801f0cc        0x4 /tmp/ccOjJZxi.ltrans7.ltrans.o
                 0x000000000801f0cc                MIDIscale09
  .rodata.MIDIscale07
-                0x000000000801f0d0        0x4 /tmp/ccwUqK19.ltrans7.ltrans.o
+                0x000000000801f0d0        0x4 /tmp/ccOjJZxi.ltrans7.ltrans.o
                 0x000000000801f0d0                MIDIscale07
  .rodata.MIDIscale06
-                0x000000000801f0d4        0x8 /tmp/ccwUqK19.ltrans7.ltrans.o
+                0x000000000801f0d4        0x8 /tmp/ccOjJZxi.ltrans7.ltrans.o
                 0x000000000801f0d4                MIDIscale06
  .rodata.MIDIscale10
-                0x000000000801f0dc        0x8 /tmp/ccwUqK19.ltrans7.ltrans.o
+                0x000000000801f0dc        0x8 /tmp/ccOjJZxi.ltrans7.ltrans.o
                 0x000000000801f0dc                MIDIscale10
  .rodata.CSWTCH.11.lto_priv.178
-                0x000000000801f0e4       0x3c /tmp/ccwUqK19.ltrans7.ltrans.o
+                0x000000000801f0e4       0x3c /tmp/ccOjJZxi.ltrans7.ltrans.o
                 0x000000000801f0e4                CSWTCH.11.lto_priv.178
  .rodata.MIDIscale14
-                0x000000000801f120        0x4 /tmp/ccwUqK19.ltrans7.ltrans.o
+                0x000000000801f120        0x4 /tmp/ccOjJZxi.ltrans7.ltrans.o
                 0x000000000801f120                MIDIscale14
  .rodata.MIDIscale01
-                0x000000000801f124        0x8 /tmp/ccwUqK19.ltrans7.ltrans.o
+                0x000000000801f124        0x8 /tmp/ccOjJZxi.ltrans7.ltrans.o
                 0x000000000801f124                MIDIscale01
  .rodata.MIDIscale02
-                0x000000000801f12c        0x8 /tmp/ccwUqK19.ltrans7.ltrans.o
+                0x000000000801f12c        0x8 /tmp/ccOjJZxi.ltrans7.ltrans.o
                 0x000000000801f12c                MIDIscale02
  .rodata.MIDIscale03
-                0x000000000801f134        0x8 /tmp/ccwUqK19.ltrans7.ltrans.o
+                0x000000000801f134        0x8 /tmp/ccOjJZxi.ltrans7.ltrans.o
                 0x000000000801f134                MIDIscale03
  .rodata.MIDIscale13
-                0x000000000801f13c        0x4 /tmp/ccwUqK19.ltrans13.ltrans.o
+                0x000000000801f13c        0x4 /tmp/ccOjJZxi.ltrans13.ltrans.o
                 0x000000000801f13c                MIDIscale13
  .rodata.GPIO_PIN
-                0x000000000801f140        0x8 /tmp/ccwUqK19.ltrans13.ltrans.o
+                0x000000000801f140        0x8 /tmp/ccOjJZxi.ltrans13.ltrans.o
                 0x000000000801f140                GPIO_PIN
  .rodata.APBAHBPrescTable
-                0x000000000801f148       0x10 /tmp/ccwUqK19.ltrans17.ltrans.o
+                0x000000000801f148       0x10 /tmp/ccOjJZxi.ltrans17.ltrans.o
                 0x000000000801f148                APBAHBPrescTable
  .rodata.str1.4
                 0x000000000801f158        0x2 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc.a(lib_a-impure.o)
@@ -1169,32 +1169,32 @@ LOAD /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtn.o
  *(.data)
  *(.data*)
  .data.cs43l22_drv
-                0x0000000020000000       0x2c /tmp/ccwUqK19.ltrans0.ltrans.o
+                0x0000000020000000       0x2c /tmp/ccOjJZxi.ltrans0.ltrans.o
  .data.MIDI_Class
-                0x000000002000002c       0x20 /tmp/ccwUqK19.ltrans0.ltrans.o
+                0x000000002000002c       0x20 /tmp/ccOjJZxi.ltrans0.ltrans.o
  .data.demoMode
-                0x000000002000004c        0x1 /tmp/ccwUqK19.ltrans1.ltrans.o
+                0x000000002000004c        0x1 /tmp/ccOjJZxi.ltrans1.ltrans.o
                 0x000000002000004c                demoMode
  *fill*         0x000000002000004d        0x3 
  .data.fdb.lto_priv.173
-                0x0000000020000050        0x4 /tmp/ccwUqK19.ltrans1.ltrans.o
+                0x0000000020000050        0x4 /tmp/ccOjJZxi.ltrans1.ltrans.o
                 0x0000000020000050                fdb.lto_priv.173
  .data.centralFreq
-                0x0000000020000054        0x4 /tmp/ccwUqK19.ltrans1.ltrans.o
+                0x0000000020000054        0x4 /tmp/ccOjJZxi.ltrans1.ltrans.o
                 0x0000000020000054                centralFreq
  .data.wet.lto_priv.141
-                0x0000000020000058        0x4 /tmp/ccwUqK19.ltrans1.ltrans.o
+                0x0000000020000058        0x4 /tmp/ccOjJZxi.ltrans1.ltrans.o
                 0x0000000020000058                wet.lto_priv.141
- .data.volume   0x000000002000005c        0x1 /tmp/ccwUqK19.ltrans2.ltrans.o
+ .data.volume   0x000000002000005c        0x1 /tmp/ccOjJZxi.ltrans2.ltrans.o
  .data.Is_cs43l22_Stop.lto_priv.177
-                0x000000002000005d        0x1 /tmp/ccwUqK19.ltrans6.ltrans.o
+                0x000000002000005d        0x1 /tmp/ccOjJZxi.ltrans6.ltrans.o
                 0x000000002000005d                Is_cs43l22_Stop.lto_priv.177
- .data.Count    0x000000002000005e        0x1 /tmp/ccwUqK19.ltrans8.ltrans.o
+ .data.Count    0x000000002000005e        0x1 /tmp/ccOjJZxi.ltrans8.ltrans.o
  *fill*         0x000000002000005f        0x1 
  .data.SystemCoreClock
-                0x0000000020000060        0x4 /tmp/ccwUqK19.ltrans12.ltrans.o
+                0x0000000020000060        0x4 /tmp/ccOjJZxi.ltrans12.ltrans.o
  .data.GPIO_PORT
-                0x0000000020000064       0x10 /tmp/ccwUqK19.ltrans13.ltrans.o
+                0x0000000020000064       0x10 /tmp/ccOjJZxi.ltrans13.ltrans.o
                 0x0000000020000064                GPIO_PORT
  .data.__malloc_av_
                 0x0000000020000074      0x408 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc.a(lib_a-mallocr.o)
@@ -1229,7 +1229,7 @@ LOAD /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtn.o
                 0x0000000010000000                . = ALIGN (0x4)
                 0x0000000010000000                _sccmram = .
  *(.ccmram)
- .ccmram        0x0000000010000000     0x3ed4 /tmp/ccwUqK19.ltrans1.ltrans.o
+ .ccmram        0x0000000010000000     0x3ed4 /tmp/ccOjJZxi.ltrans1.ltrans.o
                 0x0000000010000000                seq
                 0x0000000010000054                noteG
                 0x0000000010000068                a
@@ -1275,101 +1275,101 @@ LOAD /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtn.o
  .bss           0x00000000200008b8       0x1c /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtbegin.o
  *(.bss*)
  .bss.audiobuff
-                0x00000000200008d4      0xfa0 /tmp/ccwUqK19.ltrans0.ltrans.o
+                0x00000000200008d4      0xfa0 /tmp/ccOjJZxi.ltrans0.ltrans.o
                 0x00000000200008d4                audiobuff
  .bss.hAudioOutI2s
-                0x0000000020001874       0x40 /tmp/ccwUqK19.ltrans0.ltrans.o
+                0x0000000020001874       0x40 /tmp/ccOjJZxi.ltrans0.ltrans.o
                 0x0000000020001874                hAudioOutI2s
  .bss.hdma_i2sTx.7231
-                0x00000000200018b4       0x50 /tmp/ccwUqK19.ltrans0.ltrans.o
+                0x00000000200018b4       0x50 /tmp/ccOjJZxi.ltrans0.ltrans.o
  .bss.RngHandle
-                0x0000000020001904        0x8 /tmp/ccwUqK19.ltrans0.ltrans.o
- .bss.hHCD      0x000000002000190c      0x290 /tmp/ccwUqK19.ltrans0.ltrans.o
+                0x0000000020001904        0x8 /tmp/ccOjJZxi.ltrans0.ltrans.o
+ .bss.hHCD      0x000000002000190c      0x290 /tmp/ccOjJZxi.ltrans0.ltrans.o
                 0x000000002000190c                hHCD
  .bss.MIDI_RX_Buffer
-                0x0000000020001b9c       0x40 /tmp/ccwUqK19.ltrans0.ltrans.o
+                0x0000000020001b9c       0x40 /tmp/ccOjJZxi.ltrans0.ltrans.o
                 0x0000000020001b9c                MIDI_RX_Buffer
  .bss.pAudioDrv.lto_priv.179
-                0x0000000020001bdc        0x4 /tmp/ccwUqK19.ltrans0.ltrans.o
+                0x0000000020001bdc        0x4 /tmp/ccOjJZxi.ltrans0.ltrans.o
                 0x0000000020001bdc                pAudioDrv.lto_priv.179
- .bss.old_dy    0x0000000020001be0        0x4 /tmp/ccwUqK19.ltrans1.ltrans.o
+ .bss.old_dy    0x0000000020001be0        0x4 /tmp/ccOjJZxi.ltrans1.ltrans.o
  .bss.delayline.lto_priv.162
-                0x0000000020001be4    0x1d4c8 /tmp/ccwUqK19.ltrans1.ltrans.o
+                0x0000000020001be4    0x1d4c8 /tmp/ccOjJZxi.ltrans1.ltrans.o
                 0x0000000020001be4                delayline.lto_priv.162
  .bss.filterFreq2
-                0x000000002001f0ac        0x4 /tmp/ccwUqK19.ltrans1.ltrans.o
+                0x000000002001f0ac        0x4 /tmp/ccOjJZxi.ltrans1.ltrans.o
                 0x000000002001f0ac                filterFreq2
  .bss.writepos.lto_priv.163
-                0x000000002001f0b0        0x4 /tmp/ccwUqK19.ltrans1.ltrans.o
+                0x000000002001f0b0        0x4 /tmp/ccOjJZxi.ltrans1.ltrans.o
                 0x000000002001f0b0                writepos.lto_priv.163
- .bss.a1        0x000000002001f0b4        0x4 /tmp/ccwUqK19.ltrans1.ltrans.o
+ .bss.a1        0x000000002001f0b4        0x4 /tmp/ccOjJZxi.ltrans1.ltrans.o
  .bss.wet.lto_priv.142
-                0x000000002001f0b8        0x4 /tmp/ccwUqK19.ltrans1.ltrans.o
+                0x000000002001f0b8        0x4 /tmp/ccOjJZxi.ltrans1.ltrans.o
                 0x000000002001f0b8                wet.lto_priv.142
  .bss.dmax.lto_priv.155
-                0x000000002001f0bc        0x4 /tmp/ccwUqK19.ltrans1.ltrans.o
+                0x000000002001f0bc        0x4 /tmp/ccOjJZxi.ltrans1.ltrans.o
                 0x000000002001f0bc                dmax.lto_priv.155
  .bss.filterFreq
-                0x000000002001f0c0        0x4 /tmp/ccwUqK19.ltrans1.ltrans.o
+                0x000000002001f0c0        0x4 /tmp/ccOjJZxi.ltrans1.ltrans.o
                 0x000000002001f0c0                filterFreq
- .bss.lfoPhase  0x000000002001f0c4        0x4 /tmp/ccwUqK19.ltrans1.ltrans.o
- .bss.old       0x000000002001f0c8       0x18 /tmp/ccwUqK19.ltrans1.ltrans.o
+ .bss.lfoPhase  0x000000002001f0c4        0x4 /tmp/ccOjJZxi.ltrans1.ltrans.o
+ .bss.old       0x000000002001f0c8       0x18 /tmp/ccOjJZxi.ltrans1.ltrans.o
  .bss.lfoInc.lto_priv.156
-                0x000000002001f0e0        0x4 /tmp/ccwUqK19.ltrans1.ltrans.o
+                0x000000002001f0e0        0x4 /tmp/ccOjJZxi.ltrans1.ltrans.o
                 0x000000002001f0e0                lfoInc.lto_priv.156
- .bss.zm1       0x000000002001f0e4        0x4 /tmp/ccwUqK19.ltrans1.ltrans.o
+ .bss.zm1       0x000000002001f0e4        0x4 /tmp/ccOjJZxi.ltrans1.ltrans.o
  .bss.dmin.lto_priv.154
-                0x000000002001f0e8        0x4 /tmp/ccwUqK19.ltrans1.ltrans.o
+                0x000000002001f0e8        0x4 /tmp/ccOjJZxi.ltrans1.ltrans.o
                 0x000000002001f0e8                dmin.lto_priv.154
  .bss.readpos.lto_priv.161
-                0x000000002001f0ec        0x4 /tmp/ccwUqK19.ltrans1.ltrans.o
+                0x000000002001f0ec        0x4 /tmp/ccOjJZxi.ltrans1.ltrans.o
                 0x000000002001f0ec                readpos.lto_priv.161
  .bss.fb.lto_priv.153
-                0x000000002001f0f0        0x4 /tmp/ccwUqK19.ltrans1.ltrans.o
+                0x000000002001f0f0        0x4 /tmp/ccOjJZxi.ltrans1.ltrans.o
                 0x000000002001f0f0                fb.lto_priv.153
- .bss.freeze    0x000000002001f0f4        0x1 /tmp/ccwUqK19.ltrans1.ltrans.o
+ .bss.freeze    0x000000002001f0f4        0x1 /tmp/ccOjJZxi.ltrans1.ltrans.o
                 0x000000002001f0f4                freeze
  .bss.OutputDev
-                0x000000002001f0f5        0x1 /tmp/ccwUqK19.ltrans6.ltrans.o
+                0x000000002001f0f5        0x1 /tmp/ccOjJZxi.ltrans6.ltrans.o
                 0x000000002001f0f5                OutputDev
  *fill*         0x000000002001f0f6        0x2 
  .bss.TimingDelay1
-                0x000000002001f0f8        0x4 /tmp/ccwUqK19.ltrans8.ltrans.o
+                0x000000002001f0f8        0x4 /tmp/ccOjJZxi.ltrans8.ltrans.o
  .bss.BlueLED_counter
-                0x000000002001f0fc        0x4 /tmp/ccwUqK19.ltrans8.ltrans.o
+                0x000000002001f0fc        0x4 /tmp/ccOjJZxi.ltrans8.ltrans.o
  .bss.DebouncedKeyPress
-                0x000000002001f100        0x1 /tmp/ccwUqK19.ltrans8.ltrans.o
+                0x000000002001f100        0x1 /tmp/ccOjJZxi.ltrans8.ltrans.o
  .bss.Key_changed
-                0x000000002001f101        0x1 /tmp/ccwUqK19.ltrans8.ltrans.o
+                0x000000002001f101        0x1 /tmp/ccOjJZxi.ltrans8.ltrans.o
  .bss.Key_pressed
-                0x000000002001f102        0x1 /tmp/ccwUqK19.ltrans8.ltrans.o
+                0x000000002001f102        0x1 /tmp/ccOjJZxi.ltrans8.ltrans.o
  *fill*         0x000000002001f103        0x1 
  .bss.TimingDelay
-                0x000000002001f104        0x4 /tmp/ccwUqK19.ltrans8.ltrans.o
- .bss.hUSBHost  0x000000002001f108      0x618 /tmp/ccwUqK19.ltrans10.ltrans.o
+                0x000000002001f104        0x4 /tmp/ccOjJZxi.ltrans8.ltrans.o
+ .bss.hUSBHost  0x000000002001f108      0x618 /tmp/ccOjJZxi.ltrans10.ltrans.o
                 0x000000002001f108                hUSBHost
  .bss.buffer_offset
-                0x000000002001f720        0x1 /tmp/ccwUqK19.ltrans12.ltrans.o
+                0x000000002001f720        0x1 /tmp/ccOjJZxi.ltrans12.ltrans.o
  *fill*         0x000000002001f721        0x3 
  .bss.swrate.lto_priv.174
-                0x000000002001f724        0x4 /tmp/ccwUqK19.ltrans13.ltrans.o
+                0x000000002001f724        0x4 /tmp/ccOjJZxi.ltrans13.ltrans.o
                 0x000000002001f724                swrate.lto_priv.174
  .bss.rateCoeff
-                0x000000002001f728        0x4 /tmp/ccwUqK19.ltrans13.ltrans.o
+                0x000000002001f728        0x4 /tmp/ccOjJZxi.ltrans13.ltrans.o
                 0x000000002001f728                rateCoeff
  .bss.shift.lto_priv.172
-                0x000000002001f72c        0x4 /tmp/ccwUqK19.ltrans13.ltrans.o
+                0x000000002001f72c        0x4 /tmp/ccOjJZxi.ltrans13.ltrans.o
                 0x000000002001f72c                shift.lto_priv.172
- .bss.f_min     0x000000002001f730        0x4 /tmp/ccwUqK19.ltrans13.ltrans.o
- .bss.f_max     0x000000002001f734        0x4 /tmp/ccwUqK19.ltrans13.ltrans.o
+ .bss.f_min     0x000000002001f730        0x4 /tmp/ccOjJZxi.ltrans13.ltrans.o
+ .bss.f_max     0x000000002001f734        0x4 /tmp/ccOjJZxi.ltrans13.ltrans.o
  .bss.I2cHandle.lto_priv.175
-                0x000000002001f738       0x38 /tmp/ccwUqK19.ltrans16.ltrans.o
+                0x000000002001f738       0x38 /tmp/ccOjJZxi.ltrans16.ltrans.o
                 0x000000002001f738                I2cHandle.lto_priv.175
  .bss.uwTick.lto_priv.165
-                0x000000002001f770        0x4 /tmp/ccwUqK19.ltrans16.ltrans.o
+                0x000000002001f770        0x4 /tmp/ccOjJZxi.ltrans16.ltrans.o
                 0x000000002001f770                uwTick.lto_priv.165
  .bss.Appli_state
-                0x000000002001f774        0x1 /tmp/ccwUqK19.ltrans19.ltrans.o
+                0x000000002001f774        0x1 /tmp/ccOjJZxi.ltrans19.ltrans.o
                 0x000000002001f774                Appli_state
  *fill*         0x000000002001f775        0x3 
  .bss.__malloc_max_total_mem
@@ -1417,47 +1417,47 @@ LOAD /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtn.o
  .ARM.attributes
                 0x0000000000000022       0x34 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtbegin.o
  .ARM.attributes
-                0x0000000000000056       0x37 /tmp/ccwUqK19.ltrans0.ltrans.o
+                0x0000000000000056       0x37 /tmp/ccOjJZxi.ltrans0.ltrans.o
  .ARM.attributes
-                0x000000000000008d       0x37 /tmp/ccwUqK19.ltrans1.ltrans.o
+                0x000000000000008d       0x37 /tmp/ccOjJZxi.ltrans1.ltrans.o
  .ARM.attributes
-                0x00000000000000c4       0x37 /tmp/ccwUqK19.ltrans2.ltrans.o
+                0x00000000000000c4       0x37 /tmp/ccOjJZxi.ltrans2.ltrans.o
  .ARM.attributes
-                0x00000000000000fb       0x37 /tmp/ccwUqK19.ltrans3.ltrans.o
+                0x00000000000000fb       0x37 /tmp/ccOjJZxi.ltrans3.ltrans.o
  .ARM.attributes
-                0x0000000000000132       0x37 /tmp/ccwUqK19.ltrans4.ltrans.o
+                0x0000000000000132       0x37 /tmp/ccOjJZxi.ltrans4.ltrans.o
  .ARM.attributes
-                0x0000000000000169       0x37 /tmp/ccwUqK19.ltrans5.ltrans.o
+                0x0000000000000169       0x37 /tmp/ccOjJZxi.ltrans5.ltrans.o
  .ARM.attributes
-                0x00000000000001a0       0x37 /tmp/ccwUqK19.ltrans6.ltrans.o
+                0x00000000000001a0       0x37 /tmp/ccOjJZxi.ltrans6.ltrans.o
  .ARM.attributes
-                0x00000000000001d7       0x37 /tmp/ccwUqK19.ltrans7.ltrans.o
+                0x00000000000001d7       0x37 /tmp/ccOjJZxi.ltrans7.ltrans.o
  .ARM.attributes
-                0x000000000000020e       0x37 /tmp/ccwUqK19.ltrans8.ltrans.o
+                0x000000000000020e       0x37 /tmp/ccOjJZxi.ltrans8.ltrans.o
  .ARM.attributes
-                0x0000000000000245       0x37 /tmp/ccwUqK19.ltrans9.ltrans.o
+                0x0000000000000245       0x37 /tmp/ccOjJZxi.ltrans9.ltrans.o
  .ARM.attributes
-                0x000000000000027c       0x37 /tmp/ccwUqK19.ltrans10.ltrans.o
+                0x000000000000027c       0x37 /tmp/ccOjJZxi.ltrans10.ltrans.o
  .ARM.attributes
-                0x00000000000002b3       0x37 /tmp/ccwUqK19.ltrans11.ltrans.o
+                0x00000000000002b3       0x37 /tmp/ccOjJZxi.ltrans11.ltrans.o
  .ARM.attributes
-                0x00000000000002ea       0x37 /tmp/ccwUqK19.ltrans12.ltrans.o
+                0x00000000000002ea       0x37 /tmp/ccOjJZxi.ltrans12.ltrans.o
  .ARM.attributes
-                0x0000000000000321       0x37 /tmp/ccwUqK19.ltrans13.ltrans.o
+                0x0000000000000321       0x37 /tmp/ccOjJZxi.ltrans13.ltrans.o
  .ARM.attributes
-                0x0000000000000358       0x37 /tmp/ccwUqK19.ltrans14.ltrans.o
+                0x0000000000000358       0x37 /tmp/ccOjJZxi.ltrans14.ltrans.o
  .ARM.attributes
-                0x000000000000038f       0x37 /tmp/ccwUqK19.ltrans15.ltrans.o
+                0x000000000000038f       0x37 /tmp/ccOjJZxi.ltrans15.ltrans.o
  .ARM.attributes
-                0x00000000000003c6       0x37 /tmp/ccwUqK19.ltrans16.ltrans.o
+                0x00000000000003c6       0x37 /tmp/ccOjJZxi.ltrans16.ltrans.o
  .ARM.attributes
-                0x00000000000003fd       0x37 /tmp/ccwUqK19.ltrans17.ltrans.o
+                0x00000000000003fd       0x37 /tmp/ccOjJZxi.ltrans17.ltrans.o
  .ARM.attributes
-                0x0000000000000434       0x37 /tmp/ccwUqK19.ltrans18.ltrans.o
+                0x0000000000000434       0x37 /tmp/ccOjJZxi.ltrans18.ltrans.o
  .ARM.attributes
-                0x000000000000046b       0x37 /tmp/ccwUqK19.ltrans19.ltrans.o
+                0x000000000000046b       0x37 /tmp/ccOjJZxi.ltrans19.ltrans.o
  .ARM.attributes
-                0x00000000000004a2       0x37 /tmp/ccwUqK19.ltrans20.ltrans.o
+                0x00000000000004a2       0x37 /tmp/ccOjJZxi.ltrans20.ltrans.o
  .ARM.attributes
                 0x00000000000004d9       0x34 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc.a(lib_a-malloc.o)
  .ARM.attributes
@@ -1547,28 +1547,28 @@ LOAD /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtn.o
 OUTPUT(Dekrispator_v2.elf elf32-littlearm)
 
 .comment        0x0000000000000000       0x70
- .comment       0x0000000000000000       0x70 /tmp/ccwUqK19.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x70 /tmp/ccOjJZxi.ltrans0.ltrans.o
                                          0x71 (size before relaxing)
- .comment       0x0000000000000000       0x71 /tmp/ccwUqK19.ltrans1.ltrans.o
- .comment       0x0000000000000000       0x71 /tmp/ccwUqK19.ltrans2.ltrans.o
- .comment       0x0000000000000000       0x71 /tmp/ccwUqK19.ltrans3.ltrans.o
- .comment       0x0000000000000000       0x71 /tmp/ccwUqK19.ltrans4.ltrans.o
- .comment       0x0000000000000000       0x71 /tmp/ccwUqK19.ltrans5.ltrans.o
- .comment       0x0000000000000000       0x71 /tmp/ccwUqK19.ltrans6.ltrans.o
- .comment       0x0000000000000000       0x71 /tmp/ccwUqK19.ltrans7.ltrans.o
- .comment       0x0000000000000000       0x71 /tmp/ccwUqK19.ltrans8.ltrans.o
- .comment       0x0000000000000000       0x71 /tmp/ccwUqK19.ltrans9.ltrans.o
- .comment       0x0000000000000000       0x71 /tmp/ccwUqK19.ltrans10.ltrans.o
- .comment       0x0000000000000000       0x71 /tmp/ccwUqK19.ltrans11.ltrans.o
- .comment       0x0000000000000000       0x71 /tmp/ccwUqK19.ltrans12.ltrans.o
- .comment       0x0000000000000000       0x71 /tmp/ccwUqK19.ltrans13.ltrans.o
- .comment       0x0000000000000000       0x71 /tmp/ccwUqK19.ltrans14.ltrans.o
- .comment       0x0000000000000000       0x71 /tmp/ccwUqK19.ltrans15.ltrans.o
- .comment       0x0000000000000000       0x71 /tmp/ccwUqK19.ltrans16.ltrans.o
- .comment       0x0000000000000000       0x71 /tmp/ccwUqK19.ltrans17.ltrans.o
- .comment       0x0000000000000000       0x71 /tmp/ccwUqK19.ltrans18.ltrans.o
- .comment       0x0000000000000000       0x71 /tmp/ccwUqK19.ltrans19.ltrans.o
- .comment       0x0000000000000000       0x71 /tmp/ccwUqK19.ltrans20.ltrans.o
+ .comment       0x0000000000000000       0x71 /tmp/ccOjJZxi.ltrans1.ltrans.o
+ .comment       0x0000000000000000       0x71 /tmp/ccOjJZxi.ltrans2.ltrans.o
+ .comment       0x0000000000000000       0x71 /tmp/ccOjJZxi.ltrans3.ltrans.o
+ .comment       0x0000000000000000       0x71 /tmp/ccOjJZxi.ltrans4.ltrans.o
+ .comment       0x0000000000000000       0x71 /tmp/ccOjJZxi.ltrans5.ltrans.o
+ .comment       0x0000000000000000       0x71 /tmp/ccOjJZxi.ltrans6.ltrans.o
+ .comment       0x0000000000000000       0x71 /tmp/ccOjJZxi.ltrans7.ltrans.o
+ .comment       0x0000000000000000       0x71 /tmp/ccOjJZxi.ltrans8.ltrans.o
+ .comment       0x0000000000000000       0x71 /tmp/ccOjJZxi.ltrans9.ltrans.o
+ .comment       0x0000000000000000       0x71 /tmp/ccOjJZxi.ltrans10.ltrans.o
+ .comment       0x0000000000000000       0x71 /tmp/ccOjJZxi.ltrans11.ltrans.o
+ .comment       0x0000000000000000       0x71 /tmp/ccOjJZxi.ltrans12.ltrans.o
+ .comment       0x0000000000000000       0x71 /tmp/ccOjJZxi.ltrans13.ltrans.o
+ .comment       0x0000000000000000       0x71 /tmp/ccOjJZxi.ltrans14.ltrans.o
+ .comment       0x0000000000000000       0x71 /tmp/ccOjJZxi.ltrans15.ltrans.o
+ .comment       0x0000000000000000       0x71 /tmp/ccOjJZxi.ltrans16.ltrans.o
+ .comment       0x0000000000000000       0x71 /tmp/ccOjJZxi.ltrans17.ltrans.o
+ .comment       0x0000000000000000       0x71 /tmp/ccOjJZxi.ltrans18.ltrans.o
+ .comment       0x0000000000000000       0x71 /tmp/ccOjJZxi.ltrans19.ltrans.o
+ .comment       0x0000000000000000       0x71 /tmp/ccOjJZxi.ltrans20.ltrans.o
 
 .debug_frame    0x0000000000000000      0x76c
  .debug_frame   0x0000000000000000       0x30 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc.a(lib_a-malloc.o)
