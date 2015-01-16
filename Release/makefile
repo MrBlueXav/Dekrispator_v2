@@ -34,9 +34,6 @@ endif
 SECONDARY_FLASH += \
 Dekrispator_v2.hex \
 
-ECONDARY_FLASH += \
-Dekrispator_v2.bin \
-
 SECONDARY_LIST += \
 Dekrispator_v2.lst \
 
@@ -51,7 +48,7 @@ all: Dekrispator_v2.elf secondary-outputs
 Dekrispator_v2.elf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: Cross ARM C Linker'
-	arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O3 -ffunction-sections -fdata-sections -fsingle-precision-constant -flto -Wunused -Wuninitialized -Wall -Wconversion -Wshadow -Wfloat-equal -T "../STM32F407VG_FLASH.ld" -Xlinker --gc-sections -Wl,-Map,"Dekrispator_v2.map" --specs=nosys.specs -o "Dekrispator_v2.elf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O3 -ffunction-sections -fdata-sections -fsingle-precision-constant -flto -Wunused -Wuninitialized -Wall -Wconversion -Wshadow -Wfloat-equal -T "C:\xav_dev\eclipse_luna\Dekrispator_v2\STM32F407VG_FLASH.ld" -Xlinker --gc-sections -Wl,-Map,"Dekrispator_v2.map" --specs=nosys.specs -o "Dekrispator_v2.elf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -73,15 +70,9 @@ Dekrispator_v2.siz: Dekrispator_v2.elf
 	@echo 'Finished building: $@'
 	@echo ' '
 
-Dekrispator_v2.bin: Dekrispator_v2.elf
-	@echo 'Invoking: Cross ARM GNU Create Bin image'
-	arm-none-eabi-objcopy -O binary "Dekrispator_v2.elf"  "Dekrispator_v2.bin"
-	@echo 'Finished building: $@'
-	@echo ' '
-
 # Other Targets
 clean:
-	-$(RM) $(SECONDARY_SIZE)$(OBJS)$(C_DEPS)$(ASM_DEPS)$(SECONDARY_FLASH)$(SECONDARY_LIST)$(S_UPPER_DEPS) Dekrispator_v2.elf Dekrispator_v2.bin
+	-$(RM) $(SECONDARY_SIZE)$(OBJS)$(C_DEPS)$(ASM_DEPS)$(SECONDARY_FLASH)$(SECONDARY_LIST)$(S_UPPER_DEPS) Dekrispator_v2.elf
 	-@echo ' '
 
 secondary-outputs: $(SECONDARY_FLASH) $(SECONDARY_LIST) $(SECONDARY_SIZE)
