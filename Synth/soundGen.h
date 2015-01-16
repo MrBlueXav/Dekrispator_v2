@@ -21,6 +21,7 @@
 #define MAX_VIBRATO_FREQ	12.f
 
 /* Includes ------------------------------------------------------------------*/
+
 #include <math.h>
 #include <stdint.h>
 #include <stdbool.h>
@@ -41,6 +42,7 @@
 #include "blepvco.h"
 
 /* Exported functions ------------------------------------------------------- */
+
 uint8_t soundNumber_get(void);
 void autoSound_set(int8_t val);
 void RandSound1(uint8_t val);
@@ -48,7 +50,7 @@ void RandSound2(uint8_t val);
 
 void DemoMode_toggle(uint8_t val);
 void Synth_reset(uint8_t val);
-//void DemoMode_freeze(uint8_t val); // is it useful ?
+
 /*-------------------------------------------------------*/
 void FM_OP1_freq_set(uint8_t val);
 void FM_OP1_modInd_set(uint8_t val);

@@ -40,19 +40,19 @@ extern bool					freeze;
 extern Sequencer_t 			seq;
 extern NoteGenerator_t 		noteG;
 
-extern Oscillator_t 		op1 _CCM_;
-extern Oscillator_t 		op2 _CCM_;
-extern Oscillator_t 		op3 _CCM_;
-extern Oscillator_t 		op4 _CCM_;
+extern Oscillator_t 		op1 ;
+extern Oscillator_t 		op2 ;
+extern Oscillator_t 		op3 ;
+extern Oscillator_t 		op4 ;
 
 extern VCO_blepsaw_t		mbSawOsc;
 extern VCO_bleprect_t		mbRectOsc;
 extern VCO_bleptri_t		mbTriOsc;
 
-extern Oscillator_t 		vibr_lfo _CCM_;
-extern Oscillator_t 		filt_lfo _CCM_;
-extern Oscillator_t 		filt2_lfo _CCM_;
-extern Oscillator_t 		amp_lfo _CCM_;
+extern Oscillator_t 		vibr_lfo ;
+extern Oscillator_t 		filt_lfo ;
+extern Oscillator_t 		filt2_lfo ;
+extern Oscillator_t 		amp_lfo ;
 
 extern ResonantFilter 	SVFilter;
 extern ResonantFilter 	SVFilter2;
@@ -61,7 +61,7 @@ extern float			filterFreq2  ;
 
 extern ADSR_t 			adsr;
 
-//extern EightSegGenerator 	pitchGen _CCM_ ;
+/*--------------------------------------------------------------*/
 
 static bool 		autoFilterON _CCM_;
 static bool			delayON _CCM_;
@@ -206,7 +206,6 @@ void toggleSynthOut(void)
 /*-------------------------------------------------------*/
 void SynthOut_switch(uint8_t val)
 {
-	//if (val == 127) toggleSynthOut();
 	switch (val)
 	{
 	case MIDI_MAXi :
@@ -378,7 +377,6 @@ void FM_OP2_modInd_set(uint8_t val)
 /*------------------------------------------------------------------------------------------------------------------------------*/
 void FM_OP3_freq_set(uint8_t val)
 {
-	//FM_op_freq_set(&op3, val);
 	op3.mul = Lin2Exp(val, 0.2f, 32.f); // the freq of op3 is a multiple of the main pitch freq (op1)
 }
 /*-------------------------------------------------------*/
@@ -406,7 +404,6 @@ void FM_OP3_freqMul_dec(uint8_t val)
 /*--------------------------------------------------------------------------------------------------------------------------*/
 void FM_OP4_freq_set(uint8_t val)
 {
-	//FM_op_freq_set(&op4, val);
 	op4.mul = Lin2Exp(val, 0.2f, 32.f); // the freq of op4 is a multiple of the main pitch freq (op1)
 }
 /*-------------------------------------------------------*/
@@ -511,42 +508,6 @@ void sequencer_newStep_action(void) // User callback function called by sequence
 			sound = VOICES3;
 		if ( sound == ADDITIVE)
 			AdditiveGen_newWaveform();
-
-		//		switch (sound)
-		//			{
-		//			case 0 : sound = MORPH_SAW ; 	break ;
-		//
-		//			case 0 : sound = SPLIT ;	 	break;
-		//
-		//			case 0 : sound = ACC_SINE ;		break;
-		//
-		//			case 0 : sound = POWER_SINE ;	break;
-		//
-		//			case 0 : sound = BLEPTRIANGLE ; break;
-		//
-		//			case 0 : sound = BLEPSQUARE ;	break;
-		//
-		//			case 0 : sound = WT_SINE ;		break;
-		//
-		//			case 0 : sound = ADDITIVE ;	break;
-		//
-		//			case 0 : sound = NOISE ;	break; // noise !
-		//
-		//			case 0 : sound = CHORD15 ; break;
-		//
-		//			case 0 : sound = CHORD135 ; break;
-		//
-		//			case 0 : sound = CHORD13min5 ; break;
-		//
-		//			case 0 : sound = VOICES3 ;break;
-		//
-		//			case 0 : sound = DRIFTERS ; break;
-		//
-		//			case 0 : sound = FM2 ; break;
-		//
-		//			case 0 : sound = BLEPSAW ; break;
-		//
-		//			}
 	}
 
 	f0 = notesFreq[seq.track1.note[seq.step_idx]]; // Main "melody" frequency
@@ -629,96 +590,3 @@ void make_sound(uint16_t *buf , uint16_t length) // To be used with the Sequence
 
 }
 
-/*===============================================================================================================*/
-
-//void make_soundX(uint16_t *buf , uint16_t length) // To be used with the PitchGenerator
-//{
-//	uint16_t pos;
-//	uint16_t *outp;
-//	float_t y = 0, f0;
-//	float_t yL, yR ;
-//	uint16_t valueL, valueR;
-//
-//	outp = buf;
-//
-//	for (pos = 0; pos < length; pos++)
-//	{
-//		/* compute main frequency + vibrato modulation */
-//		f0 = gen_SampleCompute(&pitchGen) * (1 +  Osc_WT_SINE_SampleCompute(&vibr_lfo));
-//
-//
-//		/* If this is a new note... */
-//		if ((pitchGen.stage != pitchGen.oldstage))
-//		{
-//			vol = frand_a_b(0.4f , .8f); // random volume for each note
-//
-//			if (pitchGen.transpose != 0)
-//			{
-//				pitchGen.rootNote += pitchGen.transpose ;
-//				pitchGen_Transpose(&pitchGen, pitchGen.transpose);
-//				pitchGen.transpose = 0;
-//			}
-//
-//			if ( (pitchGen.someNotesMuted) && (rintf(frand_a_b(0.4f , 1)) == 0) )
-//				ADSR_keyOff(&adsr);
-//			else
-//				ADSR_keyOn(&adsr);
-//
-//			if (pitchGen.glideON) pitchGen.step = rintf(frand_a_b(0 , 1)); else pitchGen.step = 0;
-//
-//			if (autoFilterON)
-//				SVF_directSetFilterValue(&SVFilter, Ts * 600.f * powf(5000.f / 600.f, frand_a_b(0 , 1)));
-//
-//
-//			/* If a new sequence begins ... */
-//			if (pitchGen.stage == 0 && (pitchGen.automaticON || pitchGen.chRequest))
-//			{
-//				pitchGenChangePoints();
-//				pitchGen.chRequest = false;
-//				AdditiveGen_newWaveform();
-//			}
-//		}
-//
-//		pitchGen.oldstage =pitchGen.stage;
-//
-//		/*--- Generate waveform ---*/
-//		y = waveCompute(sound, f0);
-//
-//		/*--- Apply envelop and tremolo ---*/
-//		env = ADSR_computeSample(&adsr) * (1 + Osc_WT_SINE_SampleCompute(&amp_lfo));
-//		y *= vol * env; // apply volume and envelop
-//		if (adsr.cnt_ >= pitchGen.gateTime) ADSR_keyOff(&adsr);
-//
-//		/*--- Apply filter effect ---*/
-//		/* Update the filters cutoff frequencies */
-//		if ((! autoFilterON)&&(filt_lfo.amp != 0))
-//			SVF_directSetFilterValue(&SVFilter, filterFreq * (1 + OpSampleCompute7bis(&filt_lfo)));
-//
-//		if (filt2_lfo.amp != 0)
-//			SVF_directSetFilterValue(&SVFilter2, filterFreq2 * (1 + OpSampleCompute7bis(&filt2_lfo)));
-//
-//		y = 0.5f * (SVF_calcSample(&SVFilter, y) + SVF_calcSample(&SVFilter2, y)); // Two filters in parallel
-//
-//		/*---  Apply delay effect ----*/
-//		if (delayON) 	y = Delay_compute(y);
-//
-//		/*--- Apply chorus/flanger effect ---*/
-//		if (chorusON) stereoChorus_compute (&yL, &yR, y) ;
-//		else yL = yR = y;
-//
-//		/*--- clipping ---*/
-//		yL = (yL > 1.0f) ? 1.0f : yL; //clip too loud left samples
-//		yL = (yL < -1.0f) ? -1.0f : yL;
-//
-//		yR = (yR > 1.0f) ? 1.0f : yR; //clip too loud right samples
-//		yR = (yR < -1.0f) ? -1.0f : yR;
-//
-//		/****** let's hear the new sample *******/
-//
-//		valueL = (uint16_t)((int16_t)((32767.0f) * yL)); // conversion float -> int
-//		valueR = (uint16_t)((int16_t)((32767.0f) * yR));
-//
-//		*outp++ = valueL; // left channel sample
-//		*outp++ = valueR; // right channel sample
-//	}
-//}

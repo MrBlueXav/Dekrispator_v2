@@ -93,7 +93,6 @@ void MagicPatch(uint8_t val) /* random sound parameters */
 
 		if (snd == FM2)
 		{
-			//STM_EVAL_LEDOn(LED_Blue);
 			FM_OP1_freq_set(MIDIrandVal());
 			FM_OP1_modInd_set(MIDIrandVal());
 			FM_OP2_freq_set(MIDIrandVal());
@@ -152,7 +151,7 @@ void ProcessReceivedMidiDatas(void)
 	numberOfPackets = USBH_MIDI_GetLastReceivedDataSize(&hUSBHost) / 4; //each USB midi package is 4 bytes long
 	if (numberOfPackets != 0) // seems useless...
 	{
-		BSP_LED_Toggle(LED_Blue);
+		//BSP_LED_Toggle(LED_Blue);
 
 		while(numberOfPackets--)
 		{
@@ -160,6 +159,8 @@ void ProcessReceivedMidiDatas(void)
 			pack.evnt0 = *ptr ; ptr++ ;
 			pack.evnt1 = *ptr ; ptr++ ;
 			pack.evnt2 = *ptr ; ptr++ ;
+
+			if(pack.cin_cable != 0) start_LED_On(LED_Blue, 8);
 
 			if ((pack.evnt0 & 0xF0) == 0xB0) /* If the midi message is a Control Change... */
 			{

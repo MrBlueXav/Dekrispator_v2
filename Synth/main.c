@@ -98,20 +98,20 @@ int main(void)
 		demoMode = false;
 		freeze = false;
 
-		/*##-2- Init Host Library ################################################*/
+		/*## Init Host Library ################################################*/
 		USBH_Init(&hUSBHost, USBH_UserProcess_callback, 0);
 
-		/*##-3- Add Supported Class ##############################################*/
+		/*## Add Supported Class ##############################################*/
 		USBH_RegisterClass(&hUSBHost, USBH_MIDI_CLASS);
 
-		/*##-4- Start Host Process ###############################################*/
+		/*## Start Host Process ###############################################*/
 		USBH_Start(&hUSBHost);
 
 		while (1)
 		{
 			MIDI_Application();
 
-			USBH_Delay(1);
+			//USBH_Delay(1);
 
 			/* USBH_Background Process */
 			USBH_Process(&hUSBHost);

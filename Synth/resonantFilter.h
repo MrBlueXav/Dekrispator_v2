@@ -91,7 +91,6 @@ typedef struct ResoFilterStruct
 } ResonantFilter;
 
 
-//float	translateLinExp(uint8_t val);
 //------------------------------------------------------------------------------------
 void 	SVF_setReso(ResonantFilter* filter, float feedback);
 //------------------------------------------------------------------------------------

@@ -30,7 +30,7 @@
 /*----------------------------------------------------------------------------*/
 
 /* Position in the audio play buffer */
-__IO BUFFER_StateTypeDef buffer_offset = BUFFER_OFFSET_NONE;
+//__IO BUFFER_StateTypeDef buffer_offset = BUFFER_OFFSET_NONE;
 
 /* Ping-Pong buffer used for audio play */
 uint16_t 			audiobuff[BUFF_LEN]; // THE audio buffer
@@ -52,10 +52,6 @@ void audio_init(void)
 	/* Start playing Wave */
 	BSP_AUDIO_OUT_Play((uint16_t*)&audiobuff[0], 2*BUFF_LEN); // size must be in bytes
 
-
-
-	//EVAL_AUDIO_Init(OUTPUT_DEVICE_AUTO, VOL, SAMPLERATE);
-	//EVAL_AUDIO_Play((uint16_t*) audiobuff, BUFF_LEN); // start sound
 }
 
 /*------------------------------------------------------------------------------*/
@@ -74,7 +70,7 @@ Below some examples of callback implementations.
  */
 void BSP_AUDIO_OUT_HalfTransfer_CallBack(void)
 {
-	buffer_offset = BUFFER_OFFSET_HALF;
+	//buffer_offset = BUFFER_OFFSET_HALF;
 
 	BSP_LED_Off(LED_Orange);
 	make_sound((uint16_t *)audiobuff, BUFF_LEN_DIV4);
@@ -89,7 +85,7 @@ void BSP_AUDIO_OUT_HalfTransfer_CallBack(void)
  */
 void BSP_AUDIO_OUT_TransferComplete_CallBack(void)
 {
-	buffer_offset = BUFFER_OFFSET_FULL;
+	//buffer_offset = BUFFER_OFFSET_FULL;
 	BSP_LED_Off(LED_Orange);
 	make_sound((uint16_t *)(audiobuff + BUFF_LEN_DIV2), BUFF_LEN_DIV4);
 	//BSP_AUDIO_OUT_ChangeBuffer((uint16_t*)&audiobuff[0], 2*BUFF_LEN);
@@ -145,7 +141,7 @@ void decVol(void)
 		BSP_AUDIO_OUT_SetVolume(volume);
 	}
 }
-
+//------------------------------------------------------------------------------------------------------
 void Volume_set(uint8_t val)
 {
 	volume = (uint8_t)(MAXVOL/MIDI_MAX * val);

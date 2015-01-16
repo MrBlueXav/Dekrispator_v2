@@ -23,12 +23,15 @@
 * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
 *
 */
+/*********************************************************************************************/
 
 #include "sequencer.h"
 
 /*--------------------------------------------------------------------------------------------*/
+
 Sequencer_t 		seq _CCM_;
 NoteGenerator_t 	noteG _CCM_;
+
 /*--------------------------------------------------------------------------------------------*/
 
 void seq_gateTime_set(uint8_t val) // val is a number of samples
@@ -170,14 +173,7 @@ void seq_incTempo(void)
 {
 	//if (noteG.freq <= 5) noteG.freq += 0.01f;
 }
-///*-------------------------------------------------------*/
-//void seq_tempo_set( uint8_t val)
-//{
-//	if (val == 0)
-//		noteG.freq = 0;
-//	else
-//		noteG.freq = (1.5f - 0.05f)/127.f * val + 0.05f;
-//}
+
 /*-------------------------------------------------------*/
 void seq_decTempo(void)
 {

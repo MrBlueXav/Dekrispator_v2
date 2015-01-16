@@ -32,15 +32,14 @@
  *   USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  * ------------------------------------------------------------------------------------------------------------------------
  */
-
+//-----------------------------------------------------------------------------------
 #include "resonantFilter.h"
 
-#define FILTER_TYPES	5 // Number of filter types
+//-----------------------------------------------------------------------------------
 
-// to make the linker happy. __errno seems not defined
-// so libm.a won't link without this int.
-//int __errno;
-//------------------------------------------------------------------------------------
+#define FILTER_TYPES	5 /* Number of filter types */
+
+//-----------------------------------------------------------------------------------
 
 ResonantFilter SVFilter _CCM_ ;
 ResonantFilter SVFilter2 _CCM_ ;
@@ -49,9 +48,6 @@ float filterFreq;
 float filterFreq2;
 
 /****************************************************************************************************************/
-
-
-//------------------------------------------------------------------------------------
 
 void SVF_setReso(ResonantFilter* filter, float feedback)
 {

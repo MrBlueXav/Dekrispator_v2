@@ -1,28 +1,27 @@
 /**
  ******************************************************************************
  * @file    usbh_MIDI.h
- * @author  
+ * @author  Xavier Halgand
  * @version 
  * @date    
  * @brief   This file contains all the prototypes for the usbh_MIDI.c
  ******************************************************************************
- * @attention
+ */
+/*
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
  *
- * <h2><center>&copy; COPYRIGHT 2014 STMicroelectronics</center></h2>
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
  *
- * Licensed under MCD-ST Liberty SW License Agreement V2, (the "License");
- * You may not use this file except in compliance with the License.
- * You may obtain a copy of the License at:
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
  *
- *        http://www.st.com/software_license_agreement_liberty_v2
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- *
- ******************************************************************************
  */
 
 /* Define to prevent recursive  ----------------------------------------------*/
@@ -52,12 +51,14 @@
 #define USB_AUDIO_CLASS                                 0x01
 #define USB_MIDISTREAMING_SubCLASS                      0x03
 #define USB_MIDI_DESC_SIZE                                 9
-
-
-extern USBH_ClassTypeDef  MIDI_Class;
 #define USBH_MIDI_CLASS    &MIDI_Class
 
 /*-------------------------------------------------------------------------------*/
+
+extern USBH_ClassTypeDef  MIDI_Class;
+
+/* -------------------- Exported_Types ------------------------------------------*/
+
 typedef enum {
 	NoteOff       = 0x8,
 	NoteOn        = 0x9,
@@ -136,41 +137,6 @@ typedef union {
 	};
 } midi_package_t;
 
-
-/** @addtogroup USBH_LIB
- * @{
- */
-
-/** @addtogroup USBH_CLASS
- * @{
- */
-
-/** @addtogroup USBH_MIDI_CLASS
- * @{
- */
-
-/** @defgroup USBH_MIDI_CORE
- * @brief This file is the Header file for USBH_MIDI_CORE.c
- * @{
- */
-
-
-/**
- * @}
- */
-
-/** @defgroup USBH_MIDI_CORE_Exported_Types
- * @{
- */
-
-/* States for MIDI State Machine */
-//typedef enum {
-//	USBH_MIDI_IDLE,
-//	USBH_MIDI_RX,
-//	USBH_MIDI_TX,
-//} USBH_MIDI_transfer_state_t;
-
-
 /* States for MIDI State Machine */
 typedef enum
 {
@@ -189,38 +155,6 @@ typedef enum
 	MIDI_ERROR_STATE,
 }
 MIDI_StateTypeDef;
-
-
-/**
- * @}
- */
-/* Structure for MIDI process */
-//typedef struct MIDI_Process
-//{
-//	USBH_MIDI_transfer_state_t	state;
-//	//uint8_t			buff[64];
-//	uint8_t         InPipe; //	hc_num_in;
-//	uint8_t         OutPipe; //	hc_num_out;
-//	uint8_t			OutEp;
-//	uint8_t			InEp;
-//	uint16_t		InEpSize;
-//	uint16_t		OutEpSize;
-//	uint8_t 		tx_count;
-//}
-//MIDI_HandleTypeDef;
-
-//typedef struct
-//{
-//  uint8_t              InPipe;
-//  uint8_t              OutPipe;
-//  uint8_t              OutEp;
-//  uint8_t              InEp;
-//  uint8_t              buff[8];
-//  uint16_t             OutEpSize;
-//  uint16_t             InEpSize;
-//}
-//MIDI_DataItfTypedef ;
-
 
 /* Structure for MIDI process */
 typedef struct _MIDI_Process
@@ -246,14 +180,8 @@ typedef struct _MIDI_Process
 }
 MIDI_HandleTypeDef;
 
+/*---------------------------Exported_FunctionsPrototype-------------------------------------*/
 
-/**
- * @}
- */
-
-/** @defgroup USBH_MIDI_CORE_Exported_FunctionsPrototype
- * @{
- */
 USBH_StatusTypeDef  USBH_MIDI_Transmit(USBH_HandleTypeDef *phost,
                                       uint8_t *pbuff,
                                       uint16_t length);
@@ -271,29 +199,9 @@ void USBH_MIDI_TransmitCallback(USBH_HandleTypeDef *phost);
 
 void USBH_MIDI_ReceiveCallback(USBH_HandleTypeDef *phost);
 
-//USBH_StatusTypeDef USBH_MIDI_IOProcess (USBH_HandleTypeDef *phost);
-//USBH_StatusTypeDef USBH_MIDI_Init (USBH_HandleTypeDef *phost);
-/**
- * @}
- */
-
-
+/*-------------------------------------------------------------------------------------------*/
 #endif /* __USBH_MIDI_CORE_H */
 
-/**
- * @}
- */
 
-/**
- * @}
- */
-
-/**
- * @}
- */
-
-/**
- * @}
- */
-/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
+/*****************************END OF FILE*************************************************************/
 

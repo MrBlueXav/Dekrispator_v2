@@ -14,8 +14,6 @@
 #include <math.h>
 #include <stdlib.h>
 #include "stm32f4xx_hal.h"
-//#include "stm32f4xx_rng.h"
-//#include "stm32f4xx_rcc.h"
 #include "CONSTANTS.h"
 #include "main.h"
 
