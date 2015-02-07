@@ -38,7 +38,6 @@ Oscillator_t 		op2 _CCM_;
 Oscillator_t 		op3 _CCM_;
 Oscillator_t 		op4 _CCM_;
 
-
 Oscillator_t 		vibr_lfo _CCM_;
 
 Oscillator_t 		filt_lfo _CCM_;
@@ -46,10 +45,10 @@ Oscillator_t 		filt2_lfo _CCM_;
 
 Oscillator_t 		amp_lfo _CCM_;
 
-float_t			a[PARTIALS_NUMBER + 1] _CCM_ ;
-float_t			ph[PARTIALS_NUMBER + 1] _CCM_ ;
+static float_t			a[PARTIALS_NUMBER + 1] _CCM_ ; // additive generator amplitudes
+static float_t			ph[PARTIALS_NUMBER + 1] _CCM_ ; // additive generator phases
 
-float_t			centralFreq = 3000;
+static float_t			centralFreq = 3000;
 
 /*===============================================================================================================*/
 
@@ -78,7 +77,7 @@ void	Drifter_centralFreq_set(uint8_t val)
 	centralFreq = Lin2Exp(val, 1, 6000);
 }
 /*---------------------------------------------------------------*/
-float_t Drifters_sampleCompute(void)
+float_t Drifters_sampleCompute(void) // 3 drifting sawtooths with "fixed" main pitch in centralFreq variable
 {
 	float y;
 
@@ -87,7 +86,7 @@ float_t Drifters_sampleCompute(void)
 	OpSetFreq(&op3, 25 + centralFreq * (1 + drifter_nextSample(&d3)));
 
 	//y = 0.33f * (Osc_WT_SINE_SampleCompute(&op1) + Osc_WT_SINE_SampleCompute(&op2) + Osc_WT_SINE_SampleCompute(&op3));
-	y = 0.33f * (OpSampleCompute6(&op1) + OpSampleCompute6(&op2) + OpSampleCompute6(&op3));
+	y = 0.33f * (MorphingSaw_SampleCompute(&op1) + MorphingSaw_SampleCompute(&op2) + MorphingSaw_SampleCompute(&op3));
 
 	return y;
 }
@@ -270,7 +269,7 @@ float_t OpSampleCompute5(Oscillator_t * op) // Naive Triangle
 	return op->out;
 }
 /*-------------------------------------------------------*/
-float_t OpSampleCompute6(Oscillator_t * op) // Morphing sawtooth, tends to a triangle at high freqs
+float_t MorphingSaw_SampleCompute(Oscillator_t * op) // Morphing sawtooth, tends to a triangle at high freqs
 {
 	while (op->phase < 0) // keep phase in [0, 2pi]
 		op->phase += _2PI;
@@ -286,7 +285,7 @@ float_t OpSampleCompute6(Oscillator_t * op) // Morphing sawtooth, tends to a tri
 	return op->out;
 }
 /*-------------------------------------------------------*/
-float_t OpSampleCompute8(Oscillator_t * op) // naive square
+float_t BasicSquare_SampleCompute(Oscillator_t * op) // naive square
 {
 
 	while (op->phase < 0) // keep phase in [0, 2pi]
@@ -351,7 +350,7 @@ float waveCompute(uint8_t sound, float frq)
 	/* choose waveform generator */
 	switch (sound)
 	{
-	case MORPH_SAW : 	y = 0.8f * OpSampleCompute6(&op1); 		break ;
+	case MORPH_SAW : 	y = 0.8f * MorphingSaw_SampleCompute(&op1); 		break ;
 
 	case SPLIT :  	{
 		if (frq < 200) y =  OpSampleCompute1(&op1);
@@ -377,26 +376,26 @@ float waveCompute(uint8_t sound, float frq)
 
 	case CHORD15 : 	{	// fundamental + fifth : 1 5
 		OpSetFreq(&op2, frq * 1.50f);
-		y =  0.5f *(OpSampleCompute6(&op1) + OpSampleCompute6(&op2));
+		y =  0.5f *(MorphingSaw_SampleCompute(&op1) + MorphingSaw_SampleCompute(&op2));
 	} break;
 
 	case CHORD135 :	{	// major chord : 1 3maj 5
 		OpSetFreq(&op2, frq * 1.26f);
 		OpSetFreq(&op3, frq * 1.5f);
-		y = 0.33f *(OpSampleCompute6(&op1) + OpSampleCompute6(&op2) + OpSampleCompute6(&op3));
+		y = 0.33f *(MorphingSaw_SampleCompute(&op1) + MorphingSaw_SampleCompute(&op2) + MorphingSaw_SampleCompute(&op3));
 	} break;
 
 	case CHORD13min5 :	{	// minor chord : 1 3min 5
 		OpSetFreq(&op2, frq * 1.1892f);
 		OpSetFreq(&op3, frq * 1.5f);
-		y = 0.33f *(OpSampleCompute6(&op1) + OpSampleCompute6(&op2) + OpSampleCompute6(&op3));
+		y = 0.33f *(MorphingSaw_SampleCompute(&op1) + MorphingSaw_SampleCompute(&op2) + MorphingSaw_SampleCompute(&op3));
 	} break;
 
 	case VOICES3 :	{ // 3 slightly detuned oscillators with drifters
 
 		OpSetFreq(&op2, frq * (1 + d1_drifter_nextSample()));
 		OpSetFreq(&op3, frq * (1 + d2_drifter_nextSample()));
-		y = 0.33f *(OpSampleCompute6(&op1) + OpSampleCompute6(&op2) + OpSampleCompute6(&op3));
+		y = 0.33f *(MorphingSaw_SampleCompute(&op1) + MorphingSaw_SampleCompute(&op2) + MorphingSaw_SampleCompute(&op3));
 	} break;
 
 	case DRIFTERS : 	y = Drifters_sampleCompute(); break;

@@ -58,14 +58,14 @@ float_t OpSampleCompute4(Oscillator_t * op); // Complex waveform : +/- |sin(phi)
 /*-------------------------------------------------------*/
 float_t OpSampleCompute5(Oscillator_t * op); // Basic Triangle
 /*-------------------------------------------------------*/
-float_t OpSampleCompute6(Oscillator_t * op); // Morphing sawtooth, tends to a triangle at high freqs
+float_t MorphingSaw_SampleCompute(Oscillator_t * op); // Morphing sawtooth, tends to a triangle at high freqs
 /*-------------------------------------------------------*/
 float_t Osc_WT_SINE_SampleCompute(Oscillator_t * op) ;// basic wave table sine
 float_t Osc_FM_sine_SampleCompute(Oscillator_t * op, float FMinput); // basic wave table sine with FM
 /*-------------------------------------------------------*/
 float_t OpSampleCompute7bis(Oscillator_t * op); // basic wave table positive sine : 0 < output < op.amp
 /*-------------------------------------------------------*/
-float_t OpSampleCompute8(Oscillator_t * op); // basic square
+float_t BasicSquare_SampleCompute(Oscillator_t * op); // basic square
 /*-------------------------------------------------------*/
 void 	AdditiveGen_newWaveform(void); //
 /*-------------------------------------------------------*/
