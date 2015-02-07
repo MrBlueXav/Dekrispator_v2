@@ -65,7 +65,7 @@ I've used (Windows Vista):
 * GNU Tools for ARM Embedded Processors (gcc 4.9 2014 q4) 
 * STM32 ST-LINK Utility for flashing the microcontroller
 
-Compiles also on Linux (Debian 7.7) with Eclipse Luna !
+Compiles also on Linux (Debian 7) with Eclipse Luna and on command line with "make".
 
 - - - 
 
