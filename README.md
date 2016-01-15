@@ -88,3 +88,6 @@ arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O3
 arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O3 -ffunction-sections -fdata-sections  -fsingle-precision-constant -flto -Wall -T ".............\STM32F407VG_FLASH.ld" -Xlinker --gc-sections -Wl,-Map,"Dekrispator_v2.map" --specs=nosys.specs -flto -o "Dekrispator_v2.elf"  ..............  -lm
   
 - - - 
+**See also the port to Windows, Linux, Mac and Raspberry Pi  by erwincoumans :**
+
+ https://github.com/erwincoumans/StkDekrispatorSynthesizer
