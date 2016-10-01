@@ -1,6 +1,6 @@
 /**
  ******************************************************************************
- * File Name          : audio.h
+ * File Name          : audio_conf.h
  * Author				: Xavier Halgand
  * Date               :
  * Description        :
