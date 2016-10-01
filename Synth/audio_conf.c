@@ -1,6 +1,6 @@
 /**
  ******************************************************************************
- * File Name		: audio.c
+ * File Name		: audio_conf.c
  * Date				:
  * Author			: Xavier Halgand
  * Description		:
@@ -70,25 +70,21 @@ Below some examples of callback implementations.
  */
 void BSP_AUDIO_OUT_HalfTransfer_CallBack(void)
 {
-	//buffer_offset = BUFFER_OFFSET_HALF;
-
-	BSP_LED_Off(LED_Orange);
+	BSP_LED_Off(LED_Orange); // stop breathing
 	make_sound((uint16_t *)audiobuff, BUFF_LEN_DIV4);
-	BSP_LED_On(LED_Orange);
+	BSP_LED_On(LED_Orange); // breath again ! (cpu usage indicator)
 
 }
 
 /**
- * @brief  Calculates the remaining file size and new position of the pointer.
+ * @brief  Manages the DMA transfer complete interrupt.
  * @param  None
  * @retval None
  */
 void BSP_AUDIO_OUT_TransferComplete_CallBack(void)
 {
-	//buffer_offset = BUFFER_OFFSET_FULL;
 	BSP_LED_Off(LED_Orange);
 	make_sound((uint16_t *)(audiobuff + BUFF_LEN_DIV2), BUFF_LEN_DIV4);
-	//BSP_AUDIO_OUT_ChangeBuffer((uint16_t*)&audiobuff[0], 2*BUFF_LEN);
 	BSP_LED_On(LED_Orange);
 }
 
