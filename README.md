@@ -91,3 +91,5 @@ arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O3
 **See also the port to Windows, Linux, Mac and Raspberry Pi  by erwincoumans :**
 
  https://github.com/erwincoumans/StkDekrispatorSynthesizer
+ 
+ Thank you Thorsten Klose for your inspirational work and especially MIOS32 !
