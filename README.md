@@ -35,9 +35,8 @@ Ready-to-use files are in Ressources folder.
 
  * monophonic
  * all digital !
- * oscillators with :
-  * very low aliased analog waveforms with superb minBLEP oscillators (thanks to Sean Bolton)
-  * 4 OP FM generator
+ * oscillators with very low aliased analog waveforms with superb minBLEP oscillators (thanks to Sean Bolton)
+  * 4 operators FM generator
   * multisaw (several saws with individual "drifters")
   * 10 sine additive generator
   * noise
@@ -57,7 +56,7 @@ Ready-to-use files are in Ressources folder.
 
 **Building from source :**
 
-I've used (Windows Vista):
+Tools I've used (Windows Vista):
 
 * Eclipse Luna
 * GNU ARM plugin for Eclipse
@@ -69,7 +68,7 @@ Compiles also on Linux (Debian 7) with Eclipse Luna and on command line with "ma
 
 - - - 
 
-**Dev notes :**
+**Developpers notes :**
 
 * RAM is almost full !
 * Extensive use of CCM RAM for stack, heap, and global variables
