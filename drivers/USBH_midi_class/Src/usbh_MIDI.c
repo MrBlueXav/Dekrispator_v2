@@ -94,7 +94,7 @@ static USBH_StatusTypeDef USBH_MIDI_InterfaceInit (USBH_HandleTypeDef *phost)
 		USBH_SelectInterface (phost, interface);
 
 		phost->pActiveClass->pData = (MIDI_HandleTypeDef *)USBH_malloc (sizeof(MIDI_HandleTypeDef));
-		MIDI_Handle =  phost->pActiveClass->pData;
+		USBH_memset(phost->pActiveClass->pData, 0, sizeof(MIDI_HandleTypeDef)); // clear memory for MIDI_Handle 		MIDI_Handle =  phost->pActiveClass->pData;
 
 		if(phost->device.CfgDesc.Itf_Desc[phost->device.current_interface].Ep_Desc[0].bEndpointAddress & 0x80)
 		{
