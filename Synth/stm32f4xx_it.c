@@ -1,7 +1,7 @@
 /**
  ******************************************************************************
- * @file    Audio_playback_and_record/src/stm32f4xx_it.c
- * @author  MCD Application Team
+ * @file     Dekrispator  stm32f4xx_it.c
+ * @author  Bluexav + MCD Application Team
  * @version V1.1.0
  * @date    26-June-2014
  * @brief   Main Interrupt Service Routines.
