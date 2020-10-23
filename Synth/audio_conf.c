@@ -29,9 +29,6 @@
 
 /*----------------------------------------------------------------------------*/
 
-/* Position in the audio play buffer */
-//__IO BUFFER_StateTypeDef buffer_offset = BUFFER_OFFSET_NONE;
-
 /* Ping-Pong buffer used for audio play */
 uint16_t 			audiobuff[BUFF_LEN]; // THE audio buffer
 

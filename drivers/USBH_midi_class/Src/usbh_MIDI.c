@@ -95,6 +95,7 @@ static USBH_StatusTypeDef USBH_MIDI_InterfaceInit (USBH_HandleTypeDef *phost)
 
 		phost->pActiveClass->pData = (MIDI_HandleTypeDef *)USBH_malloc (sizeof(MIDI_HandleTypeDef));
 		MIDI_Handle =  (MIDI_HandleTypeDef *)phost->pActiveClass->pData;
+		
 		if (MIDI_Handle == NULL)
 		{
 			USBH_DbgLog("Cannot allocate memory for MIDI Handle");

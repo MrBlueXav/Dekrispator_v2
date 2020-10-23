@@ -85,9 +85,8 @@ int main(void)
 	/* Initialize User Button */
 	BSP_PB_Init(BUTTON_KEY, BUTTON_MODE_EXTI);
 
-
-
-	randomGen_init();/* Initialize the on-board random number generator ! */
+    /* Initialize the on-board random number generator ! */
+	randomGen_init();
 
 	Synth_Init();
 	audio_init();
@@ -109,9 +108,7 @@ int main(void)
 
 		while (1)
 		{
-			MIDI_Application();
-
-			//USBH_Delay(1);
+			MIDI_Application();			
 
 			/* USBH_Background Process */
 			USBH_Process(&hUSBHost);
