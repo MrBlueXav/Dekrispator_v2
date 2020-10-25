@@ -5,9 +5,8 @@
 *.d
 *.o
 
-
 *.pydevproject
-#.project
+.project
 .metadata
 bin/
 tmp/
@@ -17,7 +16,7 @@ tmp/
 *~.nib
 local.properties
 .classpath
-#.settings/
+.settings/
 .loadpath
 
 # External tool builders
@@ -27,7 +26,7 @@ local.properties
 *.launch
 
 # CDT-specific
-#.cproject
+.cproject
 
 # PDT-specific
 .buildpath
