@@ -27,20 +27,12 @@
 #include "stm32f4_discovery_accelerometer.h"
 #include <stdio.h>
 #include "stm32f4xx_it.h"
-//#include "waveplayer.h"
 #include "lis302dl.h"
-//#include "waverecorder.h"
 
 #include "usbh_MIDI.h"
 #include "MIDI_application.h"
-
 #include "timers.h"
 #include "soundGen.h"
-
-//#include "stm32f4xx.h"
-//#include "stm32f4xx_conf.h"
-
-//#include "stm32fxxx_it.h"
 #include "audio_conf.h"
 #include "delay.h"
 #include "chorusFD.h"

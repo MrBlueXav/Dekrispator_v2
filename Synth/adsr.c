@@ -1,7 +1,7 @@
 /**
  ******************************************************************************
  * File Name          	: adsr.c
- * Author				: modified by Xavier Halgand
+ * Author				: Perry R. Cook and Gary P. Scavone, modified by Xavier Halgand
  * Date               	:
  * Description        	:
  ******************************************************************************

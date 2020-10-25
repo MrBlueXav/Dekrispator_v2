@@ -1,15 +1,11 @@
 Dekrispator version 2
 ===========
 
-This is a rewriting of the old Dekrispator but there is no new feature at the moment.
-I've used the new STM32Cube library from ST (v1.3) with new HAL and USB host stack.
-I've written a new USB host MIDI class driver which should accept more devices.
-
 Transform your STM32F4 Discovery board into an experimental music synthesizer or autonomous noise box with USB MIDI Host function for interaction !
 
-The sound demos are here : https://soundcloud.com/bluexav
+Sound demos are here : https://soundcloud.com/bluexav
 
-A video is here : http://youtu.be/fcLrcDCaI7w
+A video : http://youtu.be/fcLrcDCaI7w
 
 - - - -
 
@@ -17,13 +13,16 @@ A video is here : http://youtu.be/fcLrcDCaI7w
 
 Flash your board with "Dekrispator_v2.hex" (in Release folder) and enjoy hours and hours of sweet music coming of it ! Sounds can be loud so beware !
 
-When powering up the board, the synth starts in "demo mode" unless you press and maintain a little the user button before power. In that case the synth enters "user mode".
+When powering up the board, the synth starts in "demo mode".
 
-*Demo mode* : The synth works on its own, sounds are perpetually changing. If you press the user button, sounds and effects stop always changing and the red LED lights on : the synth parameters are frozen. Press once again the user button and the red LED lights off : unfreeze.
+The synth works on its own, sounds are perpetually changing. If you press the user button, sounds and effects stop always changing and the red LED lights on : the synth parameters are frozen. Press once again the user button and the red LED lights off : unfreeze.
 
-*User mode* : Connect an USB MIDI controller (like Korg NanoKontrol...) to the board's micro USB connector and control the synth.
+*Manual mode* : Connect an USB MIDI controller (like Korg NanoKontrol...) to the board's micro USB connector and control the synth.
 The MIDI mapping of the synth controls are in MIDI_mapping.ods file. I nearly used the factory settings of Korg NanoKontrol V1 (some momentary/toggle buttons modified). The blue LED indicates midi activity.
 
+CC68 (= 127) : reset synth with basic sound and sequencer running.
+
+CC67 (= 127) : toggle demo mode.
 
 The orange LED reflects the CPU usage : when it's dim CPU gets overloaded.
 
@@ -54,18 +53,13 @@ Ready-to-use files are in Ressources folder.
  * random sound and FX patch generator
 
 - - - -
+Special thanks : Sean Bolton, Perry R. Cook and Gary P. Scavone, Gabriel Rivas, Ross Bencina, Thorsten Klose, erwincoumans, ST
+
+- - - - 
 
 **Building from source :**
 
-Tools I've used (Windows Vista):
-
-* Eclipse Luna
-* GNU ARM plugin for Eclipse
-* Yagarto tools for make, rm, ...
-* GNU Tools for ARM Embedded Processors (gcc 4.9 2014 q4) 
-* STM32 ST-LINK Utility for flashing the microcontroller
-
-Compiles also on Linux (Debian 7) with Eclipse Luna and on command line with "make".
+Go to Release folder and type "make". Then flash the mcu with your prefered tool.
 
 - - - 
 
