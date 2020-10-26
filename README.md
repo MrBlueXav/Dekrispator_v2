@@ -1,7 +1,7 @@
 Dekrispator (v3)
 ===========
 
-Updates ! Responds now to notes on/off and can be played with a keyboard (still needs improvement).
+Updates ! Responds now to notes on/off and can be played with a keyboard (Thanks to GaryA, still needs improvement).
 
 Transform your STM32F4 Discovery board into an experimental music synthesizer or autonomous noise box with USB MIDI Host function for interaction !
 
@@ -19,7 +19,7 @@ When powering up the board, the synth starts in "demo mode". The synth works on 
 
 If you press the user button, sequencer will stop, it will run again if you press the button once again.
 
-To control Dekrispator's parameters you can connect at any time an USB MIDI controller (like Korg NanoKontrol...) to the board's micro USB connector and control the synth.
+To control Dekrispator's parameters you can connect at any time an USB MIDI controller (like Korg NanoKontrol...) to the board's micro USB connector.
 
 You can also play notes if you connect a keyboard and turn off the sequencer.
 
