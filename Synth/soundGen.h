@@ -48,6 +48,7 @@ void RandSound1(uint8_t val);
 void RandSound2(uint8_t val);
 
 void DemoMode_toggle(uint8_t val);
+void Sequencer_toggle(uint8_t val);
 void Synth_reset(uint8_t val);
 
 /*-------------------------------------------------------*/

@@ -40,6 +40,7 @@ MIDI_ApplicationTypeDef Appli_state = APPLICATION_IDLE;
 
 bool demoMode = true;
 bool freeze = false;
+bool sequencerIsOn = true;
 
 /*---------------------------------------------------------------------------*/
 static void SystemClock_Config(void);
@@ -47,13 +48,8 @@ static void USBH_UserProcess_callback(USBH_HandleTypeDef *pHost, uint8_t vId);
 /*----------------------------------------------------------------------------*/
 
 void ButtonPressed_action(void) {
-	if (freeze == false) {
-		freeze = true;
-		BSP_LED_On(LED_Red);
-	} else {
-		freeze = false;
-		BSP_LED_Off(LED_Red);
-	}
+	sequencerIsOn = !sequencerIsOn;
+	BSP_LED_Toggle(LED_Red);
 }
 /*----------------------------------------------------------------------------*/
 void ButtonReleased_action(void) {
@@ -84,7 +80,6 @@ int main(void) {
 	Synth_Init();
 	audio_init();
 
-	/****************************************************************************************************/
 	/*## Init Host Library ################################################*/
 	USBH_Init(&hUSBHost, USBH_UserProcess_callback, 0);
 
@@ -101,38 +96,7 @@ int main(void) {
 		USBH_Process(&hUSBHost);
 
 	}
-	/****************************************************************************************************/
 
-//	/* Choose demo or user mode --------------------------*/
-//	if(BSP_PB_GetState(BUTTON_KEY)) // press or not user button before and during startup to choose user or demo mode
-//	{	// normal user mode, with USB (button pressed)
-//		demoMode = false;
-//		freeze = false;
-//
-//		/*## Init Host Library ################################################*/
-//		USBH_Init(&hUSBHost, USBH_UserProcess_callback, 0);
-//
-//		/*## Add Supported Class ##############################################*/
-//		USBH_RegisterClass(&hUSBHost, USBH_MIDI_CLASS);
-//
-//		/*## Start Host Process ###############################################*/
-//		USBH_Start(&hUSBHost);
-//
-//		while (1)
-//		{
-//			MIDI_Application();
-//
-//			/* USBH_Background Process */
-//			USBH_Process(&hUSBHost);
-//
-//		}
-//	}
-//	else
-//	{	// demo mode, no USB, no interaction, automatic working
-//		demoMode = true;
-//		freeze = false;
-//		while (1);
-//	}
 }
 /*====================================================================================================*/
 /**
@@ -156,7 +120,7 @@ static void USBH_UserProcess_callback(USBH_HandleTypeDef *pHost, uint8_t vId) {
 		Appli_state = APPLICATION_READY;
 		BSP_LED_On(LED_Green);
 		BSP_LED_Off(LED_Blue);
-		BSP_LED_Off(LED_Red);
+		//BSP_LED_Off(LED_Red);
 		break;
 
 	case HOST_USER_CONNECTION:
@@ -169,7 +133,6 @@ static void USBH_UserProcess_callback(USBH_HandleTypeDef *pHost, uint8_t vId) {
 
 	}
 }
-
 /*----------------------------------------------------------------------------------------------*/
 
 /**

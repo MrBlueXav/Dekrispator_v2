@@ -1,5 +1,7 @@
-Dekrispator version 2
+Dekrispator (v3)
 ===========
+
+Updates !
 
 Transform your STM32F4 Discovery board into an experimental music synthesizer or autonomous noise box with USB MIDI Host function for interaction !
 
@@ -11,20 +13,22 @@ A video : http://youtu.be/fcLrcDCaI7w
 
 **Usage**
 
-Flash your board with "Dekrispator_v2.hex" (in Release folder) and enjoy hours and hours of sweet music coming of it ! Sounds can be loud so beware !
+Flash your board with "Dekrispator_v2.bin" or .elf (in Release folder) and enjoy hours and hours of sweet music coming of it ! Sounds can be loud so beware !
 
-When powering up the board, the synth starts in "demo mode".
+When powering up the board, the synth starts in "demo mode". The synth works on its own, sounds are perpetually changing. 
 
-The synth works on its own, sounds are perpetually changing. If you press the user button, sounds and effects stop always changing and the red LED lights on : the synth parameters are frozen. Press once again the user button and the red LED lights off : unfreeze.
+If you press the user button, sequencer will stop, it will run again if you press the button once again.
 
-*Manual mode* : Connect an USB MIDI controller (like Korg NanoKontrol...) to the board's micro USB connector and control the synth.
-The MIDI mapping of the synth controls are in MIDI_mapping.ods file. I nearly used the factory settings of Korg NanoKontrol V1 (some momentary/toggle buttons modified). The blue LED indicates midi activity.
+To control Dekrispator's parameters you can connect at any time an USB MIDI controller (like Korg NanoKontrol...) to the board's micro USB connector and control the synth.
+The MIDI mapping of the synth controls are in MIDI_mapping.ods file. I used the factory settings of Korg NanoKontrol V1 (some momentary/toggle buttons modified). 
 
 CC68 (= 127) : reset synth with basic sound and sequencer running.
 
 CC67 (= 127) : toggle demo mode.
 
-The orange LED reflects the CPU usage : when it's dim CPU gets overloaded.
+CC69 (= 127) : toggles sequencer run/stop
+
+
 
 Ready-to-use files are in Ressources folder.
 
@@ -51,15 +55,26 @@ Ready-to-use files are in Ressources folder.
    * chorus/flanger
    * phaser
  * random sound and FX patch generator
+ * LED information :
+   * The orange LED reflects the CPU usage : when it's dim CPU gets overloaded.
+   * The red LED lights on when sequencer is stopped or when a system error occurs.
+   * The green LED indicates a midi usb is connected and recognized.
+   * The blue LED indicates midi activity.
 
 - - - -
-Special thanks : Sean Bolton, Perry R. Cook and Gary P. Scavone, Gabriel Rivas, Ross Bencina, Thorsten Klose, erwincoumans, ST
+Special thanks : Sean Bolton, Perry R. Cook and Gary P. Scavone, Gabriel Rivas, Ross Bencina, GaryA, Thorsten Klose, erwincoumans, ST
 
 - - - - 
 
 **Building from source :**
 
 Go to Release folder and type "make". Then flash the mcu with your prefered tool.
+
+Linux example with stlink-tools : 
+
+```
+$ st-flash write Dekrispator_v2.bin 0x8000000
+```
 
 - - - 
 
@@ -69,9 +84,11 @@ Go to Release folder and type "make". Then flash the mcu with your prefered tool
 * Extensive use of CCM RAM for stack, heap, and global variables
 * Link Time Optimization ( -flto ) 
 * audio DMA and USB interrupts priorities are set equal to 6
-* Flash size is about 128000 bytes (-O3)
+* Flash size is about 141752 bytes (-O3)
 * Size of the audio buffer (affects latency) can be tweaked in CONSTANTS.h file (BUFF_LEN must be a multiple of 4).
 It is set at 4000 bytes long (BUFF_LEN = 2000) but it can be reduced.
+
+* Compiler : arm-none-eabi-gcc (GNU Arm Embedded Toolchain 9-2020-q2-update) 9.3.1 20200408 (release)
 
 * Cross ARM C Compiler options :
 

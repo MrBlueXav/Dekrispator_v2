@@ -1,6 +1,4 @@
 ################################################################################
-# Automatically-generated file. Do not edit!
-################################################################################
 
 -include ../makefile.init
 
@@ -32,7 +30,7 @@ endif
 
 # Add inputs and outputs from these tool invocations to the build variables 
 SECONDARY_FLASH += \
-Dekrispator_v2.hex \
+Dekrispator_v2.bin \
 
 SECONDARY_LIST += \
 Dekrispator_v2.lst \
@@ -52,9 +50,9 @@ Dekrispator_v2.elf: $(OBJS) $(USER_OBJS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
-Dekrispator_v2.hex: Dekrispator_v2.elf
+Dekrispator_v2.bin: Dekrispator_v2.elf
 	@echo 'Invoking: Cross ARM GNU Create Flash Image'
-	arm-none-eabi-objcopy -O ihex "Dekrispator_v2.elf"  "Dekrispator_v2.hex"
+	arm-none-eabi-objcopy -O binary "Dekrispator_v2.elf"  "Dekrispator_v2.bin"
 	@echo 'Finished building: $@'
 	@echo ' '
 

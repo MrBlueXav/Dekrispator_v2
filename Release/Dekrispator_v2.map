@@ -57,11 +57,11 @@ Archive member included to satisfy reference by file (symbol)
 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(_exit.o)
                               /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-exit.o) (_exit)
 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-malloc.o)
-                              /tmp/Dekrispator_v2.elf.j5X9R0.ltrans1.ltrans.o (malloc)
+                              /tmp/Dekrispator_v2.elf.5LDSAf.ltrans1.ltrans.o (malloc)
 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-mallocr.o)
                               /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-malloc.o) (_malloc_r)
 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memcpy.o)
-                              /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o (memcpy)
+                              /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o (memcpy)
 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-mlock.o)
                               /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-mallocr.o) (__malloc_lock)
 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-sbrkr.o)
@@ -114,22 +114,22 @@ Discarded input sections
  .ARM.exidx     0x0000000000000000       0x10 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
  .ARM.attributes
                 0x0000000000000000       0x1c /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
- .text          0x0000000000000000        0x0 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
- .data          0x0000000000000000        0x0 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
- .bss           0x0000000000000000        0x0 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .bss.debug.8408
-                0x0000000000000000        0x4 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x0000000000000000        0x4 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .bss.swrate.lto_priv.0
-                0x0000000000000000        0x4 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
- .text          0x0000000000000000        0x0 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans1.ltrans.o
- .data          0x0000000000000000        0x0 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans1.ltrans.o
- .bss           0x0000000000000000        0x0 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans1.ltrans.o
+                0x0000000000000000        0x4 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans1.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans1.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans1.ltrans.o
  .bss.TimeRecBase
-                0x0000000000000000        0x4 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans1.ltrans.o
+                0x0000000000000000        0x4 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans1.ltrans.o
  .data.AHBPrescTable
-                0x0000000000000000       0x10 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans1.ltrans.o
+                0x0000000000000000       0x10 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans1.ltrans.o
  .data.AudioInVolume
-                0x0000000000000000        0x2 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans1.ltrans.o
+                0x0000000000000000        0x2 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans1.ltrans.o
  .text          0x0000000000000000       0x14 ./Synth/startup_stm32f407xx.o
  .data          0x0000000000000000        0x0 ./Synth/startup_stm32f407xx.o
  .bss           0x0000000000000000        0x0 ./Synth/startup_stm32f407xx.o
@@ -294,8 +294,8 @@ LOAD /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-n
 LOAD /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 LOAD /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
 LOAD ./drivers/USBH_midi_class/Src/usbh_MIDI.o
-LOAD /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
-LOAD /tmp/Dekrispator_v2.elf.j5X9R0.ltrans1.ltrans.o
+LOAD /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+LOAD /tmp/Dekrispator_v2.elf.5LDSAf.ltrans1.ltrans.o
 LOAD ./drivers/STM32_USB_Host_Library/Core/Src/usbh_core.o
 LOAD ./drivers/STM32_USB_Host_Library/Core/Src/usbh_ctlreq.o
 LOAD ./drivers/STM32_USB_Host_Library/Core/Src/usbh_ioreq.o
@@ -411,7 +411,7 @@ LOAD /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-n
                 0x0000000008000000                g_pfnVectors
                 0x0000000008000188                . = ALIGN (0x4)
 
-.text           0x0000000008000188     0xf718
+.text           0x0000000008000188     0xf344
                 0x0000000008000188                . = ALIGN (0x4)
  *(.text)
  .text          0x0000000008000188       0x40 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtbegin.o
@@ -419,730 +419,740 @@ LOAD /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-n
                 0x00000000080001c8                memcpy
  *(.text*)
  .text.USB_HC_StartXfer
-                0x00000000080002fc      0x27c /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x00000000080002fc      0x27c /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
                 0x00000000080002fc                USB_HC_StartXfer
  .text.USB_HC_ReadInterrupt
-                0x0000000008000578       0x20 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x0000000008000578       0x20 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .text.USB_HC_Halt
-                0x0000000008000598      0x1f4 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x0000000008000598      0x1f4 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
                 0x0000000008000598                USB_HC_Halt
  .text.USB_DoPing
-                0x000000000800078c       0x80 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x000000000800078c       0x80 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .text.USB_StopHost
-                0x000000000800080c      0x104 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x000000000800080c      0x104 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
                 0x000000000800080c                USB_StopHost
  .text.USBH_Get_StringDesc.constprop.0
-                0x0000000008000910       0x7c /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x0000000008000910       0x7c /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .text.HAL_GPIO_Init
-                0x000000000800098c      0x294 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x000000000800098c      0x294 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .text.HAL_GPIO_Init.constprop.1
-                0x0000000008000c20       0x74 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x0000000008000c20       0x74 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .text.HAL_NVIC_SetPriority.constprop.2
-                0x0000000008000c94       0x5c /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x0000000008000c94       0x5c /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .text.USBH_LL_OpenPipe
-                0x0000000008000cf0       0xf0 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x0000000008000cf0       0xf0 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
                 0x0000000008000cf0                USBH_LL_OpenPipe
  .text.USB_EnableGlobalInt
-                0x0000000008000de0       0x10 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x0000000008000de0       0x10 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .text.SVF_calcSample
-                0x0000000008000df0      0x270 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x0000000008000df0      0x270 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .text.MorphingSaw_SampleCompute
-                0x0000000008001060       0xfc /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x0000000008001060       0xfc /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .text.Error_Handler
-                0x000000000800115c       0x10 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x000000000800115c       0x10 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .text.USBH_UserProcess_callback
-                0x000000000800116c       0x5c /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x000000000800116c       0x58 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .text.USB_DisableGlobalInt
-                0x00000000080011c8       0x10 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
- .text.Delay_compute
-                0x00000000080011d8       0xc4 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x00000000080011c4       0x10 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .text.BSP_LED_Init
-                0x000000000800129c       0x54 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x00000000080011d4       0x54 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .text.cs43l22_SetFrequency
-                0x00000000080012f0        0x4 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x0000000008001228        0x4 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .text.USB_CoreReset
-                0x00000000080012f4       0x34 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x000000000800122c       0x34 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .text.USB_WritePacket
-                0x0000000008001328       0x2c /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x0000000008001260       0x2c /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .text.USB_FlushRxFifo
-                0x0000000008001354       0x20 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x000000000800128c       0x20 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .text.USB_FlushTxFifo
-                0x0000000008001374       0x24 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x00000000080012ac       0x24 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .text.HAL_RCC_GetHCLKFreq
-                0x0000000008001398       0xb4 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x00000000080012d0       0xb4 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .text.HAL_InitTick.constprop.0
-                0x000000000800144c       0x44 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x0000000008001384       0x44 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .text.I2Cx_Init.part.0
-                0x0000000008001490      0x1e0 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x00000000080013c8      0x1e0 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .text.I2S_DMAError
-                0x0000000008001670       0x2c /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x00000000080015a8       0x2c /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .text.HAL_DMA_IRQHandler
-                0x000000000800169c     0x2110 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x00000000080015d4     0x2110 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .text.HAL_I2C_Mem_Write.part.0.constprop.0
-                0x00000000080037ac       0x9c /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x00000000080036e4       0x9c /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .text.I2Cx_WriteData
-                0x0000000008003848      0x104 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x0000000008003780      0x104 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .text.cs43l22_SetOutputMode
-                0x000000000800394c      0x174 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x0000000008003884      0x174 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .text.cs43l22_SetMute
-                0x0000000008003ac0      0x1a0 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x00000000080039f8      0x1a0 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .text.cs43l22_SetVolume
-                0x0000000008003c60      0x3b8 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x0000000008003b98      0x3b8 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .text.cs43l22_Init
-                0x0000000008004018      0x170 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x0000000008003f50      0x170 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .text.cs43l22_Stop
-                0x0000000008004188      0x218 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x00000000080040c0      0x218 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .text.cs43l22_Resume
-                0x00000000080043a0      0x334 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x00000000080042d8      0x334 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .text.cs43l22_Pause
-                0x00000000080046d4      0x210 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x000000000800460c      0x210 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .text.cs43l22_Play
-                0x00000000080048e4      0x220 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x000000000800481c      0x220 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .text.cs43l22_ReadID
-                0x0000000008004b04      0x220 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x0000000008004a3c      0x220 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .text.drifter_nextSample
-                0x0000000008004d24       0xd4 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x0000000008004c5c       0xd4 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .text.seq_sequence_new
-                0x0000000008004df8      0x1f8 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
- .text.sequencer_newStep_action
-                0x0000000008004ff0      0x4d4 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
- .text.Phaser_compute
-                0x00000000080054c4      0x170 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
- .text.waveCompute
-                0x0000000008005634     0x1c8c /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x0000000008004d30      0x1f8 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .text.delay_read
-                0x00000000080072c0      0x148 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x0000000008004f28      0x148 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .text.mono_chorus_compute
-                0x0000000008007408      0x148 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x0000000008005070      0x148 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .text.USBH_Get_DevDesc.constprop.0
-                0x0000000008007550      0x408 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x00000000080051b8      0x408 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .text.SystemInit
-                0x0000000008007958       0x50 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
-                0x0000000008007958                SystemInit
+                0x00000000080055c0       0x50 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+                0x00000000080055c0                SystemInit
  .text.OTG_FS_IRQHandler
-                0x00000000080079a8      0x940 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
-                0x00000000080079a8                OTG_FS_IRQHandler
+                0x0000000008005610      0x940 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+                0x0000000008005610                OTG_FS_IRQHandler
  .text.TIM4_IRQHandler
-                0x00000000080082e8        0x4 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
-                0x00000000080082e8                TIM4_IRQHandler
+                0x0000000008005f50        0x4 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+                0x0000000008005f50                TIM4_IRQHandler
  .text.HAL_MspInit
-                0x00000000080082ec        0x4 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
-                0x00000000080082ec                NMI_Handler
+                0x0000000008005f54        0x4 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+                0x0000000008005f54                NMI_Handler
  .text.DMA1_Stream3_IRQHandler
-                0x00000000080082f0        0x8 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
-                0x00000000080082f0                DMA1_Stream3_IRQHandler
+                0x0000000008005f58        0x8 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+                0x0000000008005f58                DMA1_Stream3_IRQHandler
  .text.DMA1_Stream7_IRQHandler
-                0x00000000080082f8        0xc /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
-                0x00000000080082f8                DMA1_Stream7_IRQHandler
+                0x0000000008005f60        0xc /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+                0x0000000008005f60                DMA1_Stream7_IRQHandler
  .text.EXTI1_IRQHandler
-                0x0000000008008304       0x14 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
-                0x0000000008008304                EXTI1_IRQHandler
+                0x0000000008005f6c       0x14 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+                0x0000000008005f6c                EXTI1_IRQHandler
  .text.EXTI0_IRQHandler
-                0x0000000008008318       0x14 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
-                0x0000000008008318                EXTI0_IRQHandler
+                0x0000000008005f80       0x14 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+                0x0000000008005f80                EXTI0_IRQHandler
  .text.SysTick_Handler
-                0x000000000800832c       0xbc /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
-                0x000000000800832c                SysTick_Handler
+                0x0000000008005f94       0xa0 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+                0x0000000008005f94                SysTick_Handler
  .text.PendSV_Handler
-                0x00000000080083e8        0x4 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
-                0x00000000080083e8                PendSV_Handler
+                0x0000000008006034        0x4 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+                0x0000000008006034                PendSV_Handler
  .text.DebugMon_Handler
-                0x00000000080083ec        0x4 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
-                0x00000000080083ec                DebugMon_Handler
+                0x0000000008006038        0x4 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+                0x0000000008006038                DebugMon_Handler
  .text.SVC_Handler
-                0x00000000080083f0        0x4 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
-                0x00000000080083f0                SVC_Handler
+                0x000000000800603c        0x4 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+                0x000000000800603c                SVC_Handler
  .text.UsageFault_Handler
-                0x00000000080083f4        0x4 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
-                0x00000000080083f4                UsageFault_Handler
+                0x0000000008006040        0x4 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+                0x0000000008006040                UsageFault_Handler
  .text.BusFault_Handler
-                0x00000000080083f8        0x4 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
-                0x00000000080083f8                BusFault_Handler
+                0x0000000008006044        0x4 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+                0x0000000008006044                BusFault_Handler
  .text.MemManage_Handler
-                0x00000000080083fc        0x4 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
-                0x00000000080083fc                MemManage_Handler
+                0x0000000008006048        0x4 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+                0x0000000008006048                MemManage_Handler
  .text.BSP_AUDIO_OUT_Error_CallBack
-                0x0000000008008400        0x4 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
-                0x0000000008008400                HardFault_Handler
+                0x000000000800604c        0x4 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+                0x000000000800604c                HardFault_Handler
  .text.Synth_Init
-                0x0000000008008404      0x5f4 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
-                0x0000000008008404                Synth_Init
+                0x0000000008006050      0x5b4 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+                0x0000000008006050                Synth_Init
  .text.startup.main
-                0x00000000080089f8     0x13e0 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
-                0x00000000080089f8                main
+                0x0000000008006604     0x13e0 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+                0x0000000008006604                main
  .text.MagicPatch.part.0
-                0x0000000008009dd8      0xc10 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
-                0x0000000008009dd8                MagicPatch.part.0
+                0x00000000080079e4      0xbf8 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+                0x00000000080079e4                MagicPatch.part.0
  .text.MagicFX.part.0
-                0x000000000800a9e8      0x410 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
-                0x000000000800a9e8                MagicFX.part.0
- .text.I2S_DMATxCplt
-                0x000000000800adf8      0x618 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x00000000080085dc      0x410 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+                0x00000000080085dc                MagicFX.part.0
+ .text.make_sound.constprop.0
+                0x00000000080089ec     0x29ac /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .text.I2S_DMATxHalfCplt
-                0x000000000800b410      0x5c0 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x000000000800b398       0x2c /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+ .text.I2S_DMATxCplt
+                0x000000000800b3c4       0x84 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .text.USBH_MIDI_SOFProcess.lto_priv.0
-                0x000000000800b9d0        0x4 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans1.ltrans.o
-                0x000000000800b9d0                USBH_MIDI_SOFProcess.lto_priv.0
+                0x000000000800b448        0x4 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans1.ltrans.o
+                0x000000000800b448                USBH_MIDI_SOFProcess.lto_priv.0
  .text.USBH_MIDI_ClassRequest.lto_priv.0
-                0x000000000800b9d4       0x10 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans1.ltrans.o
-                0x000000000800b9d4                USBH_MIDI_ClassRequest.lto_priv.0
+                0x000000000800b44c       0x10 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans1.ltrans.o
+                0x000000000800b44c                USBH_MIDI_ClassRequest.lto_priv.0
  .text.USBH_MIDI_InterfaceInit.lto_priv.0
-                0x000000000800b9e4      0x530 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans1.ltrans.o
-                0x000000000800b9e4                USBH_MIDI_InterfaceInit.lto_priv.0
+                0x000000000800b45c      0x530 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans1.ltrans.o
+                0x000000000800b45c                USBH_MIDI_InterfaceInit.lto_priv.0
  .text.HAL_Delay
-                0x000000000800bf14       0x1c /tmp/Dekrispator_v2.elf.j5X9R0.ltrans1.ltrans.o
-                0x000000000800bf14                HAL_Delay
+                0x000000000800b98c       0x1c /tmp/Dekrispator_v2.elf.5LDSAf.ltrans1.ltrans.o
+                0x000000000800b98c                HAL_Delay
  .text.USBH_CtlReq.part.0
-                0x000000000800bf30      0x36c /tmp/Dekrispator_v2.elf.j5X9R0.ltrans1.ltrans.o
-                0x000000000800bf30                USBH_CtlReq.part.0
+                0x000000000800b9a8      0x36c /tmp/Dekrispator_v2.elf.5LDSAf.ltrans1.ltrans.o
+                0x000000000800b9a8                USBH_CtlReq.part.0
  .text.USBH_MIDI_Process.lto_priv.0
-                0x000000000800c29c     0x14d0 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans1.ltrans.o
-                0x000000000800c29c                USBH_MIDI_Process.lto_priv.0
+                0x000000000800bd14     0x1684 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans1.ltrans.o
+                0x000000000800bd14                USBH_MIDI_Process.lto_priv.0
  .text.USBH_MIDI_InterfaceDeInit.lto_priv.0
-                0x000000000800d76c       0xa8 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans1.ltrans.o
-                0x000000000800d76c                USBH_MIDI_InterfaceDeInit.lto_priv.0
+                0x000000000800d398       0xa8 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans1.ltrans.o
+                0x000000000800d398                USBH_MIDI_InterfaceDeInit.lto_priv.0
  .text.Reset_Handler
-                0x000000000800d814       0x50 ./Synth/startup_stm32f407xx.o
-                0x000000000800d814                Reset_Handler
+                0x000000000800d440       0x50 ./Synth/startup_stm32f407xx.o
+                0x000000000800d440                Reset_Handler
  .text.Default_Handler
-                0x000000000800d864        0x2 ./Synth/startup_stm32f407xx.o
-                0x000000000800d864                RTC_Alarm_IRQHandler
-                0x000000000800d864                HASH_RNG_IRQHandler
-                0x000000000800d864                EXTI2_IRQHandler
-                0x000000000800d864                TIM8_CC_IRQHandler
-                0x000000000800d864                TIM1_CC_IRQHandler
-                0x000000000800d864                DMA2_Stream5_IRQHandler
-                0x000000000800d864                DMA1_Stream5_IRQHandler
-                0x000000000800d864                PVD_IRQHandler
-                0x000000000800d864                SDIO_IRQHandler
-                0x000000000800d864                TAMP_STAMP_IRQHandler
-                0x000000000800d864                CAN2_RX1_IRQHandler
-                0x000000000800d864                EXTI3_IRQHandler
-                0x000000000800d864                TIM8_TRG_COM_TIM14_IRQHandler
-                0x000000000800d864                TIM1_UP_TIM10_IRQHandler
-                0x000000000800d864                TIM8_UP_TIM13_IRQHandler
-                0x000000000800d864                I2C3_ER_IRQHandler
-                0x000000000800d864                I2C2_EV_IRQHandler
-                0x000000000800d864                DMA1_Stream2_IRQHandler
-                0x000000000800d864                CAN1_RX0_IRQHandler
-                0x000000000800d864                FPU_IRQHandler
-                0x000000000800d864                OTG_HS_WKUP_IRQHandler
-                0x000000000800d864                CAN2_SCE_IRQHandler
-                0x000000000800d864                DMA2_Stream2_IRQHandler
-                0x000000000800d864                SPI1_IRQHandler
-                0x000000000800d864                TIM6_DAC_IRQHandler
-                0x000000000800d864                TIM1_BRK_TIM9_IRQHandler
-                0x000000000800d864                DCMI_IRQHandler
-                0x000000000800d864                CAN2_RX0_IRQHandler
-                0x000000000800d864                DMA2_Stream3_IRQHandler
-                0x000000000800d864                USART6_IRQHandler
-                0x000000000800d864                USART3_IRQHandler
-                0x000000000800d864                CAN1_RX1_IRQHandler
-                0x000000000800d864                UART5_IRQHandler
-                0x000000000800d864                DMA2_Stream0_IRQHandler
-                0x000000000800d864                I2C1_EV_IRQHandler
-                0x000000000800d864                DMA1_Stream6_IRQHandler
-                0x000000000800d864                DMA1_Stream1_IRQHandler
-                0x000000000800d864                UART4_IRQHandler
-                0x000000000800d864                TIM3_IRQHandler
-                0x000000000800d864                RCC_IRQHandler
-                0x000000000800d864                TIM8_BRK_TIM12_IRQHandler
-                0x000000000800d864                Default_Handler
-                0x000000000800d864                EXTI15_10_IRQHandler
-                0x000000000800d864                ADC_IRQHandler
-                0x000000000800d864                TIM7_IRQHandler
-                0x000000000800d864                CAN2_TX_IRQHandler
-                0x000000000800d864                TIM5_IRQHandler
-                0x000000000800d864                DMA2_Stream7_IRQHandler
-                0x000000000800d864                I2C3_EV_IRQHandler
-                0x000000000800d864                EXTI9_5_IRQHandler
-                0x000000000800d864                RTC_WKUP_IRQHandler
-                0x000000000800d864                ETH_WKUP_IRQHandler
-                0x000000000800d864                SPI2_IRQHandler
-                0x000000000800d864                OTG_HS_EP1_IN_IRQHandler
-                0x000000000800d864                DMA1_Stream0_IRQHandler
-                0x000000000800d864                CAN1_TX_IRQHandler
-                0x000000000800d864                EXTI4_IRQHandler
-                0x000000000800d864                FSMC_IRQHandler
-                0x000000000800d864                ETH_IRQHandler
-                0x000000000800d864                OTG_HS_EP1_OUT_IRQHandler
-                0x000000000800d864                WWDG_IRQHandler
-                0x000000000800d864                TIM2_IRQHandler
-                0x000000000800d864                OTG_FS_WKUP_IRQHandler
-                0x000000000800d864                TIM1_TRG_COM_TIM11_IRQHandler
-                0x000000000800d864                OTG_HS_IRQHandler
-                0x000000000800d864                USART2_IRQHandler
-                0x000000000800d864                I2C2_ER_IRQHandler
-                0x000000000800d864                DMA2_Stream1_IRQHandler
-                0x000000000800d864                CAN1_SCE_IRQHandler
-                0x000000000800d864                FLASH_IRQHandler
-                0x000000000800d864                DMA2_Stream4_IRQHandler
-                0x000000000800d864                USART1_IRQHandler
-                0x000000000800d864                SPI3_IRQHandler
-                0x000000000800d864                DMA1_Stream4_IRQHandler
-                0x000000000800d864                I2C1_ER_IRQHandler
-                0x000000000800d864                DMA2_Stream6_IRQHandler
- *fill*         0x000000000800d866        0x2 
- .text.floorf   0x000000000800d868       0x8c /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
-                0x000000000800d868                floorf
- .text.lrintf   0x000000000800d8f4       0x98 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_lrint.o)
-                0x000000000800d8f4                lrintf
- .text.rintf    0x000000000800d98c       0xbc /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_rint.o)
-                0x000000000800d98c                rintf
- .text.sinf     0x000000000800da48       0x94 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_sin.o)
-                0x000000000800da48                sinf
- .text.powf     0x000000000800dadc      0x140 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_pow.o)
-                0x000000000800dadc                powf
+                0x000000000800d490        0x2 ./Synth/startup_stm32f407xx.o
+                0x000000000800d490                RTC_Alarm_IRQHandler
+                0x000000000800d490                HASH_RNG_IRQHandler
+                0x000000000800d490                EXTI2_IRQHandler
+                0x000000000800d490                TIM8_CC_IRQHandler
+                0x000000000800d490                TIM1_CC_IRQHandler
+                0x000000000800d490                DMA2_Stream5_IRQHandler
+                0x000000000800d490                DMA1_Stream5_IRQHandler
+                0x000000000800d490                PVD_IRQHandler
+                0x000000000800d490                SDIO_IRQHandler
+                0x000000000800d490                TAMP_STAMP_IRQHandler
+                0x000000000800d490                CAN2_RX1_IRQHandler
+                0x000000000800d490                EXTI3_IRQHandler
+                0x000000000800d490                TIM8_TRG_COM_TIM14_IRQHandler
+                0x000000000800d490                TIM1_UP_TIM10_IRQHandler
+                0x000000000800d490                TIM8_UP_TIM13_IRQHandler
+                0x000000000800d490                I2C3_ER_IRQHandler
+                0x000000000800d490                I2C2_EV_IRQHandler
+                0x000000000800d490                DMA1_Stream2_IRQHandler
+                0x000000000800d490                CAN1_RX0_IRQHandler
+                0x000000000800d490                FPU_IRQHandler
+                0x000000000800d490                OTG_HS_WKUP_IRQHandler
+                0x000000000800d490                CAN2_SCE_IRQHandler
+                0x000000000800d490                DMA2_Stream2_IRQHandler
+                0x000000000800d490                SPI1_IRQHandler
+                0x000000000800d490                TIM6_DAC_IRQHandler
+                0x000000000800d490                TIM1_BRK_TIM9_IRQHandler
+                0x000000000800d490                DCMI_IRQHandler
+                0x000000000800d490                CAN2_RX0_IRQHandler
+                0x000000000800d490                DMA2_Stream3_IRQHandler
+                0x000000000800d490                USART6_IRQHandler
+                0x000000000800d490                USART3_IRQHandler
+                0x000000000800d490                CAN1_RX1_IRQHandler
+                0x000000000800d490                UART5_IRQHandler
+                0x000000000800d490                DMA2_Stream0_IRQHandler
+                0x000000000800d490                I2C1_EV_IRQHandler
+                0x000000000800d490                DMA1_Stream6_IRQHandler
+                0x000000000800d490                DMA1_Stream1_IRQHandler
+                0x000000000800d490                UART4_IRQHandler
+                0x000000000800d490                TIM3_IRQHandler
+                0x000000000800d490                RCC_IRQHandler
+                0x000000000800d490                TIM8_BRK_TIM12_IRQHandler
+                0x000000000800d490                Default_Handler
+                0x000000000800d490                EXTI15_10_IRQHandler
+                0x000000000800d490                ADC_IRQHandler
+                0x000000000800d490                TIM7_IRQHandler
+                0x000000000800d490                CAN2_TX_IRQHandler
+                0x000000000800d490                TIM5_IRQHandler
+                0x000000000800d490                DMA2_Stream7_IRQHandler
+                0x000000000800d490                I2C3_EV_IRQHandler
+                0x000000000800d490                EXTI9_5_IRQHandler
+                0x000000000800d490                RTC_WKUP_IRQHandler
+                0x000000000800d490                ETH_WKUP_IRQHandler
+                0x000000000800d490                SPI2_IRQHandler
+                0x000000000800d490                OTG_HS_EP1_IN_IRQHandler
+                0x000000000800d490                DMA1_Stream0_IRQHandler
+                0x000000000800d490                CAN1_TX_IRQHandler
+                0x000000000800d490                EXTI4_IRQHandler
+                0x000000000800d490                FSMC_IRQHandler
+                0x000000000800d490                ETH_IRQHandler
+                0x000000000800d490                OTG_HS_EP1_OUT_IRQHandler
+                0x000000000800d490                WWDG_IRQHandler
+                0x000000000800d490                TIM2_IRQHandler
+                0x000000000800d490                OTG_FS_WKUP_IRQHandler
+                0x000000000800d490                TIM1_TRG_COM_TIM11_IRQHandler
+                0x000000000800d490                OTG_HS_IRQHandler
+                0x000000000800d490                USART2_IRQHandler
+                0x000000000800d490                I2C2_ER_IRQHandler
+                0x000000000800d490                DMA2_Stream1_IRQHandler
+                0x000000000800d490                CAN1_SCE_IRQHandler
+                0x000000000800d490                FLASH_IRQHandler
+                0x000000000800d490                DMA2_Stream4_IRQHandler
+                0x000000000800d490                USART1_IRQHandler
+                0x000000000800d490                SPI3_IRQHandler
+                0x000000000800d490                DMA1_Stream4_IRQHandler
+                0x000000000800d490                I2C1_ER_IRQHandler
+                0x000000000800d490                DMA2_Stream6_IRQHandler
+ *fill*         0x000000000800d492        0x2 
+ .text.floorf   0x000000000800d494       0x8c /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
+                0x000000000800d494                floorf
+ .text.lrintf   0x000000000800d520       0x98 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_lrint.o)
+                0x000000000800d520                lrintf
+ .text.rintf    0x000000000800d5b8       0xbc /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_rint.o)
+                0x000000000800d5b8                rintf
+ .text.sinf     0x000000000800d674       0x94 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_sin.o)
+                0x000000000800d674                sinf
+ .text.powf     0x000000000800d708      0x140 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_pow.o)
+                0x000000000800d708                powf
  .text.__ieee754_powf
-                0x000000000800dc1c      0x600 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_pow.o)
-                0x000000000800dc1c                __ieee754_powf
+                0x000000000800d848      0x600 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_pow.o)
+                0x000000000800d848                __ieee754_powf
  .text.__ieee754_rem_pio2f
-                0x000000000800e21c      0x294 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
-                0x000000000800e21c                __ieee754_rem_pio2f
+                0x000000000800de48      0x294 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+                0x000000000800de48                __ieee754_rem_pio2f
  .text.__ieee754_sqrtf
-                0x000000000800e4b0        0x8 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_sqrt.o)
-                0x000000000800e4b0                __ieee754_sqrtf
+                0x000000000800e0dc        0x8 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_sqrt.o)
+                0x000000000800e0dc                __ieee754_sqrtf
  .text.__kernel_cosf
-                0x000000000800e4b8      0x104 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_cos.o)
-                0x000000000800e4b8                __kernel_cosf
+                0x000000000800e0e4      0x104 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_cos.o)
+                0x000000000800e0e4                __kernel_cosf
  .text.__kernel_rem_pio2f
-                0x000000000800e5bc      0x66c /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
-                0x000000000800e5bc                __kernel_rem_pio2f
+                0x000000000800e1e8      0x66c /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+                0x000000000800e1e8                __kernel_rem_pio2f
  .text.__kernel_sinf
-                0x000000000800ec28       0x90 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_sin.o)
-                0x000000000800ec28                __kernel_sinf
- .text.fabsf    0x000000000800ecb8       0x10 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
-                0x000000000800ecb8                fabsf
- .text.finitef  0x000000000800ecc8       0x1c /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_finite.o)
-                0x000000000800ecc8                finitef
- .text.nanf     0x000000000800ece4        0xc /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_nan.o)
-                0x000000000800ece4                nanf
- .text.scalbnf  0x000000000800ecf0       0xe4 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
-                0x000000000800ecf0                scalbnf
- .text.__errno  0x000000000800edd4        0xc /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-errno.o)
-                0x000000000800edd4                __errno
+                0x000000000800e854       0x90 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_sin.o)
+                0x000000000800e854                __kernel_sinf
+ .text.fabsf    0x000000000800e8e4       0x10 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
+                0x000000000800e8e4                fabsf
+ .text.finitef  0x000000000800e8f4       0x1c /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_finite.o)
+                0x000000000800e8f4                finitef
+ .text.nanf     0x000000000800e910        0xc /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_nan.o)
+                0x000000000800e910                nanf
+ .text.scalbnf  0x000000000800e91c       0xe4 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
+                0x000000000800e91c                scalbnf
+ .text.__errno  0x000000000800ea00        0xc /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-errno.o)
+                0x000000000800ea00                __errno
  .text.__libc_init_array
-                0x000000000800ede0       0x48 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-init.o)
-                0x000000000800ede0                __libc_init_array
- .text.memset   0x000000000800ee28       0xa0 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memset.o)
-                0x000000000800ee28                memset
- .text.srand    0x000000000800eec8       0x10 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-rand.o)
-                0x000000000800eec8                srand
- .text.rand     0x000000000800eed8       0x3c /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-rand.o)
-                0x000000000800eed8                rand
+                0x000000000800ea0c       0x48 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-init.o)
+                0x000000000800ea0c                __libc_init_array
+ .text.memset   0x000000000800ea54       0xa0 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memset.o)
+                0x000000000800ea54                memset
+ .text.srand    0x000000000800eaf4       0x10 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-rand.o)
+                0x000000000800eaf4                srand
+ .text.rand     0x000000000800eb04       0x3c /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-rand.o)
+                0x000000000800eb04                rand
  .text.startup.register_fini
-                0x000000000800ef14       0x14 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-__call_atexit.o)
- .text.atexit   0x000000000800ef28        0xc /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-atexit.o)
-                0x000000000800ef28                atexit
+                0x000000000800eb40       0x14 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-__call_atexit.o)
+ .text.atexit   0x000000000800eb54        0xc /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-atexit.o)
+                0x000000000800eb54                atexit
  .text.__libc_fini_array
-                0x000000000800ef34       0x2c /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-fini.o)
-                0x000000000800ef34                __libc_fini_array
+                0x000000000800eb60       0x2c /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-fini.o)
+                0x000000000800eb60                __libc_fini_array
  .text.__retarget_lock_acquire_recursive
-                0x000000000800ef60        0x4 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-lock.o)
-                0x000000000800ef60                __retarget_lock_acquire_recursive
+                0x000000000800eb8c        0x4 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-lock.o)
+                0x000000000800eb8c                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x000000000800ef64        0x4 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-lock.o)
-                0x000000000800ef64                __retarget_lock_release_recursive
+                0x000000000800eb90        0x4 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-lock.o)
+                0x000000000800eb90                __retarget_lock_release_recursive
  .text.__register_exitproc
-                0x000000000800ef68       0x8c /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-__atexit.o)
-                0x000000000800ef68                __register_exitproc
- .text.malloc   0x000000000800eff4       0x10 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-malloc.o)
-                0x000000000800eff4                malloc
- .text.free     0x000000000800f004       0x10 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-malloc.o)
-                0x000000000800f004                free
+                0x000000000800eb94       0x8c /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-__atexit.o)
+                0x000000000800eb94                __register_exitproc
+ .text.malloc   0x000000000800ec20       0x10 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-malloc.o)
+                0x000000000800ec20                malloc
+ .text.free     0x000000000800ec30       0x10 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-malloc.o)
+                0x000000000800ec30                free
  .text._malloc_r
-                0x000000000800f014      0x574 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-mallocr.o)
-                0x000000000800f014                _malloc_r
+                0x000000000800ec40      0x574 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-mallocr.o)
+                0x000000000800ec40                _malloc_r
  .text.__malloc_lock
-                0x000000000800f588        0xc /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-mlock.o)
-                0x000000000800f588                __malloc_lock
+                0x000000000800f1b4        0xc /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-mlock.o)
+                0x000000000800f1b4                __malloc_lock
  .text.__malloc_unlock
-                0x000000000800f594        0xc /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-mlock.o)
-                0x000000000800f594                __malloc_unlock
- .text._sbrk_r  0x000000000800f5a0       0x24 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-sbrkr.o)
-                0x000000000800f5a0                _sbrk_r
+                0x000000000800f1c0        0xc /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-mlock.o)
+                0x000000000800f1c0                __malloc_unlock
+ .text._sbrk_r  0x000000000800f1cc       0x24 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-sbrkr.o)
+                0x000000000800f1cc                _sbrk_r
  .text._malloc_trim_r
-                0x000000000800f5c4       0xa0 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-freer.o)
-                0x000000000800f5c4                _malloc_trim_r
- .text._free_r  0x000000000800f664      0x208 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-freer.o)
-                0x000000000800f664                _free_r
- .text._sbrk    0x000000000800f86c       0x1c /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(sbrk.o)
-                0x000000000800f86c                _sbrk
+                0x000000000800f1f0       0xa0 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-freer.o)
+                0x000000000800f1f0                _malloc_trim_r
+ .text._free_r  0x000000000800f290      0x208 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-freer.o)
+                0x000000000800f290                _free_r
+ .text._sbrk    0x000000000800f498       0x1c /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(sbrk.o)
+                0x000000000800f498                _sbrk
  *(.glue_7)
- .glue_7        0x000000000800f888        0x0 linker stubs
+ .glue_7        0x000000000800f4b4        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x000000000800f888        0x0 linker stubs
+ .glue_7t       0x000000000800f4b4        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x000000000800f888        0x0 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .eh_frame      0x000000000800f4b4        0x0 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtbegin.o
  *(.init)
- .init          0x000000000800f888        0x4 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crti.o
-                0x000000000800f888                _init
- .init          0x000000000800f88c        0x8 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtn.o
+ .init          0x000000000800f4b4        0x4 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crti.o
+                0x000000000800f4b4                _init
+ .init          0x000000000800f4b8        0x8 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtn.o
  *(.fini)
- .fini          0x000000000800f894        0x4 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crti.o
-                0x000000000800f894                _fini
- .fini          0x000000000800f898        0x8 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtn.o
-                0x000000000800f8a0                . = ALIGN (0x4)
-                0x000000000800f8a0                _etext = .
+ .fini          0x000000000800f4c0        0x4 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crti.o
+                0x000000000800f4c0                _fini
+ .fini          0x000000000800f4c4        0x8 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtn.o
+                0x000000000800f4cc                . = ALIGN (0x4)
+                0x000000000800f4cc                _etext = .
 
-.vfp11_veneer   0x000000000800f8a0        0x0
- .vfp11_veneer  0x000000000800f8a0        0x0 linker stubs
+.vfp11_veneer   0x000000000800f4cc        0x0
+ .vfp11_veneer  0x000000000800f4cc        0x0 linker stubs
 
-.v4_bx          0x000000000800f8a0        0x0
- .v4_bx         0x000000000800f8a0        0x0 linker stubs
+.v4_bx          0x000000000800f4cc        0x0
+ .v4_bx         0x000000000800f4cc        0x0 linker stubs
 
-.iplt           0x000000000800f8a0        0x0
- .iplt          0x000000000800f8a0        0x0 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+.iplt           0x000000000800f4cc        0x0
+ .iplt          0x000000000800f4cc        0x0 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.rodata         0x000000000800f8a0     0xed70
-                0x000000000800f8a0                . = ALIGN (0x4)
+.rodata         0x000000000800f4cc     0xed70
+                0x000000000800f4cc                . = ALIGN (0x4)
  *(.rodata)
  *(.rodata*)
  .rodata.str1.4
-                0x000000000800f8a0        0x5 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
- *fill*         0x000000000800f8a5        0x3 
+                0x000000000800f4cc        0x5 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+ *fill*         0x000000000800f4d1        0x3 
  .rodata.APBAHBPrescTable
-                0x000000000800f8a8       0x10 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
- .rodata.CSWTCH.13.lto_priv.0
-                0x000000000800f8b8       0x3c /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
-                0x000000000800f8b8                CSWTCH.13.lto_priv.0
+                0x000000000800f4d4       0x10 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+ .rodata.CSWTCH.14.lto_priv.0
+                0x000000000800f4e4       0x3c /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+                0x000000000800f4e4                CSWTCH.14.lto_priv.0
  .rodata.GPIO_PIN
-                0x000000000800f8f4        0x8 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
-                0x000000000800f8f4                GPIO_PIN
+                0x000000000800f520        0x8 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+                0x000000000800f520                GPIO_PIN
  .rodata.GPIO_PORT
-                0x000000000800f8fc       0x10 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
-                0x000000000800f8fc                GPIO_PORT
+                0x000000000800f528       0x10 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+                0x000000000800f528                GPIO_PORT
  .rodata.MIDIscale01
-                0x000000000800f90c        0x6 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
-                0x000000000800f90c                MIDIscale01
- *fill*         0x000000000800f912        0x2 
+                0x000000000800f538        0x6 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+                0x000000000800f538                MIDIscale01
+ *fill*         0x000000000800f53e        0x2 
  .rodata.MIDIscale02
-                0x000000000800f914        0x7 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
-                0x000000000800f914                MIDIscale02
- *fill*         0x000000000800f91b        0x1 
+                0x000000000800f540        0x7 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+                0x000000000800f540                MIDIscale02
+ *fill*         0x000000000800f547        0x1 
  .rodata.MIDIscale03
-                0x000000000800f91c        0x7 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
-                0x000000000800f91c                MIDIscale03
- *fill*         0x000000000800f923        0x1 
+                0x000000000800f548        0x7 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+                0x000000000800f548                MIDIscale03
+ *fill*         0x000000000800f54f        0x1 
  .rodata.MIDIscale04
-                0x000000000800f924        0x5 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
-                0x000000000800f924                MIDIscale04
- *fill*         0x000000000800f929        0x3 
+                0x000000000800f550        0x5 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+                0x000000000800f550                MIDIscale04
+ *fill*         0x000000000800f555        0x3 
  .rodata.MIDIscale05
-                0x000000000800f92c        0x7 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
-                0x000000000800f92c                MIDIscale05
- *fill*         0x000000000800f933        0x1 
+                0x000000000800f558        0x7 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+                0x000000000800f558                MIDIscale05
+ *fill*         0x000000000800f55f        0x1 
  .rodata.MIDIscale06
-                0x000000000800f934        0x8 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
-                0x000000000800f934                MIDIscale06
+                0x000000000800f560        0x8 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+                0x000000000800f560                MIDIscale06
  .rodata.MIDIscale07
-                0x000000000800f93c        0x3 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
-                0x000000000800f93c                MIDIscale07
- *fill*         0x000000000800f93f        0x1 
+                0x000000000800f568        0x3 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+                0x000000000800f568                MIDIscale07
+ *fill*         0x000000000800f56b        0x1 
  .rodata.MIDIscale08
-                0x000000000800f940        0x3 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
-                0x000000000800f940                MIDIscale08
- *fill*         0x000000000800f943        0x1 
+                0x000000000800f56c        0x3 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+                0x000000000800f56c                MIDIscale08
+ *fill*         0x000000000800f56f        0x1 
  .rodata.MIDIscale09
-                0x000000000800f944        0x4 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
-                0x000000000800f944                MIDIscale09
+                0x000000000800f570        0x4 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+                0x000000000800f570                MIDIscale09
  .rodata.MIDIscale10
-                0x000000000800f948        0x5 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
-                0x000000000800f948                MIDIscale10
- *fill*         0x000000000800f94d        0x3 
+                0x000000000800f574        0x5 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+                0x000000000800f574                MIDIscale10
+ *fill*         0x000000000800f579        0x3 
  .rodata.MIDIscale11
-                0x000000000800f950        0x8 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
-                0x000000000800f950                MIDIscale11
+                0x000000000800f57c        0x8 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+                0x000000000800f57c                MIDIscale11
  .rodata.MIDIscale12
-                0x000000000800f958        0xd /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
-                0x000000000800f958                MIDIscale12
- *fill*         0x000000000800f965        0x3 
+                0x000000000800f584        0xd /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+                0x000000000800f584                MIDIscale12
+ *fill*         0x000000000800f591        0x3 
  .rodata.MIDIscale13
-                0x000000000800f968        0x2 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
-                0x000000000800f968                MIDIscale13
- *fill*         0x000000000800f96a        0x2 
+                0x000000000800f594        0x2 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+                0x000000000800f594                MIDIscale13
+ *fill*         0x000000000800f596        0x2 
  .rodata.MIDIscale14
-                0x000000000800f96c        0x3 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
-                0x000000000800f96c                MIDIscale14
- *fill*         0x000000000800f96f        0x1 
+                0x000000000800f598        0x3 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+                0x000000000800f598                MIDIscale14
+ *fill*         0x000000000800f59b        0x1 
  .rodata.notesFreq
-                0x000000000800f970      0x1ac /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x000000000800f59c      0x1ac /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .rodata.sinetable
-                0x000000000800fb1c     0x1004 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x000000000800f748     0x1004 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .rodata.slope_dd_table
-                0x0000000008010b20     0x4704 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x000000000801074c     0x4704 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .rodata.step_dd_table
-                0x0000000008015224     0x9008 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
- .rodata.TWO23  0x000000000801e22c        0x8 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_lrint.o)
- .rodata.TWO23  0x000000000801e234        0x8 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_rint.o)
+                0x0000000008014e50     0x9008 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+ .rodata.TWO23  0x000000000801de58        0x8 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_lrint.o)
+ .rodata.TWO23  0x000000000801de60        0x8 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_rint.o)
  .rodata.__ieee754_powf.str1.4
-                0x000000000801e23c        0x0 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_pow.o)
+                0x000000000801de68        0x0 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_pow.o)
                                           0x1 (size before relaxing)
  .rodata.npio2_hw
-                0x000000000801e23c       0x80 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+                0x000000000801de68       0x80 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
  .rodata.two_over_pi
-                0x000000000801e2bc      0x318 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
- .rodata.PIo2   0x000000000801e5d4       0x2c /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+                0x000000000801dee8      0x318 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+ .rodata.PIo2   0x000000000801e200       0x2c /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
  .rodata.init_jk
-                0x000000000801e600        0xc /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+                0x000000000801e22c        0xc /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
  .rodata._global_impure_ptr
-                0x000000000801e60c        0x4 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-impure.o)
-                0x000000000801e60c                _global_impure_ptr
-                0x000000000801e610                . = ALIGN (0x4)
+                0x000000000801e238        0x4 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-impure.o)
+                0x000000000801e238                _global_impure_ptr
+                0x000000000801e23c                . = ALIGN (0x4)
 
-.rel.dyn        0x000000000801e610        0x0
- .rel.iplt      0x000000000801e610        0x0 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+.rel.dyn        0x000000000801e23c        0x0
+ .rel.iplt      0x000000000801e23c        0x0 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x000000000801e610        0x0
-                0x000000000801e610                __exidx_start = .
+.ARM            0x000000000801e23c        0x0
+                0x000000000801e23c                __exidx_start = .
  *(.ARM.exidx*)
-                0x000000000801e610                __exidx_end = .
+                0x000000000801e23c                __exidx_end = .
 
-.preinit_array  0x000000000801e610        0x0
-                0x000000000801e610                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x000000000801e23c        0x0
+                0x000000000801e23c                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x000000000801e610                PROVIDE (__preinit_array_end = .)
+                0x000000000801e23c                PROVIDE (__preinit_array_end = .)
 
-.init_array     0x000000000801e610        0x8
-                0x000000000801e610                PROVIDE (__init_array_start = .)
+.init_array     0x000000000801e23c        0x8
+                0x000000000801e23c                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  .init_array.00000
-                0x000000000801e610        0x4 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-__call_atexit.o)
+                0x000000000801e23c        0x4 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-__call_atexit.o)
  *(.init_array*)
- .init_array    0x000000000801e614        0x4 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtbegin.o
-                0x000000000801e618                PROVIDE (__init_array_end = .)
+ .init_array    0x000000000801e240        0x4 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x000000000801e244                PROVIDE (__init_array_end = .)
 
-.fini_array     0x000000000801e618        0x4
-                0x000000000801e618                PROVIDE (__fini_array_start = .)
+.fini_array     0x000000000801e244        0x4
+                0x000000000801e244                PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x000000000801e618        0x4 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtbegin.o
-                0x000000000801e61c                PROVIDE (__fini_array_end = .)
-                0x000000000801e61c                _sidata = LOADADDR (.data)
+ .fini_array    0x000000000801e244        0x4 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x000000000801e248                PROVIDE (__fini_array_end = .)
+                0x000000000801e248                _sidata = LOADADDR (.data)
 
-.data           0x0000000020000000      0x8a4 load address 0x000000000801e61c
+.data           0x0000000020000000      0x8ac load address 0x000000000801e248
                 0x0000000020000000                . = ALIGN (0x4)
                 0x0000000020000000                _sdata = .
  *(.data)
  *(.data*)
- .data.Count    0x0000000020000000        0x1 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+ .data.Count    0x0000000020000000        0x1 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .data.Is_cs43l22_Stop
-                0x0000000020000001        0x1 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x0000000020000001        0x1 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  *fill*         0x0000000020000002        0x2 
  .data.MIDI_Class
-                0x0000000020000004       0x20 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x0000000020000004       0x20 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .data.centralFreq.lto_priv.0
-                0x0000000020000024        0x4 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x0000000020000024        0x4 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
                 0x0000000020000024                centralFreq.lto_priv.0
  .data.cs43l22_drv
-                0x0000000020000028       0x2c /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x0000000020000028       0x2c /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .data.demoMode
-                0x0000000020000054        0x1 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x0000000020000054        0x1 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
                 0x0000000020000054                demoMode
  *fill*         0x0000000020000055        0x3 
  .data.fdb.lto_priv.0
-                0x0000000020000058        0x4 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x0000000020000058        0x4 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
                 0x0000000020000058                fdb.lto_priv.0
+ .data.sequencerIsOn
+                0x000000002000005c        0x1 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+                0x000000002000005c                sequencerIsOn
+ *fill*         0x000000002000005d        0x3 
  .data.wet.lto_priv.0
-                0x000000002000005c        0x4 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
-                0x000000002000005c                wet.lto_priv.0
+                0x0000000020000060        0x4 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+                0x0000000020000060                wet.lto_priv.0
  .data.__fdlib_version
-                0x0000000020000060        0x1 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-s_lib_ver.o)
-                0x0000000020000060                __fdlib_version
- *fill*         0x0000000020000061        0x3 
+                0x0000000020000064        0x1 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-s_lib_ver.o)
+                0x0000000020000064                __fdlib_version
+ *fill*         0x0000000020000065        0x3 
  .data._impure_ptr
-                0x0000000020000064        0x4 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-impure.o)
-                0x0000000020000064                _impure_ptr
+                0x0000000020000068        0x4 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-impure.o)
+                0x0000000020000068                _impure_ptr
+ *fill*         0x000000002000006c        0x4 
  .data.impure_data
-                0x0000000020000068      0x428 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-impure.o)
+                0x0000000020000070      0x428 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-impure.o)
  .data.__atexit_recursive_mutex
-                0x0000000020000490        0x4 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-__call_atexit.o)
-                0x0000000020000490                __atexit_recursive_mutex
+                0x0000000020000498        0x4 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-__call_atexit.o)
+                0x0000000020000498                __atexit_recursive_mutex
  .data.__malloc_av_
-                0x0000000020000494      0x408 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-mallocr.o)
-                0x0000000020000494                __malloc_av_
+                0x000000002000049c      0x408 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-mallocr.o)
+                0x000000002000049c                __malloc_av_
  .data.__malloc_sbrk_base
-                0x000000002000089c        0x4 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-mallocr.o)
-                0x000000002000089c                __malloc_sbrk_base
+                0x00000000200008a4        0x4 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-mallocr.o)
+                0x00000000200008a4                __malloc_sbrk_base
  .data.__malloc_trim_threshold
-                0x00000000200008a0        0x4 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-mallocr.o)
-                0x00000000200008a0                __malloc_trim_threshold
-                0x00000000200008a4                . = ALIGN (0x4)
-                0x00000000200008a4                _edata = .
-                0x000000000801eec0                _siccmram = LOADADDR (.ccmram)
+                0x00000000200008a8        0x4 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-mallocr.o)
+                0x00000000200008a8                __malloc_trim_threshold
+                0x00000000200008ac                . = ALIGN (0x4)
+                0x00000000200008ac                _edata = .
+                0x000000000801eaf4                _siccmram = LOADADDR (.ccmram)
 
-.igot.plt       0x00000000200008a4        0x0 load address 0x000000000801eec0
- .igot.plt      0x00000000200008a4        0x0 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+.igot.plt       0x00000000200008ac        0x0 load address 0x000000000801eaf4
+ .igot.plt      0x00000000200008ac        0x0 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.ccmram         0x0000000010000000     0x3ed0 load address 0x000000000801eec0
+.ccmram         0x0000000010000000     0x3ecc load address 0x000000000801eaf4
                 0x0000000010000000                . = ALIGN (0x4)
                 0x0000000010000000                _sccmram = .
  *(.ccmram)
- .ccmram        0x0000000010000000     0x3ed0 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+ .ccmram        0x0000000010000000     0x3ecc /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
                 0x0000000010000000                seq
-                0x0000000010000054                noteG
-                0x0000000010000068                a.lto_priv.0
-                0x0000000010000094                ph.lto_priv.0
-                0x00000000100000c0                adsr
-                0x00000000100000e8                autoFilterON.lto_priv.0
-                0x00000000100000ec                SVFilter
-                0x000000001000010c                autoSound.lto_priv.0
-                0x000000001000010d                sound.lto_priv.0
-                0x0000000010000118                op1
-                0x0000000010000138                mbTriOsc
-                0x0000000010000690                mbRectOsc
-                0x0000000010000bec                op2
-                0x0000000010000c0c                op3
-                0x0000000010000c2c                d1
-                0x0000000010000c58                d2
-                0x0000000010000c84                d3
-                0x0000000010000cb0                op4
-                0x0000000010000cd0                mbSawOsc
-                0x000000001000121c                chorusON.lto_priv.0
-                0x000000001000121d                delayON.lto_priv.0
-                0x000000001000121e                phaserON.lto_priv.0
-                0x0000000010001220                lfoL.lto_priv.0
-                0x0000000010001230                lfoR.lto_priv.0
-                0x0000000010001240                SVFilter2
-                0x0000000010001260                vibr_lfo
-                0x0000000010001280                filt_lfo
-                0x00000000100012a0                filt2_lfo
-                0x00000000100012c0                amp_lfo
-                0x00000000100012e0                delR.lto_priv.0
-                0x00000000100028d8                delL.lto_priv.0
+                0x0000000010000054                noteGen
+                0x000000001000006c                sound.lto_priv.0
+                0x000000001000006d                autoFilterON.lto_priv.0
+                0x000000001000006e                autoSound.lto_priv.0
+                0x000000001000006f                chorusON.lto_priv.0
+                0x0000000010000070                delayON.lto_priv.0
+                0x0000000010000071                phaserON.lto_priv.0
+                0x0000000010000074                d1
+                0x00000000100000a0                d2
+                0x00000000100000cc                d3
+                0x00000000100000f8                adsr
+                0x0000000010000120                lfoL.lto_priv.0
+                0x0000000010000130                lfoR.lto_priv.0
+                0x0000000010000140                SVFilter
+                0x0000000010000160                SVFilter2
+                0x0000000010000180                op1
+                0x00000000100001a0                op2
+                0x00000000100001c0                op3
+                0x00000000100001e0                op4
+                0x0000000010000200                vibr_lfo
+                0x0000000010000220                filt_lfo
+                0x0000000010000240                filt2_lfo
+                0x0000000010000260                amp_lfo
+                0x0000000010000280                a.lto_priv.0
+                0x00000000100002ac                ph.lto_priv.0
+                0x00000000100002d8                mbSawOsc
+                0x0000000010000824                mbRectOsc
+                0x0000000010000d80                mbTriOsc
+                0x00000000100012dc                delR.lto_priv.0
+                0x00000000100028d4                delL.lto_priv.0
  *(.ccmram*)
-                0x0000000010003ed0                . = ALIGN (0x4)
-                0x0000000010003ed0                _eccmram = .
-                0x0000000010003ed0                . = ALIGN (0x4)
+                0x0000000010003ecc                . = ALIGN (0x4)
+                0x0000000010003ecc                _eccmram = .
+                0x0000000010003ecc                . = ALIGN (0x4)
 
-.bss            0x00000000200008a4    0x1ef18
-                0x00000000200008a4                _sbss = .
-                0x00000000200008a4                __bss_start__ = _sbss
+.bss            0x00000000200008ac    0x1efa4
+                0x00000000200008ac                _sbss = .
+                0x00000000200008ac                __bss_start__ = _sbss
  *(.bss)
- .bss           0x00000000200008a4       0x1c /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .bss           0x00000000200008ac       0x1c /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtbegin.o
  *(.bss*)
  .bss.Appli_state
-                0x00000000200008c0        0x1 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x00000000200008c8        0x1 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .bss.DebouncedKeyPress
-                0x00000000200008c1        0x1 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
- *fill*         0x00000000200008c2        0x2 
+                0x00000000200008c9        0x1 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+ *fill*         0x00000000200008ca        0x2 
  .bss.I2cHandle
-                0x00000000200008c4       0x38 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x00000000200008cc       0x38 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .bss.LED_counter
-                0x00000000200008fc       0x10 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
-                0x00000000200008fc                LED_counter
+                0x0000000020000904       0x10 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+                0x0000000020000904                LED_counter
  .bss.MIDI_RX_Buffer
-                0x000000002000090c       0x40 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
-                0x000000002000090c                MIDI_RX_Buffer
+                0x0000000020000914       0x40 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+                0x0000000020000914                MIDI_RX_Buffer
  .bss.OutputDev
-                0x000000002000094c        0x1 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
- *fill*         0x000000002000094d        0x3 
+                0x0000000020000954        0x1 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+ *fill*         0x0000000020000955        0x3 
  .bss.RngHandle
-                0x0000000020000950        0x8 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x0000000020000958        0x8 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .bss.TimingDelay
-                0x0000000020000958        0x4 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x0000000020000960        0x4 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .bss.TimingDelay1
-                0x000000002000095c        0x4 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x0000000020000964        0x4 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .bss.audiobuff
-                0x0000000020000960      0xfa0 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x0000000020000968      0xfa0 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .bss.delayline.lto_priv.0
-                0x0000000020001900    0x1d4c8 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
-                0x0000000020001900                delayline.lto_priv.0
- .bss.dmax      0x000000002001edc8        0x4 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
- .bss.dmin      0x000000002001edcc        0x4 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x0000000020001908    0x1d4c8 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+                0x0000000020001908                delayline.lto_priv.0
+ .bss.dmax      0x000000002001edd0        0x4 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+ .bss.dmin      0x000000002001edd4        0x4 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .bss.fb.lto_priv.0
-                0x000000002001edd0        0x4 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
-                0x000000002001edd0                fb.lto_priv.0
+                0x000000002001edd8        0x4 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+                0x000000002001edd8                fb.lto_priv.0
  .bss.filterFreq
-                0x000000002001edd4        0x4 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
-                0x000000002001edd4                filterFreq
+                0x000000002001eddc        0x4 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+                0x000000002001eddc                filterFreq
  .bss.filterFreq2
-                0x000000002001edd8        0x4 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
-                0x000000002001edd8                filterFreq2
- .bss.freeze    0x000000002001eddc        0x1 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
-                0x000000002001eddc                freeze
- *fill*         0x000000002001eddd        0x3 
+                0x000000002001ede0        0x4 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+                0x000000002001ede0                filterFreq2
+ .bss.freeze    0x000000002001ede4        0x1 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+                0x000000002001ede4                freeze
+ *fill*         0x000000002001ede5        0x3 
  .bss.hAudioOutI2s
-                0x000000002001ede0       0x40 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
- .bss.hHCD      0x000000002001ee20      0x290 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
-                0x000000002001ee20                hHCD
- .bss.hUSBHost  0x000000002001f0b0      0x618 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
-                0x000000002001f0b0                hUSBHost
+                0x000000002001ede8       0x40 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+ .bss.hHCD      0x000000002001ee28      0x290 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+                0x000000002001ee28                hHCD
+ .bss.hUSBHost  0x000000002001f0b8      0x618 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+                0x000000002001f0b8                hUSBHost
  .bss.hdma_i2sTx.8621
-                0x000000002001f6c8       0x50 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x000000002001f6d0       0x50 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .bss.lfoInc.lto_priv.0
-                0x000000002001f718        0x4 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
-                0x000000002001f718                lfoInc.lto_priv.0
- .bss.lfoPhase  0x000000002001f71c        0x4 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
- .bss.old       0x000000002001f720       0x18 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
- .bss.old_dy    0x000000002001f738        0x4 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x000000002001f720        0x4 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+                0x000000002001f720                lfoInc.lto_priv.0
+ .bss.lfoPhase  0x000000002001f724        0x4 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+ .bss.note      0x000000002001f728        0x1 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+                0x000000002001f728                note
+ *fill*         0x000000002001f729        0x3 
+ .bss.old       0x000000002001f72c       0x18 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+ .bss.old_dy    0x000000002001f744        0x4 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .bss.pAudioDrv.lto_priv.0
-                0x000000002001f73c        0x4 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
-                0x000000002001f73c                pAudioDrv.lto_priv.0
+                0x000000002001f748        0x4 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+                0x000000002001f748                pAudioDrv.lto_priv.0
  .bss.rateCoeff
-                0x000000002001f740        0x4 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
-                0x000000002001f740                rateCoeff
+                0x000000002001f74c        0x4 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+                0x000000002001f74c                rateCoeff
  .bss.readpos.lto_priv.0
-                0x000000002001f744        0x4 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
-                0x000000002001f744                readpos.lto_priv.0
+                0x000000002001f750        0x4 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+                0x000000002001f750                readpos.lto_priv.0
  .bss.shift.lto_priv.0
-                0x000000002001f748        0x4 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
-                0x000000002001f748                shift.lto_priv.0
+                0x000000002001f754        0x4 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+                0x000000002001f754                shift.lto_priv.0
  .bss.uwTick.lto_priv.0
-                0x000000002001f74c        0x4 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
-                0x000000002001f74c                uwTick.lto_priv.0
+                0x000000002001f758        0x4 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+                0x000000002001f758                uwTick.lto_priv.0
+ .bss.velocity  0x000000002001f75c        0x1 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+                0x000000002001f75c                velocity
+ *fill*         0x000000002001f75d        0x3 
  .bss.wet.lto_priv.1
-                0x000000002001f750        0x4 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
-                0x000000002001f750                wet.lto_priv.1
+                0x000000002001f760        0x4 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+                0x000000002001f760                wet.lto_priv.1
  .bss.writepos.lto_priv.0
-                0x000000002001f754        0x4 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
-                0x000000002001f754                writepos.lto_priv.0
- .bss.zm1       0x000000002001f758        0x4 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x000000002001f764        0x4 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+                0x000000002001f764                writepos.lto_priv.0
+ .bss.zm1       0x000000002001f768        0x4 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
+ .bss.notesCount.11523
+                0x000000002001f76c        0x1 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans1.ltrans.o
+ *fill*         0x000000002001f76d        0x3 
+ .bss.notesOn.11522
+                0x000000002001f770       0x80 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans1.ltrans.o
  .bss.__malloc_current_mallinfo
-                0x000000002001f75c       0x28 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-mallocr.o)
-                0x000000002001f75c                __malloc_current_mallinfo
+                0x000000002001f7f0       0x28 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-mallocr.o)
+                0x000000002001f7f0                __malloc_current_mallinfo
  .bss.__malloc_max_sbrked_mem
-                0x000000002001f784        0x4 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-mallocr.o)
-                0x000000002001f784                __malloc_max_sbrked_mem
+                0x000000002001f818        0x4 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-mallocr.o)
+                0x000000002001f818                __malloc_max_sbrked_mem
  .bss.__malloc_max_total_mem
-                0x000000002001f788        0x4 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-mallocr.o)
-                0x000000002001f788                __malloc_max_total_mem
+                0x000000002001f81c        0x4 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-mallocr.o)
+                0x000000002001f81c                __malloc_max_total_mem
  .bss.__malloc_top_pad
-                0x000000002001f78c        0x4 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-mallocr.o)
-                0x000000002001f78c                __malloc_top_pad
+                0x000000002001f820        0x4 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-mallocr.o)
+                0x000000002001f820                __malloc_top_pad
  .bss.heap_end.5507
-                0x000000002001f790        0x4 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(sbrk.o)
+                0x000000002001f824        0x4 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(sbrk.o)
  *(COMMON)
- COMMON         0x000000002001f794       0x21 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-lock.o)
-                0x000000002001f794                __lock___atexit_recursive_mutex
-                0x000000002001f798                __lock___arc4random_mutex
-                0x000000002001f79c                __lock___env_recursive_mutex
-                0x000000002001f7a0                __lock___sinit_recursive_mutex
-                0x000000002001f7a4                __lock___malloc_recursive_mutex
-                0x000000002001f7a8                __lock___at_quick_exit_mutex
-                0x000000002001f7ac                __lock___dd_hash_mutex
-                0x000000002001f7b0                __lock___tz_mutex
-                0x000000002001f7b4                __lock___sfp_recursive_mutex
- *fill*         0x000000002001f7b5        0x3 
- COMMON         0x000000002001f7b8        0x4 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-reent.o)
-                0x000000002001f7b8                errno
-                0x000000002001f7bc                . = ALIGN (0x4)
-                0x000000002001f7bc                _ebss = .
-                0x000000002001f7bc                __bss_end__ = _ebss
+ COMMON         0x000000002001f828       0x21 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-lock.o)
+                0x000000002001f828                __lock___atexit_recursive_mutex
+                0x000000002001f82c                __lock___arc4random_mutex
+                0x000000002001f830                __lock___env_recursive_mutex
+                0x000000002001f834                __lock___sinit_recursive_mutex
+                0x000000002001f838                __lock___malloc_recursive_mutex
+                0x000000002001f83c                __lock___at_quick_exit_mutex
+                0x000000002001f840                __lock___dd_hash_mutex
+                0x000000002001f844                __lock___tz_mutex
+                0x000000002001f848                __lock___sfp_recursive_mutex
+ *fill*         0x000000002001f849        0x3 
+ COMMON         0x000000002001f84c        0x4 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-reent.o)
+                0x000000002001f84c                errno
+                0x000000002001f850                . = ALIGN (0x4)
+                0x000000002001f850                _ebss = .
+                0x000000002001f850                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x0000000010003ed0     0x2000
-                0x0000000010003ed0                . = ALIGN (0x4)
-                0x0000000010003ed0                PROVIDE (end = .)
+                0x0000000010003ecc     0x2000
+                0x0000000010003ecc                . = ALIGN (0x4)
+                0x0000000010003ecc                PROVIDE (end = .)
                 [!provide]                        PROVIDE (_end = .)
-                0x0000000010004ed0                . = (. + _Min_Heap_Size)
- *fill*         0x0000000010003ed0     0x1000 
-                0x0000000010005ed0                . = (. + _Min_Stack_Size)
- *fill*         0x0000000010004ed0     0x1000 
-                0x0000000010005ed0                . = ALIGN (0x4)
+                0x0000000010004ecc                . = (. + _Min_Heap_Size)
+ *fill*         0x0000000010003ecc     0x1000 
+                0x0000000010005ecc                . = (. + _Min_Stack_Size)
+ *fill*         0x0000000010004ecc     0x1000 
+                0x0000000010005ecc                . = ALIGN (0x4)
 
 /DISCARD/
  libc.a(*)
@@ -1157,9 +1167,9 @@ LOAD /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-n
  .ARM.attributes
                 0x000000000000001e       0x34 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtbegin.o
  .ARM.attributes
-                0x0000000000000052       0x32 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+                0x0000000000000052       0x32 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
  .ARM.attributes
-                0x0000000000000084       0x32 /tmp/Dekrispator_v2.elf.j5X9R0.ltrans1.ltrans.o
+                0x0000000000000084       0x32 /tmp/Dekrispator_v2.elf.5LDSAf.ltrans1.ltrans.o
  .ARM.attributes
                 0x00000000000000b6       0x21 ./Synth/startup_stm32f407xx.o
  .ARM.attributes
@@ -1239,9 +1249,9 @@ LOAD /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-n
 LOAD /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/libgcc.a
 
 .comment        0x0000000000000000       0x4c
- .comment       0x0000000000000000       0x4c /tmp/Dekrispator_v2.elf.j5X9R0.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x4c /tmp/Dekrispator_v2.elf.5LDSAf.ltrans0.ltrans.o
                                          0x4d (size before relaxing)
- .comment       0x000000000000004c       0x4d /tmp/Dekrispator_v2.elf.j5X9R0.ltrans1.ltrans.o
+ .comment       0x000000000000004c       0x4d /tmp/Dekrispator_v2.elf.5LDSAf.ltrans1.ltrans.o
 
 .debug_frame    0x0000000000000000      0x780
  .debug_frame   0x0000000000000000       0x20 /home/bluexav/progs/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)

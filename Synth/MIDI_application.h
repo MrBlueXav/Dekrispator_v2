@@ -1,7 +1,7 @@
 /*
  * MIDI_application.h
  *
- *  Created on: 6 déc. 2014
+ *  Created on: 6 dï¿½c. 2014
  *      Author: CNous
  */
 
@@ -42,6 +42,8 @@ MIDI_ApplicationTypeDef;
 
 extern USBH_HandleTypeDef hUSBHost;
 extern MIDI_ApplicationTypeDef Appli_state;
+extern uint8_t note;
+extern uint8_t velocity;
 
 /* Exported functions ------------------------------------------------------- */
 

@@ -40,15 +40,13 @@
 /* Private macro -------------------------------------------------------------*/
 /* Private variables ---------------------------------------------------------*/
 
+extern I2S_HandleTypeDef hAudioOutI2s;
 
+extern I2S_HandleTypeDef hAudioInI2s;
+__IO uint32_t TimeRecBase = 0; /* Time Recording base variable */
 
-extern I2S_HandleTypeDef       	hAudioOutI2s;
-
-extern I2S_HandleTypeDef      	hAudioInI2s;
-__IO uint32_t 					TimeRecBase = 0;  /* Time Recording base variable */
-
-extern HCD_HandleTypeDef 		hHCD;
-extern bool						demoMode;
+extern HCD_HandleTypeDef hHCD;
+extern bool demoMode;
 /* Private function prototypes -----------------------------------------------*/
 /* Private functions ---------------------------------------------------------*/
 
@@ -61,8 +59,7 @@ extern bool						demoMode;
  * @param  None
  * @retval None
  */
-void NMI_Handler(void)
-{
+void NMI_Handler(void) {
 }
 
 /**
@@ -70,11 +67,9 @@ void NMI_Handler(void)
  * @param  None
  * @retval None
  */
-void HardFault_Handler(void)
-{
+void HardFault_Handler(void) {
 	/* Go to infinite loop when Hard Fault exception occurs */
-	while (1)
-	{
+	while (1) {
 	}
 }
 
@@ -83,11 +78,9 @@ void HardFault_Handler(void)
  * @param  None
  * @retval None
  */
-void MemManage_Handler(void)
-{
+void MemManage_Handler(void) {
 	/* Go to infinite loop when Memory Manage exception occurs */
-	while (1)
-	{
+	while (1) {
 	}
 }
 
@@ -96,11 +89,9 @@ void MemManage_Handler(void)
  * @param  None
  * @retval None
  */
-void BusFault_Handler(void)
-{
+void BusFault_Handler(void) {
 	/* Go to infinite loop when Bus Fault exception occurs */
-	while (1)
-	{
+	while (1) {
 	}
 }
 
@@ -109,11 +100,9 @@ void BusFault_Handler(void)
  * @param  None
  * @retval None
  */
-void UsageFault_Handler(void)
-{
+void UsageFault_Handler(void) {
 	/* Go to infinite loop when Usage Fault exception occurs */
-	while (1)
-	{
+	while (1) {
 	}
 }
 
@@ -122,8 +111,7 @@ void UsageFault_Handler(void)
  * @param  None
  * @retval None
  */
-void SVC_Handler(void)
-{
+void SVC_Handler(void) {
 }
 
 /**
@@ -131,8 +119,7 @@ void SVC_Handler(void)
  * @param  None
  * @retval None
  */
-void DebugMon_Handler(void)
-{
+void DebugMon_Handler(void) {
 }
 
 /**
@@ -140,8 +127,7 @@ void DebugMon_Handler(void)
  * @param  None
  * @retval None
  */
-void PendSV_Handler(void)
-{
+void PendSV_Handler(void) {
 }
 
 /**
@@ -149,14 +135,13 @@ void PendSV_Handler(void)
  * @param  None
  * @retval None
  */
-void SysTick_Handler(void)
-{
+void SysTick_Handler(void) {
 	HAL_IncTick();
 
 	TimingDelay_Decrement();
 	update_temporized_LED(LED_Blue);
-	if (demoMode == true) DebounceUserButton();
-
+	//if (demoMode == true)
+	DebounceUserButton();
 
 }
 
@@ -172,8 +157,7 @@ void SysTick_Handler(void)
  * @param  None
  * @retval None
  */
-void EXTI0_IRQHandler(void)
-{
+void EXTI0_IRQHandler(void) {
 	HAL_GPIO_EXTI_IRQHandler(GPIO_PIN_0);
 }
 
@@ -182,8 +166,7 @@ void EXTI0_IRQHandler(void)
  * @param  None
  * @retval None
  */
-void EXTI1_IRQHandler(void)
-{
+void EXTI1_IRQHandler(void) {
 	HAL_GPIO_EXTI_IRQHandler(GPIO_PIN_1);
 }
 
@@ -192,8 +175,7 @@ void EXTI1_IRQHandler(void)
  * @param  None
  * @retval 0 if correct communication, else wrong communication
  */
-void I2S3_IRQHandler(void)
-{ 
+void I2S3_IRQHandler(void) {
 	HAL_DMA_IRQHandler(hAudioOutI2s.hdmatx);
 }
 
@@ -202,8 +184,7 @@ void I2S3_IRQHandler(void)
  * @param  None
  * @retval None
  */
-void I2S2_IRQHandler(void)
-{
+void I2S2_IRQHandler(void) {
 	HAL_DMA_IRQHandler(hAudioInI2s.hdmarx);
 }
 
@@ -212,8 +193,7 @@ void I2S2_IRQHandler(void)
  * @param  None
  * @retval None
  */
-void TIM4_IRQHandler(void)
-{
+void TIM4_IRQHandler(void) {
 	//HAL_TIM_IRQHandler(&hTimLed);
 }
 
@@ -222,8 +202,7 @@ void TIM4_IRQHandler(void)
  * @param  None
  * @retval None
  */
-void OTG_FS_IRQHandler(void)
-{
+void OTG_FS_IRQHandler(void) {
 	HAL_HCD_IRQHandler(&hHCD);
 
 }

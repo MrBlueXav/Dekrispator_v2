@@ -35,6 +35,7 @@
 
 extern bool demoMode;
 extern bool freeze;
+extern bool sequencerIsOn;
 
 extern Sequencer_t seq;
 extern NoteGenerator_t noteGen;
@@ -59,6 +60,8 @@ extern float filterFreq;
 extern float filterFreq2;
 
 extern ADSR_t adsr;
+extern uint8_t note;
+extern uint8_t velocity;
 
 /*--------------------------------------------------------------*/
 
@@ -110,6 +113,13 @@ void Parameter_fine_tune(uint8_t val) {
 void DemoMode_toggle(uint8_t val) {
 	if (val == MIDI_MAXi) {
 		demoMode = !demoMode;
+	}
+}
+/*---------------------------------------------------------*/
+void Sequencer_toggle(uint8_t val) { // run or stop sequencer
+	if (val == MIDI_MAXi) {
+		sequencerIsOn = !sequencerIsOn;
+		BSP_LED_Toggle(LED_Red);
 	}
 }
 /*---------------------------------------------------------*/
@@ -493,7 +503,14 @@ void make_sound(uint16_t *buf, uint16_t length) // To be used with the Sequencer
 
 	for (pos = 0; pos < length; pos++) {
 		/*--- Sequencer actions and update ---*/
-		sequencer_process(); //computes f0 and calls sequencer_newStep_action() and sequencer_newSequence_action()
+		//sequencer_process(); //computes f0 and calls sequencer_newStep_action() and sequencer_newSequence_action()
+		// GRA
+		if (sequencerIsOn == true) {
+			sequencer_process(); //computes f0 and calls sequencer_newStep_action() and sequencer_newSequence_action()
+		} else {
+			f0 = notesFreq[note];
+			vol = (float) velocity / 127.0f;
+		}
 
 		/*--- compute vibrato modulation ---*/
 		f1 = f0 * (1 + Osc_WT_SINE_SampleCompute(&vibr_lfo));
@@ -505,8 +522,15 @@ void make_sound(uint16_t *buf, uint16_t length) // To be used with the Sequencer
 		env = ADSR_computeSample(&adsr)
 				* (1 + Osc_WT_SINE_SampleCompute(&amp_lfo));
 		y *= vol * env; // apply volume and envelop
-		if (adsr.cnt_ >= seq.gateTime)
-			ADSR_keyOff(&adsr);
+
+		//if (adsr.cnt_ >= seq.gateTime)			ADSR_keyOff(&adsr);
+
+		// GRA
+
+		if (sequencerIsOn == true) {
+			if (adsr.cnt_ >= seq.gateTime)
+				ADSR_keyOff(&adsr);
+		}
 
 		/*--- Apply filter effect ---*/
 		/* Update the filters cutoff frequencies */
