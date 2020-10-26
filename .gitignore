@@ -217,5 +217,4 @@ pip-log.txt
 #Mr Developer
 .mr.developer.cfg
 #/Release
-/Release/
-/buildConf1/
+
