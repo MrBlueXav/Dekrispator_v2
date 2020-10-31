@@ -116,7 +116,7 @@ typedef union {
 		uint8_t dummy1_cable:4;
 		uint8_t dummy1_chn:4; // mios32_midi_chn_t
 		uint8_t dummy1_event:4; // mios32_midi_event_t
-		uint8_t note:8;
+		uint8_t currentNote:8;
 		uint8_t velocity:8;
 	};
 	struct {
@@ -174,9 +174,6 @@ typedef struct _MIDI_Process
 	MIDI_DataStateTypeDef		data_tx_state;
 	MIDI_DataStateTypeDef		data_rx_state;
 	uint8_t						Rx_Poll;
-	//uint8_t			buff[8];
-	//MIDI_DataItfTypedef                DataItf;
-	//CDC_InterfaceDesc_Typedef         CDC_Desc;
 }
 MIDI_HandleTypeDef;
 

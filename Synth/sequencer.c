@@ -59,7 +59,7 @@ void seq_transp(int8_t semitone, uint8_t val) {
 /*-------------------------------------------------------*/
 void seq_transpDown(void) // one tone down
 {
-	if (noteGen.rootNote > FIRST_NOTE) {
+	if (noteGen.rootNote > LOWEST_NOTE) {
 		noteGen.transpose = -2;
 	}
 }
@@ -239,7 +239,7 @@ void seq_sequence_new(void) {
 		relativeNote = noteGen.currentScale[lrintf(
 				frand_a_b(1, noteGen.currentScale[0]))];
 		octaveShift = 12 * lrintf(frand_a_b(0, noteGen.octaveSpread));
-		index = noteGen.rootNote + octaveShift + relativeNote - FIRST_NOTE;
+		index = noteGen.rootNote + octaveShift + relativeNote - LOWEST_NOTE;
 
 		while (index > MAX_NOTE_INDEX)
 			index -= 12;

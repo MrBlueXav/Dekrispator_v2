@@ -26,6 +26,7 @@
 #include <stdint.h>
 #include <stdbool.h>
 #include "CONSTANTS.h"
+#include "MIDI_application.h"
 #include "math_tools.h"
 #include "random.h"
 #include "sequencer.h"

@@ -1,7 +1,7 @@
 Dekrispator (v3)
 ===========
 
-Updates ! Responds now to notes on/off and can be played with a keyboard (Thanks to GaryA, still needs improvement).
+Updates ! Responds now to notes on/off and can be played with a keyboard (Thanks to GaryA and Tomas Scherrer).
 
 Transform your STM32F4 Discovery board into an experimental music synthesizer or autonomous noise box with USB MIDI Host function for interaction !
 
@@ -80,6 +80,7 @@ Linux example with stlink-tools :
 $ st-flash write Dekrispator_v2.bin 0x8000000
 ```
 
+Note : I have to run st-flash (v 1.6.1) twice because there is always an error during first run ! I don't know why...
 - - - 
 
 **Developpers notes :**

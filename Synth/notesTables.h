@@ -18,7 +18,7 @@
 /*--------------------- Global Defines ------------------------ */
 
 #define MAX_SCALE_INDEX		14	/* starting at 0 ! */
-#define FIRST_NOTE			21  /* MIDI number */
+#define LOWEST_NOTE			21  /* Lowest note : 21 is MIDI note number for A0 */
 #define MAX_NOTE_INDEX		106	/* starting at 0 ! */
 
 

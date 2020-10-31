@@ -14,11 +14,11 @@
 
 /*--------------------- Global Defines ------------------------ */
 #define DELAYLINE_LEN           30000  // max delay in samples (30000 is 0.625 seconds)
-#define DELAY                   13000  // init delay (in samples)
-#define MIN_DELAY				250		// min delay, in samples
-#define DELTA_DELAY				20		// variation step of delay time
+#define INIT_DELAY              13000  // init delay (in samples)
 #define INIT_FEEDB              0.4f
 #define INIT_WET				0.5f
+#define MIN_DELAY				250		// min delay, in samples
+#define DELTA_DELAY				20		// variation step of delay time
 
 /* Includes ------------------------------------------------------------------*/
 #include <stdint.h>

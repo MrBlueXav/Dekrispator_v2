@@ -60,8 +60,8 @@ extern float filterFreq;
 extern float filterFreq2;
 
 extern ADSR_t adsr;
-extern uint8_t note;
-extern uint8_t velocity;
+extern int8_t currentNote;
+extern int8_t velocity;
 
 /*--------------------------------------------------------------*/
 
@@ -119,6 +119,9 @@ void DemoMode_toggle(uint8_t val) {
 void Sequencer_toggle(uint8_t val) { // run or stop sequencer
 	if (val == MIDI_MAXi) {
 		sequencerIsOn = !sequencerIsOn;
+		if(!sequencerIsOn) 
+			ADSR_keyOff(&adsr);
+			Reset_notes_On();
 		BSP_LED_Toggle(LED_Red);
 	}
 }
@@ -508,7 +511,7 @@ void make_sound(uint16_t *buf, uint16_t length) // To be used with the Sequencer
 		if (sequencerIsOn == true) {
 			sequencer_process(); //computes f0 and calls sequencer_newStep_action() and sequencer_newSequence_action()
 		} else {
-			f0 = notesFreq[note];
+			f0 = notesFreq[currentNote];
 			vol = (float) velocity / 127.0f;
 		}
 

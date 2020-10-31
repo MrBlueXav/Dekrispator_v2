@@ -1,8 +1,8 @@
 /*
  * MIDI_application.h
  *
- *  Created on: 6 d�c. 2014
- *      Author: CNous
+ *  First created on: 6 dec. 2014
+ *      Author: Xavier Halgand
  */
 
 #ifndef MIDI_APPLICATION_H_
@@ -42,13 +42,14 @@ MIDI_ApplicationTypeDef;
 
 extern USBH_HandleTypeDef hUSBHost;
 extern MIDI_ApplicationTypeDef Appli_state;
-extern uint8_t note;
-extern uint8_t velocity;
+extern int8_t currentNote;
+extern int8_t velocity;
 
 /* Exported functions ------------------------------------------------------- */
 
 void MagicFX(uint8_t val);
 void MagicPatch(uint8_t val);
+void Reset_notes_On(void);
 void MIDI_Application(void);
 
 /*------------------------------------------------------------------------------*/

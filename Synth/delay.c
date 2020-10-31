@@ -41,9 +41,9 @@ static float		wet = INIT_WET;
 void Delay_init(void)
 {
 	/* initialize pointers positions for delay effect */
-	shift = DELAY;
+	shift = INIT_DELAY;
 	readpos = delayline;
-	writepos = delayline + DELAY;
+	writepos = delayline + INIT_DELAY;
 }
 /*-------------------------------------------------------------------------------------------*/
 void Delay_clean(void)
