@@ -1,6 +1,12 @@
 Dekrispator (v3)
 ===========
 
+- - - - 
+
+July 24, 2025 : There is a new git branch called "Dekrispator_ for _STM32CubeIDE". It enables a managed edition of Dekrispator with STM32CubeIDE (v1.19).
+
+- - - -
+
 Updates ! Responds now to notes on/off and can be played with a keyboard (Thanks to GaryA and Tomas Scherrer).
 
 Transform your STM32F4 Discovery board into an experimental music synthesizer or autonomous noise box with USB MIDI Host function for interaction !
