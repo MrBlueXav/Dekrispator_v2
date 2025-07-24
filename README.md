@@ -11,7 +11,7 @@ Updates ! Responds now to notes on/off and can be played with a keyboard (Thanks
 
 Transform your STM32F4 Discovery board into an experimental music synthesizer or autonomous noise box with USB MIDI Host function for interaction !
 
-Sound demos are here : https://soundcloud.com/bluexav
+Some sound demos are here : https://soundcloud.com/bluexav
 
 A video : http://youtu.be/fcLrcDCaI7w
 
@@ -114,4 +114,7 @@ arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O3
 
  https://github.com/erwincoumans/StkDekrispatorSynthesizer
  
- Thank you Thorsten Klose for your inspirational work and especially MIOS32 !
+ - - - -
+Special thanks : Sean Bolton, Perry R. Cook and Gary P. Scavone, Gabriel Rivas, Ross Bencina, GaryA, Thorsten Klose, erwincoumans, ST
+
+- - - - 
