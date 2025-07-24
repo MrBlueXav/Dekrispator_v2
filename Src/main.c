@@ -2,9 +2,10 @@
  ******************************************************************************
  * @file    main.c
  * @author	Xavier Halgand
- * @version
+ * @version	24 juillet 2025
  * @date
  * @brief   Dekrispator_v2 main file
+ * 			for STM32F4 Discovery Kit board
  ******************************************************************************
  *
  *

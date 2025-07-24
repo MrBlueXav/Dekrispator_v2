@@ -1,9 +1,13 @@
-Dekrispator (v3)
-===========
+# Dekrispator 
 
 - - - - 
 
-July 24, 2025 : There is a new git branch called "Dekrispator_ for _STM32CubeIDE". It enables a managed edition of Dekrispator with STM32CubeIDE (v1.19).
+Synthesizer for STM32F4 Discovery kit and STM32Cube IDE
+
+
+- - - - 
+
+July 24, 2025 : This is a new git branch called "Dekrispator_ for _STM32CubeIDE". It enables a managed edition of Dekrispator with STM32CubeIDE (v1.19).
 
 - - - -
 
@@ -71,12 +75,11 @@ The MIDI mapping of the synth controls are in MIDI_mapping.ods file. I used the 
    * The green LED indicates a midi usb is connected and recognized.
    * The blue LED indicates midi activity.
 
-- - - -
-Special thanks : Sean Bolton, Perry R. Cook and Gary P. Scavone, Gabriel Rivas, Ross Bencina, GaryA, Thorsten Klose, erwincoumans, ST
 
-- - - - 
 
 **Building from source :**
+
+Use STM32CubeIDE or...
 
 Go to Release folder and type "make". Then flash the mcu with your prefered tool.
 
@@ -110,8 +113,19 @@ arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O3
 arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O3 -ffunction-sections -fdata-sections  -fsingle-precision-constant -flto -Wall -T ".............\STM32F407VG_FLASH.ld" -Xlinker --gc-sections -Wl,-Map,"Dekrispator_v2.map" --specs=nosys.specs -flto -o "Dekrispator_v2.elf"  ..............  -lm
   
 - - - 
-**See also the port to Windows, Linux, Mac and Raspberry Pi  by erwincoumans :**
+**See also the port to Windows, Linux, Mac and Raspberry Pi  by erwincoumans :**  
 
- https://github.com/erwincoumans/StkDekrispatorSynthesizer
+ https://github.com/erwincoumans/StkDekrispatorSynthesizer  
  
- Thank you Thorsten Klose for your inspirational work and especially MIOS32 !
+ **My very basic port to linux :**  
+
+https://github.com/MrBlueXav/Dekrispator-linux   
+ 
+**An advanced version of Dekrispator with a simple GUI on a powerful board :**
+ 
+ https://github.com/MrBlueXav/Dekrispator-H747CPP
+ 
+ - - - -
+Special thanks : Sean Bolton, Perry R. Cook and Gary P. Scavone, Gabriel Rivas, Ross Bencina, GaryA, Thorsten Klose, erwincoumans, ST
+
+- - - - 
