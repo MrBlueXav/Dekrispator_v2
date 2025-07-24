@@ -119,9 +119,10 @@ void DemoMode_toggle(uint8_t val) {
 void Sequencer_toggle(uint8_t val) { // run or stop sequencer
 	if (val == MIDI_MAXi) {
 		sequencerIsOn = !sequencerIsOn;
-		if(!sequencerIsOn) 
+		if (!sequencerIsOn) {
 			ADSR_keyOff(&adsr);
 			Reset_notes_On();
+		}
 		BSP_LED_Toggle(LED_Red);
 	}
 }
